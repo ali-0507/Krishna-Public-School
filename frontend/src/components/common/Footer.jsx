@@ -1,28 +1,12 @@
 export default function Footer() {
   return (
     <footer className="footer">
-
-      {/* CTA SECTION */}
-      <div className="footer-cta">
-        <h2>Ready to Start Your Child's Journey?</h2>
-        <p>
-          Admissions are open for the academic year 2025-26.
-          Join our family of learners today!
-        </p>
-
-        <div className="footer-cta-buttons">
-          <button className="cta-primary">Apply for Admission</button>
-          <button className="cta-secondary">Contact Us</button>
-        </div>
-      </div>
-
-      {/* MAIN FOOTER */}
       <div className="footer-main">
 
         {/* School Info */}
         <div className="footer-col">
           <div className="footer-logo">
-            🎓 <span>Krishna Public School</span>
+            <h4>🎓Krishna Public School</h4>
           </div>
           <small>Tendua</small>
 
@@ -33,10 +17,10 @@ export default function Footer() {
           </p>
 
           <div className="footer-socials">
-            <span>🌐</span>
-            <span>📘</span>
-            <span>📸</span>
-            <span>▶️</span>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i className="fab fa-instagram"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i className="fab fa-youtube"></i>
           </div>
         </div>
 
@@ -69,17 +53,17 @@ export default function Footer() {
         {/* Contact */}
         <div className="footer-col">
           <h4>Contact Us</h4>
-          <p>📍 Tendua Road, Near Main Market,<br />Raipur, Chhattisgarh - 492001</p>
-          <p>📞 +91 98765 43210</p>
-          <p>✉️ info@kpstendua.edu.in</p>
-          <p>⏰ Mon - Sat: 8:00 AM - 3:00 PM</p>
+          <p><i className="fas fa-map-marker-alt"></i> Tendua Road, Near Main Market,<br/>Raipur, Chhattisgarh - 492001</p>
+          <p><i className="fas fa-phone"></i> +91 98765 43210</p>
+          <p><i className="fas fa-envelope"></i> info@kpstendua.edu.in</p>
+          <p><i className="fas fa-clock"></i> Mon - Sat: 8:00 AM - 3:00 PM</p>
+  
         </div>
-
       </div>
 
       {/* BOTTOM BAR */}
       <div className="footer-bottom">
-        <span>© 2025 Krishna Public School Tendua. All rights reserved.</span>
+        <span>© 2026 Krishna Public School Tendua. All rights reserved.</span>
         <div>
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
