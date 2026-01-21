@@ -56,6 +56,7 @@ export default function Footer() {
           <p><i className="fas fa-map-marker-alt"></i> Tendua Road, Near Main Market,<br/>Raipur, Chhattisgarh - 492001</p>
           <p><i className="fas fa-phone"></i> +91 98765 43210</p>
           <p><i className="fas fa-envelope"></i> info@kpstendua.edu.in</p>
+          
           <p><i className="fas fa-clock"></i> Mon - Sat: 8:00 AM - 3:00 PM</p>
   
         </div>

@@ -89,6 +89,7 @@ html, body {
 .enroll-btn {
   background: #fbbc05;
   border: none;
+  margin-right: 15px;
   padding: 12px 25px;
   border-radius: 8px;
   font-weight: 700;
