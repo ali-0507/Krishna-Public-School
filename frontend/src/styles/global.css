@@ -1,5 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 /* ===== NAVBAR ===== */
-
 .navbar {
   display: flex;
   align-items: center;
