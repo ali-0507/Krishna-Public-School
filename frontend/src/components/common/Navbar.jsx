@@ -25,9 +25,9 @@ export default function Navbar() {
         <NavLink to="/contact">Contact Us</NavLink>
       </nav>
 
-      <div className="navbar-right">
+       
         <button className="enroll-btn">Enroll Now</button>
-      </div>
+      
     </header>
   );
 }

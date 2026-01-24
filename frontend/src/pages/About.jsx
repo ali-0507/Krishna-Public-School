@@ -24,7 +24,7 @@ export default function About() {
       <section className="about-vmv">
         <div className="vmv-container">
           <div className="vmv-card">
-            <div className="vmv-icon">👁️</div>
+            <div className="vmv-icon"><i class="fa-solid fa-eye-low-vision"></i></div>
             <h3>Our Vision</h3>
             <p>
               To be a center of excellence that nurtures globally competitive
@@ -33,7 +33,7 @@ export default function About() {
           </div>
 
           <div className="vmv-card">
-            <div className="vmv-icon">🎯</div>
+            <div className="vmv-icon"><i class="fa-solid fa-bullseye"></i></div>
             <h3>Our Mission</h3>
             <p>
               To provide quality education through innovative teaching and
@@ -42,7 +42,7 @@ export default function About() {
           </div>
 
           <div className="vmv-card">
-            <div className="vmv-icon">❤️</div>
+            <div className="vmv-icon"><i class="fa-solid fa-heart"></i></div>
             <h3>Our Values</h3>
             <p>
               Integrity, Excellence, Respect, Innovation, and Compassion guide
@@ -57,25 +57,25 @@ export default function About() {
   <div className="dark-stats-container">
 
     <div className="dark-stat">
-      <div className="dark-icon">👥</div>
+      <div className="dark-icon"><i class="fa-solid fa-children"></i></div>
       <h3>2500+</h3>
       <p>Students</p>
     </div>
 
     <div className="dark-stat">
-      <div className="dark-icon">🎓</div>
+      <div className="dark-icon"><i class="fa-solid fa-graduation-cap"></i></div>
       <h3>120+</h3>
       <p>Teachers</p>
     </div>
 
     <div className="dark-stat">
-      <div className="dark-icon">🏆</div>
+      <div className="dark-icon"><i class="fa-solid fa-trophy"></i></div>
       <h3>150+</h3>
       <p>Awards</p>
     </div>
 
     <div className="dark-stat">
-      <div className="dark-icon">⭐</div>
+      <div className="dark-icon"><i class="fa-solid fa-star"></i></div>
       <h3>98%</h3>
       <p>Success Rate</p>
     </div>
@@ -150,21 +150,27 @@ export default function About() {
   <div className="leadership-grid">
 
     <div className="leader-card">
-      <div className="leader-icon">🎓</div>
+      <div className="leader-icon">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </div>
       <h3>Dr. Ramesh Kumar</h3>
       <span className="leader-role">Principal</span>
       <p>25+ years in education, Ph.D. in Educational Leadership</p>
     </div>
 
     <div className="leader-card">
-      <div className="leader-icon">🎓</div>
+      <div className="leader-icon">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </div>
       <h3>Mrs. Sunita Sharma</h3>
       <span className="leader-role">Vice Principal</span>
       <p>20+ years of teaching experience, M.Ed.</p>
     </div>
 
     <div className="leader-card">
-      <div className="leader-icon">🎓</div>
+      <div className="leader-icon">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </div>
       <h3>Mr. Anil Verma</h3>
       <span className="leader-role">Academic Director</span>
       <p>Expert in curriculum development and teacher training</p>

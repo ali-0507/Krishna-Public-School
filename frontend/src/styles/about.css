@@ -1,6 +1,6 @@
 .about-hero-section {
   background: #eef3f8;
-  padding: 70px 20px;
+  padding: 100px 20px;
   text-align: center;
 }
 
@@ -11,7 +11,7 @@
   padding: 6px 16px;
   border-radius: 20px;
   font-size: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
 }
 
 .about-hero-section h1 {
@@ -37,7 +37,7 @@
 
 .about-vmv {
   background: #faf7f2;
-  padding: 120px 20px;
+  padding: 70px 20px;
 }
 
 .vmv-container {
@@ -140,10 +140,7 @@
   color: #ffc400;
 }
 
-/* ===============================
-   RESPONSIVE
-================================ */
-
+  /* RESPONSIVE */
 @media (max-width: 900px) {
   .dark-stats-container {
     grid-template-columns: repeat(2, 1fr);
@@ -162,7 +159,7 @@
 
 .timeline-section {
   background: #f5f1ea;
-  padding: 120px 20px;
+  padding: 70px 20px;
   text-align: center;
 }
 
@@ -242,9 +239,7 @@
   line-height: 1.6;
 }
 
-/* ===============================
-   RESPONSIVE
-================================ */
+/*RESPONSIVE */
 
 @media (max-width: 768px) {
   .timeline::before {
@@ -271,7 +266,7 @@
 
 .leadership-section {
   background: #f8f5ef;
-  padding: 120px 20px 140px;
+  padding: 30px 20px 120px;
   text-align: center;
 }
 
