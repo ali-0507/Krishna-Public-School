@@ -1,6 +1,7 @@
 import AppRoutes from "./routes/AppRoutes";
 import Navbar from "./components/common/Navbar";
 import Footer from "./components/common/Footer";
+import "../src/App.css";
 
 function App() {
   return (

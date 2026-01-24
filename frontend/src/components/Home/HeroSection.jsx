@@ -1,4 +1,7 @@
- export default function HeroSection() {
+import { useNavigate } from "react-router-dom";
+
+export default function HeroSection() {
+  const navigate = useNavigate();
   return (
     <section className="hero-section">
       <div className="hero-overlay">
@@ -16,8 +19,8 @@
           </p>
 
           <div className="hero-buttons">
-            <button className="primary-btn">Apply Now →</button>
-            <button className="secondary-btn">Explore More</button>
+            <button className="primary-btn" onClick={() => navigate("/admission")}>Apply Now →</button>
+            <button className="secondary-btn" onClick={() => navigate("/about")}>Explore More</button>
           </div>
         </div>
       </div>

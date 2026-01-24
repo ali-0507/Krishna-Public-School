@@ -15,7 +15,9 @@ export default function ProgramsSection() {
       <div className="programs-grid">
         {/* Kids Academy */}
         <div className="program-card">
-          <div className="program-icon yellow">😊</div>
+          <div className="program-icon yellow">
+            <i class="fa-solid fa-face-smile"></i>
+          </div>
           <h3>Kids Academy</h3>
           <span className="program-sub">Nursery - KG</span>
           <p>
@@ -27,7 +29,9 @@ export default function ProgramsSection() {
 
         {/* Primary School */}
         <div className="program-card">
-          <div className="program-icon green">📘</div>
+          <div className="program-icon green">
+            <i class="fa-solid fa-book"></i>
+          </div>
           <h3>Primary School</h3>
           <span className="program-sub">Classes I - V</span>
           <p>
@@ -39,7 +43,9 @@ export default function ProgramsSection() {
 
         {/* Middle School */}
         <div className="program-card">
-          <div className="program-icon blue">🏫</div>
+          <div className="program-icon blue">
+            <i class="fa-solid fa-school"></i>
+          </div>
           <h3>Middle School</h3>
           <span className="program-sub">Classes VI - VIII</span>
           <p>
@@ -51,7 +57,9 @@ export default function ProgramsSection() {
 
         {/* High School */}
         <div className="program-card">
-          <div className="program-icon orange">🎓</div>
+          <div className="program-icon orange">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
           <h3>High School</h3>
           <span className="program-sub">Classes IX - XII</span>
           <p>
