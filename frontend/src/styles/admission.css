@@ -47,7 +47,7 @@
 
 /* Buttons */
 .btn-primary {
-  background-color: #f4b400;
+  background-color: #f1bc29;
   color: #0f2a55;
   border: none;
   padding: 14px 28px;
@@ -209,7 +209,7 @@
 /* ===== Form ===== */
 .admission-form-section {
   padding: 80px 20px;
-  background: #f7f4ee;
+  background-color: #f7f4ee;
 }
 
 .admission-form {
@@ -231,6 +231,9 @@
   padding: 14px;
   border-radius: 8px;
   border: 1px solid #ccc;
+  background-color: #fbfbfc;
+  color: #021028;
+  font-weight: 450;
 }
 
 .full-width {
