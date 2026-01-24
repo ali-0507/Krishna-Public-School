@@ -1,0 +1,205 @@
+/* ==============================
+   Contact Hero Section
+================================ */
+
+.contact-hero {
+  background-color: #f6f2e9;
+  padding: 90px 0;
+}
+
+.contact-hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #0f2a55;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.contact-hero-subtitle {
+  font-size: 18px;
+  color: #4b5563;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+/* ==============================
+   Contact Info Cards
+================================ */
+
+.contact-info-card {
+  margin-left: -25px;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.info-icon {
+  background-color: #eef2f7;
+  color: #0f2a55;
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.info-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f2a55;
+  margin-bottom: 4px;
+}
+
+.info-text {
+  font-size: 15px;
+  color: #4b5563;
+  margin: 0;
+}
+
+
+.contact-main {
+  padding: 80px 0;
+  background-color: #f9f7f4;
+}
+
+.contact-main .row {
+  align-items: flex-start;
+}
+
+
+/* ==============================
+   Contact Form
+================================ */
+
+.contact-form-card {
+  margin-left: 30px;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  height: 700px;
+}
+
+.contact-form-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0f2a55;
+  margin-bottom: 25px;
+}
+
+/* Reuse form-field styles */
+.form-field label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f2a55;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.form-field label span {
+  color: red;
+}
+
+.form-field .form-control {
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #cfd8e3;
+  font-size: 15px;
+}
+
+.form-field .form-control:focus {
+  border-color: #f4b400;
+  box-shadow: none;
+}
+
+/* Submit button */
+.contact-submit-btn {
+  background-color: #0f2a55;
+  color: #fff;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.contact-submit-btn:hover {
+  background-color: #0b2042;
+  color: #fff;
+}
+
+
+
+/* ==============================
+   Contact Map
+================================ */
+ 
+.contact-map-section {
+  padding: 60px 0;
+  background-color: #f9f7f4;
+}
+
+.contact-map-card {
+  border: none;
+  border-radius: 16px;
+  background-color: #eef2f7;
+  /* margin-left: -20px; */
+}
+
+.map-icon {
+  font-size: 30px;
+  color: #0f2a55;
+  margin-bottom: 8px;
+}
+
+.map-text {
+  font-size: 15px;
+  color: #4b5563;
+  margin-bottom: 15px;
+}
+
+
+/* ==============================
+   FAQ Section
+================================ */
+
+.contact-faq {
+  padding: 80px 0;
+  background-color: #f6f2e9;
+}
+
+.accordion-item {
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+  margin-bottom: 16px;
+}
+
+.accordion-button {
+  font-weight: 600;
+  color: #0f2a55;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #eef2f7;
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-hero-title {
+    font-size: 34px;
+  }
+
+  .contact-hero-subtitle {
+    font-size: 16px;
+  }
+}

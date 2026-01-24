@@ -2,19 +2,6 @@ export default function Footer() {
   return (
     <footer className="footer">
 
-      {/* CTA SECTION */}
-      <div className="footer-cta">
-        <h2>Ready to Start Your Child's Journey?</h2>
-        <p>
-          Admissions are open for the academic year 2025-26.
-          Join our family of learners today!
-        </p>
-
-        <div className="footer-cta-buttons">
-          <button className="cta-primary">Apply for Admission</button>
-          <button className="cta-secondary">Contact Us</button>
-        </div>
-      </div>
 
       {/* MAIN FOOTER */}
       <div className="footer-main">
