@@ -1,6 +1,6 @@
 const AdmissionForm = () => {
   return (
-    <section className="admission-form-section">
+    <section className="admission-form-section" data-aos="zoom-out">
       <form className="admission-form">
         <h2 className="text-center">Online Admission Form</h2>
 

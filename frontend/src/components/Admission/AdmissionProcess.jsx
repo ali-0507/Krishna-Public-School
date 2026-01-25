@@ -29,10 +29,12 @@ const AdmissionProcess = () => {
 
       <div className="process-grid">
         {steps.map((item, index) => (
-          <div className="process-card" key={index}>
+          <div className="card process-card" key={index} data-aos="fade-down" data-aos-delay={index * 200}>
+          <div className="card-body">
             <span className="process-step">{item.step}</span>
             <h4>{item.title}</h4>
             <p>{item.desc}</p>
+          </div>
           </div>
         ))}
       </div>

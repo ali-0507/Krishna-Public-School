@@ -2,8 +2,8 @@ import { FaArrowRight, FaDownload } from "react-icons/fa";
 
 const AdmissionHero = () => {
   return (
-    <section className="admission-hero mt-4">
-      <div className="admission-hero-content">
+    <section className="admission-hero mt-4" >
+      <div className="admission-hero-content" data-aos="fade-up">
         <span className="admission-badge">
           Admissions Open 2026–27
         </span>

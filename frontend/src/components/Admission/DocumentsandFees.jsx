@@ -2,7 +2,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const DocumentsAndFees = () => {
   return (
-    <section className="documents-fees">
+    <section className="documents-fees" data-aos="fade-right">
       <div className="documents">
         <span className="section-badge">Checklist</span>
         <h2 className="section-title">Documents Required</h2>
@@ -42,7 +42,7 @@ const DocumentsAndFees = () => {
         </ul>
       </div>
 
-      <div className="fees">
+      <div className="fees" data-aos="fade-left">
         <h3>Fee Structure</h3>
 
         <table>

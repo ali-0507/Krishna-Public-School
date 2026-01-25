@@ -2,7 +2,7 @@ const ContactHero = () => {
   return (
     <section className="contact-hero">
       <div className="container">
-        <div className="row justify-content-center text-center">
+        <div className="row justify-content-center text-center" data-aos="fade-down">
           <div className="col-lg-8">
             <span className="section-badge">Get in Touch</span>
 

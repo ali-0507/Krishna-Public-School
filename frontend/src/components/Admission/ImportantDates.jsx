@@ -21,9 +21,12 @@ const ImportantDates = () => {
 
       <div className="dates-grid">
         {dates.map((item, index) => (
-          <div className="date-card" key={index}>
+          <div className="card date-card" key={index}  data-aos="zoom-in"
+            data-aos-delay={index * 120}>
+            <div className="card-body">
             <h4>{item.title}</h4>
             <p>{item.desc}</p>
+          </div>
           </div>
         ))}
       </div>
