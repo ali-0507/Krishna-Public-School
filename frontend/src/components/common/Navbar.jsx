@@ -19,9 +19,9 @@ export default function Navbar() {
         <NavLink to="/admission">Admission</NavLink>
         <NavLink to="/kids-academy">Kids Academy</NavLink>
         <NavLink to="/gallery">Gallery</NavLink>
+        <NavLink to="/mandatory-public-disclosure">Mandatory Public Disclosure</NavLink>
         <NavLink to="/contact">Contact Us</NavLink>
       </nav>
-
        
         <button className="enroll-btn">Enroll Now</button>
       
