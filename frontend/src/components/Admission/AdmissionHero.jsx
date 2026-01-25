@@ -2,10 +2,10 @@ import { FaArrowRight, FaDownload } from "react-icons/fa";
 
 const AdmissionHero = () => {
   return (
-    <section className="admission-hero">
+    <section className="admission-hero mt-4">
       <div className="admission-hero-content">
         <span className="admission-badge">
-          Admissions Open 2025–26
+          Admissions Open 2026–27
         </span>
 
         <h1 className="admission-title">
