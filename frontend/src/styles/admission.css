@@ -1,0 +1,339 @@
+/* ==============================
+   Admission Hero Section
+================================ */
+
+.admission-hero {
+  background-color: #0f2a55; /* deep navy */
+  padding: 100px 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.admission-hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.admission-badge {
+  display: inline-block;
+  background-color: #f4b400;
+  color: #0f2a55;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.admission-title {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.admission-subtitle {
+  font-size: 18px;
+  color: #dbe3f0;
+  margin-bottom: 40px;
+}
+
+.admission-hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #f1bc29;
+  color: #0f2a55;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e0a800;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 12px 26px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: #ffffff;
+  color: #0f2a55;
+}
+
+
+/* ===== Common ===== */
+.section-title {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #0f2a55;
+}
+
+.section-badge {
+  background: #e8edf5;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+/* ===== Admission Process ===== */
+.admission-process {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.process-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+.process-step {
+  font-size: 32px;
+  color: #f4b400;
+  font-weight: 700;
+}
+
+/* ===== Documents & Fees ===== */
+.documents-fees {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 40px;
+  padding: 80px 40px;
+  background: #f7f4ee;
+}
+
+.doc-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.doc-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  color: #0f2a55;
+  padding: 6px 8px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.doc-list li:hover {
+  background-color: #f6eac5;  
+  transform: translateX(6px);
+  font-weight: 500;
+}
+.check-icon {
+  color: #f4b400;
+  font-size: 18px;
+  margin-top: 3px;
+  flex-shrink: 0;
+   transition: transform 0.3s ease, color 0.3s ease;
+}
+.doc-list li:hover .check-icon {
+  transform: scale(1.15) rotate(-5deg);
+  color: #e0a800;
+}
+
+.fees {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.fees table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fees th, .fees td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* ===== Important Dates ===== */
+.important-dates {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.dates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.date-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+/* ===== Form ===== */
+.admission-form-section {
+  padding: 80px 20px;
+  background-color: #f7f4ee;
+}
+
+.admission-form {
+  max-width: 750px;
+  margin: auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.form-grid input,
+.form-grid select {
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fbfbfc;
+  color: #021028;
+  font-weight: 450;
+}
+
+.full-width {
+  width: 100%;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+
+
+
+
+/* ===== Admission CTA ===== */
+
+.admission-cta {
+  background-color: #f4b400;
+  padding: 50px 20px;
+}
+
+.cta-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.cta-text h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f2a55;
+  margin-bottom: 8px;
+}
+
+.cta-text p {
+  font-size: 16px;
+  color: #1f2937;
+}
+
+.cta-btn {
+  background-color: #0f2a55;
+  color: #ffffff;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #0b2042;
+}
+
+
+
+
+
+
+/* Admission Form CSS */
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f2a55;
+  margin-bottom: 6px;
+}
+
+.form-field label span {
+  color: red;
+}
+
+.form-field input {
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #cfd8e3;
+  font-size: 15px;
+}
+
+.form-field input:focus {
+  outline: none;
+  border-color: #f4b400;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .admission-title {
+    font-size: 38px;
+  }
+
+  .admission-subtitle {
+    font-size: 16px;
+  }
+}
