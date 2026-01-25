@@ -1,4 +1,5 @@
- 
+import GalleryCard from "./GalleryCard";
+
 const galleryItems = [
   { title: "Main Building", category: "Campus", color: "#cfe3ff",
     images:[
