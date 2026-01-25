@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="footer">
@@ -28,12 +29,12 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Quick Links</h4>
           <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Admission</li>
-            <li>Kids Academy</li>
-            <li>Gallery</li>
-            <li>Contact Us</li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About us</a></li>
+            <li><a href="/admission">Admission</a></li>
+            <li><a href="/kids-academy">Kids Academy</a></li>
+            <li> <a href="/gallery">Gallery</a></li>
+            <li><a href="/contact">Contact</a></li>          
           </ul>
         </div>
 

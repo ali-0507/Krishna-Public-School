@@ -17,7 +17,10 @@ export default function Navbar() {
         <NavLink to="/" end>Home</NavLink>
         <NavLink to="/about">About Us</NavLink>
         <NavLink to="/admission">Admission</NavLink>
-        <NavLink to="/kids-academy">Kids Academy</NavLink>
+        {/* <NavLink to="/kids-academy">Kids Academy</NavLink> */}
+        <a href="/kids-academy"target="_blank"rel="noopener noreferrer"
+        className="nav-link">
+        Kids Academy</a>
         <NavLink to="/gallery">Gallery</NavLink>
         <NavLink to="/mandatory-public-disclosure">Mandatory Public Disclosure</NavLink>
         <NavLink to="/contact">Contact Us</NavLink>

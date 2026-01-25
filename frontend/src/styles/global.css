@@ -1,17 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
-
-html, body {
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden; /* prevents horizontal scroll */
-}
-
 /* ===== NAVBAR ===== */
-
 .navbar {
   display: flex;
   align-items: center;
@@ -567,6 +559,14 @@ html, body {
   list-style: none;
   margin-top: 0;
   margin-bottom: 18px;
+}
+.footer-col li a{
+  text-decoration: none;
+  color: #d1d9e6 !important;
+}
+.footer-col li a:hover{
+  text-decoration: none;
+  color: #fbbc05 !important;
 }
 
 .footer-col ul {
