@@ -56,7 +56,7 @@ const programs = [
 
 const KidsPrograms = () => {
   return (
-    <section className="kids-programs-modern">
+    <section className="kids-programs-modern"data-aos="fade-up">
       <span className="badge">Our Classes</span>
 
       <h2>Programs Designed for Every Stage</h2>
@@ -65,7 +65,7 @@ const KidsPrograms = () => {
         emotional development.
       </p>
 
-      <div className="program-grid-modern">
+      <div className="program-grid-modern"data-aos="fade-left">
         {programs.map((program, index) => (
           <div className="program-card-modern" key={index}>
             <img className ="image" src={program.image} alt={program.title} />

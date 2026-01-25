@@ -6,7 +6,7 @@ const KidsEnquiry = () => {
       <div className="enquiry-container">
 
         {/* LEFT CONTENT */}
-        <div className="enquiry-info">
+        <div className="enquiry-info"data-aos="fade-right">
           <h2>Visit Our School</h2>
           <p>
             We invite you to visit our campus and experience the KPS Kids
@@ -29,7 +29,7 @@ const KidsEnquiry = () => {
             </li>
           </ul>
 
-          <div className="enquiry-buttons">
+          <div className="enquiry-buttons"data-aos="fade-up">
             <Link to="/contact" className="btn-primary button-one">
               Schedule a Visit
             </Link>
@@ -40,7 +40,7 @@ const KidsEnquiry = () => {
         </div>
 
         {/* RIGHT FORM */}
-        <div className="enquiry-form">
+        <div className="enquiry-form"data-aos="fade-left">
           <h3>Quick Enquiry</h3>
 
           <input type="text" placeholder="Please enter Your(guardian's) name" />

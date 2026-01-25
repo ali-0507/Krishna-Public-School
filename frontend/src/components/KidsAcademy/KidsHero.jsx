@@ -26,24 +26,24 @@ const KidsHero = () => {
 
   return (
     <section className="kids-hero-modern">
-      <div className="kids-hero-container">
+      <div className="kids-hero-container"data-aos="fade-up">
 
         {/* LEFT CONTENT */}
         <div className="kids-hero-text">
           <span className="kids-badge">Krishna Kids Academy Tendua</span>
 
-          <h1>
+          <h1 data-aos="fade-left">
             Where Little Minds <br />
             <span>Bloom & Grow</span>
           </h1>
 
-          <p>
+          <p data-aos="fade-right">
             Our Kids Academy provides a warm, nurturing environment where
             young children discover the joy of learning through play,
             creativity, and exploration.
           </p>
 
-          <div className="kids-hero-buttons">
+          <div className="kids-hero-buttons"data-aos="fade-down">
             <a href="/admission" className="btn-primary">
               Enroll Your Child →
             </a>

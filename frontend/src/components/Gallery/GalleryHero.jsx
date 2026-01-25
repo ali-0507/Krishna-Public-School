@@ -1,6 +1,6 @@
 const GalleryHero = () => {
   return (
-    <section className="gallery-hero">
+    <section className="gallery-hero" data-aos="fade-down">
       <span className="gallery-badge">Photo Gallery</span>
       <h1>Life at Krishna Public School Tendua</h1>
       <p>

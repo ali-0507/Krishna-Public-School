@@ -7,7 +7,7 @@ const GalleryCard = ({ item }) => {
       {/* CARD */}
       <div
         className="gallery-card"
-        data-bs-toggle="modal"
+        data-aos = "fade-left" data-bs-toggle="modal"
         data-bs-target={`#${modalId}`}
       >
         <div

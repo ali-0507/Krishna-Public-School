@@ -33,12 +33,12 @@ const features = [
 
 const KidsChooseUs = () => {
   return (
-    <section className="kids-why-modern">
+    <section className="kids-why-modern"data-aos="fade-right">
       <span className="badge">Why Choose Us</span>
 
       <h2>The KPS Kids Advantage</h2>
 
-      <div className="why-grid-modern">
+      <div className="why-grid-modern"data-aos="fade-up">
         {features.map((item, index) => (
           <div className="why-card-modern" key={index}>
             <div className="why-icon">

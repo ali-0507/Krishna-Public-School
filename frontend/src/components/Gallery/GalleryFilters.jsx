@@ -9,7 +9,7 @@ const categories = [
 
 const GalleryFilters = ({ activeCategory, setActiveCategory }) => {
   return (
-    <div className="gallery-filters">
+    <div className="gallery-filters" data-aos="fade-right">
       {categories.map((cat) => (
         <button
           key={cat}
