@@ -564,6 +564,10 @@
   text-decoration: none;
   color: #d1d9e6 !important;
 }
+.footer-col li a:hover{
+  text-decoration: none;
+  color: #fbbc05 !important;
+}
 
 .footer-col ul {
   padding: 0;
