@@ -26,7 +26,7 @@ export default function AppRoutes() {
       <Route path="/about" element={<About />} />
       <Route path="/admission" element={<Admission />} />
 
-      <Route path="/academics" element={<CoursesOffered/>}>
+      <Route path="/academics" element={<AcademicsLayout/>}>
         <Route path="courses-offered" element={<CoursesOffered />} />
         <Route path="syllabus" element={<Syllabus />} />
         <Route path="exam-policy" element={<ExamPolicy />} />
