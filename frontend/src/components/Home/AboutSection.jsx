@@ -4,9 +4,9 @@ export default function AboutSection() {
       <div className="about-header">
         <span className="about-badge">About KPS</span>
 
-        <h2>Welcome to Krishna Public School</h2>
+        <h2 data-aos="fade-right">Welcome to Krishna Public School</h2>
 
-        <p className="about-description">
+        <p className="about-description"data-aos="fade-right">
           Established in 1995, Krishna Public School Tendua has been a beacon of
           educational excellence in Raipur, shaping young minds for over 25
           years. Our commitment to holistic development, academic rigor, and
@@ -15,7 +15,7 @@ export default function AboutSection() {
         </p>
       </div>
 
-      <div className="about-cards">
+      <div className="about-cards"data-aos="fade-down">
         <div className="about-card">
           <h3>Our Vision</h3>
           <p>

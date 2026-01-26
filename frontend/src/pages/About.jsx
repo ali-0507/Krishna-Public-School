@@ -1,19 +1,42 @@
 import "../styles/about.css";
+import { useEffect } from "react";
+
 
 export default function About() {
+  useEffect(() => {
+  const items = document.querySelectorAll(".timeline-item");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        }
+      });
+    },
+    {
+      threshold: 0.3,
+    }
+  );
+
+  items.forEach((item) => observer.observe(item));
+
+  return () => observer.disconnect();
+}, []);
+
   return (
     <>
        {/* ABOUT HERO SECTION */}
     <section className="about-hero-section">
       <span className="about-pill">About Us</span>
 
-      <h1>
+      <h1 data-aos="fade-up">
         Shaping Minds,
         <br />
         Building Futures
       </h1>
 
-      <p>
+      <p  data-aos="fade-right" data-aos-delay="900">
         For over 25 years, Krishna Public School Tendua has been committed to
         providing exceptional education that develops well-rounded individuals
         ready to lead and serve.
@@ -23,7 +46,7 @@ export default function About() {
 {/* VISION / MISSION / VALUES */}
       <section className="about-vmv">
         <div className="vmv-container">
-          <div className="vmv-card">
+          <div className="vmv-card" data-aos="fade-left" data-aos-delay="100">
             <div className="vmv-icon"><i class="fa-solid fa-eye-low-vision"></i></div>
             <h3>Our Vision</h3>
             <p>
@@ -32,7 +55,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="vmv-card">
+          <div className="vmv-card" data-aos="fade-left" data-aos-delay="500">
             <div className="vmv-icon"><i class="fa-solid fa-bullseye"></i></div>
             <h3>Our Mission</h3>
             <p>
@@ -41,7 +64,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="vmv-card">
+          <div className="vmv-card" data-aos="fade-left" data-aos-delay="900">
             <div className="vmv-icon"><i class="fa-solid fa-heart"></i></div>
             <h3>Our Values</h3>
             <p>
@@ -92,7 +115,7 @@ export default function About() {
 
   <div className="timeline">
 
-    <div className="timeline-item">
+    <div className="timeline-item reveal">
       <div className="timeline-year">1995</div>
       <div className="timeline-dot"></div>
       <div className="timeline-card">
@@ -104,7 +127,7 @@ export default function About() {
       </div>
     </div>
 
-    <div className="timeline-item">
+    <div className="timeline-item reveal">
       <div className="timeline-year">2005</div>
       <div className="timeline-dot"></div>
       <div className="timeline-card">
@@ -115,7 +138,7 @@ export default function About() {
       </div>
     </div>
 
-    <div className="timeline-item">
+    <div className="timeline-item reveal">
       <div className="timeline-year">2015</div>
       <div className="timeline-dot"></div>
       <div className="timeline-card">
@@ -126,7 +149,7 @@ export default function About() {
       </div>
     </div>
 
-    <div className="timeline-item">
+    <div className="timeline-item reveal">
       <div className="timeline-year">2025</div>
       <div className="timeline-dot"></div>
       <div className="timeline-card">
@@ -145,35 +168,37 @@ export default function About() {
 <section className="leadership-section">
   <span className="section-pill center">Our Team</span>
 
-  <h2 className="leadership-title">Leadership</h2>
+  <h2 className="leadership-title"data-aos="fade-up" data-aos-delay="300">Leadership</h2>
 
   <div className="leadership-grid">
 
-    <div className="leader-card">
+    <div className="leader-card"data-aos="fade-right" data-aos-delay="900">
       <div className="leader-icon">
-        <i class="fa-solid fa-graduation-cap"></i>
+        <img src="./images/md.jpg"/>
       </div>
-      <h3>Dr. Ramesh Kumar</h3>
-      <span className="leader-role">Principal</span>
-      <p>25+ years in education, Ph.D. in Educational Leadership</p>
+      <h3>Nagendra Tripathi</h3>
+      <span className="leader-role">Managing director, KPS Tendua</span>
+      <p>We believe there can be no higher calling than to deliver an outstanding education for your child and we have an excellent faculty and staff who are committed to that very purpose. .
+      </p>
     </div>
 
-    <div className="leader-card">
+    <div className="leader-card"data-aos="fade-right" data-aos-delay="1000">
       <div className="leader-icon">
-        <i class="fa-solid fa-graduation-cap"></i>
+        {/* <i class="fa-solid fa-graduation-cap"></i> */}
+        <img src="./images/director.jpeg"/>
       </div>
-      <h3>Mrs. Sunita Sharma</h3>
-      <span className="leader-role">Vice Principal</span>
-      <p>20+ years of teaching experience, M.Ed.</p>
+      <h3>Shipra Trirpathi</h3>
+      <span className="leader-role">Director, KPS Hirapur, Tendua</span>
+      <p>KPS Tendua Hirapur stands for structure, stability and it’s commitment to discipline. We also ceaselessly strive to keep abreast of our times to be able to create an environment at school that nurtures all the faculties of our children: social, physical, intellectual and emotional.We like our children to feel safe, well-loved and secure in the understanding that every one of them is special.</p>
     </div>
 
-    <div className="leader-card">
-      <div className="leader-icon">
-        <i class="fa-solid fa-graduation-cap"></i>
-      </div>
-      <h3>Mr. Anil Verma</h3>
-      <span className="leader-role">Academic Director</span>
-      <p>Expert in curriculum development and teacher training</p>
+      <div className="leader-card"data-aos="fade-right" data-aos-delay="700">
+        <div className="leader-icon">
+          <img src="./images/principal.jpg"/>
+        </div>
+      <h3>Mrs. Deepika Agarwal</h3>
+      <span className="leader-role">Principal, KPS Hirapur, Tendua</span>
+      <p>I strongly believe that education is a collaborative effort that involves professional administrators committed teachers and motivated students. We dedicate ourselves as professional administrators in creating a dynamic education programme empowering the students in a global perspective.</p>
     </div>
 
   </div>

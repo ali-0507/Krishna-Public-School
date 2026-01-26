@@ -4,15 +4,15 @@ export default function ProgramsSection() {
       <div className="programs-header">
         <span className="section-badge">Our Programs</span>
 
-        <h2>Academic Excellence at Every Level</h2>
+        <h2 data-aos="fade-up">Academic Excellence at Every Level</h2>
 
-        <p>
+        <p data-aos="fade-up">
           From kindergarten to senior secondary, we offer comprehensive
           programs designed to bring out the best in every student.
         </p>
       </div>
 
-      <div className="programs-grid">
+      <div className="programs-grid"data-aos="fade-right">
         {/* Kids Academy */}
         <div className="program-card">
           <div className="program-icon yellow">
@@ -72,7 +72,7 @@ export default function ProgramsSection() {
 
       <div className="programs-cta">
         <button className="cta-btn">
-          Explore Kids Academy →
+          <a href="/kids-academy">Explore Kids Academy →</a>
         </button>
       </div>
     </section>
