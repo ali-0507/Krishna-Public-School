@@ -1,0 +1,172 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.mpd-page {
+  background: #f6f9fc;
+  padding: 90px 80px 80px;
+  text-align: center;
+}
+
+/* Appendix label */
+.mpd-appendix {
+  text-align: left;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #0f2a44;
+}
+
+/* Main title bar */
+.mpd-header {
+  background: #d6dee8;
+  padding: 11px;
+  border-radius: 12px;
+  font-size: 38px;
+  font-family: 'Playfair Display', serif;
+  color: #0f2a44;
+  margin-bottom: 20px;
+}
+
+/* Intro text */
+.mpd-intro {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #5f6c85;
+}
+
+/* Tabs */
+.mpd-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.mpd-tabs button {
+  background: #eef2f6;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  color: #0f2a44;
+  transition: all 0.3s ease;
+}
+
+.mpd-tabs button:hover {
+  background: #0f2a44;
+  color: #ffffff;
+}
+
+
+/*Responsive*/
+@media (max-width: 768px) {
+  .mpd-page {
+    padding: 100px 20px;
+  }
+
+  .mpd-header {
+    font-size: 28px;
+  }
+
+  .mpd-intro {
+    font-size: 16px;
+  }
+}
+
+
+/* Section wrapper */
+.mpd-section {
+  margin-top: 80px;
+  text-align: left;
+}
+
+/* Title */
+.mpd-section-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f2a44;
+  margin-bottom: 30px;
+}
+
+/* Table container */
+.mpd-table-wrapper {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow-x: auto;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+}
+
+/* Table */
+.mpd-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mpd-table th {
+  background: #0f2a44;
+  color: #ffffff;
+  padding: 16px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.mpd-table td {
+  padding: 18px 16px;
+  font-size: 15px;
+  color: #1f2933;
+  border-bottom: 1px solid #dde3ea;
+}
+
+.mpd-table tr:last-child td {
+  border-bottom: none;
+}
+
+.mpd-table td:first-child {
+  font-weight: 600;
+  width: 80px;
+}
+
+/* Zebra effect */
+.mpd-table tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+
+@media (max-width: 768px) {
+  .mpd-section-title {
+    font-size: 22px;
+  }
+
+  .mpd-table th,
+  .mpd-table td {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+
+.doc-link {
+  color: #0f2a44;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.doc-link:hover {
+  color: #f0a500;
+}
+
+
+.mpd-note {
+  margin-top: 30px;
+  background: #ffffff;
+  padding: 18px 22px;
+  border-radius: 10px;
+  border: 1px solid #d9e2ef;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #0f2a44;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}

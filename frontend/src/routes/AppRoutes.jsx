@@ -4,6 +4,7 @@ import About from "../pages/About";
 import Admission from "../pages/Admission";
 import KidsAcademy from "../pages/KidsAcademy";
 import Gallery from "../pages/Gallery";
+import MandatoryPublicDisclosure from "../pages/MandatoryPublicDisclosure";
 import Contact from "../pages/Contact";
 // import AcademicsLayout from "../pages/academics/AcademicsLayout";
 import { FaBook } from "react-icons/fa";
@@ -38,6 +39,7 @@ export default function AppRoutes() {
 
       <Route path="/kids-academy" element={<KidsAcademy />} />
       <Route path="/gallery" element={<Gallery />} />
+      <Route path="/mandatory-public-disclosure" element={<MandatoryPublicDisclosure />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
   );
