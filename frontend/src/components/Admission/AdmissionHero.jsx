@@ -18,7 +18,7 @@ const AdmissionHero = () => {
         </p>
 
         <div className="admission-hero-buttons">
-          <button className="btn-primary">
+          <button className="btn-primary" onClick={() => document.getElementById("admission-form").scrollIntoView({ behavior: "smooth" })}>
             Apply Online <FaArrowRight />
           </button>
 

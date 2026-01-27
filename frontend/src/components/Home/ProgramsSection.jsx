@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function ProgramsSection() {
   return (
     <section className="programs-section">
@@ -72,7 +73,7 @@ export default function ProgramsSection() {
 
       <div className="programs-cta">
         <button className="cta-btn">
-          <a href="/kids-academy">Explore Kids Academy →</a>
+          <Link to="/kids-academy">Explore Kids Academy →</Link>
         </button>
       </div>
     </section>

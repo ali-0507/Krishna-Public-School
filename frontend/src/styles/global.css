@@ -22,6 +22,7 @@
   display: flex;
   align-items: center;
   gap: 17px;
+  margin-left: 20px;
 }
 
 .logo-box {
@@ -38,27 +39,29 @@
 .school-name h2 {
   font-family: 'Playfair Display', serif;
   margin: 0;
-  font-size: 18px;
+  font-size: 20px;
   color: #0f2a44;
+  font-weight: 700;
 }
 
 .school-name p {
   font-family: 'Playfair Display', serif;
   margin: 0;
-  font-size: 13px;
+  font-size: 16px;
   color: #777;
 }
 
 .navbar-center {
   font-family: 'Inter', sans-serif;
   display: flex;
-  gap: 28px;
+  gap: 24px;
+  margin-right: 30px;
 }
 
 .navbar-center a {
   text-decoration: none;
-  color: #0f2a44;
-  font-weight: 700;
+  color: #072037;
+  font-weight: 500;
   position: relative;
   padding-bottom: 4px;
 }
@@ -78,7 +81,7 @@
   border-radius: 2px;
 }
 
-.enroll-btn {
+/* .enroll-btn {
   background: #fbbc05;
   border: none;
   margin-right: 15px;
@@ -86,7 +89,7 @@
   border-radius: 8px;
   font-weight: 700;
   cursor: pointer;
-}
+} */
 
 /* Academic Dropdown */
 .nav-dropdown {

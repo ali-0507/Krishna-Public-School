@@ -1,0 +1,84 @@
+.floating-admission {
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  background-color: #f4b400;
+  color: #0f2a55;
+  padding: 14px 18px;
+  border-radius: 50px;
+
+  cursor: pointer;
+  box-shadow: 0 12px 30px rgba(244, 180, 0, 0.35);
+
+  overflow: hidden;
+
+  animation: floatUpDown 2.5s ease-in-out infinite;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* ICON */
+.floating-icon {
+  font-size: 22px;
+  flex-shrink: 0;
+  animation: iconPulse 2s ease-in-out infinite;
+}
+
+/* TEXT (hidden initially) */
+.floating-text {
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+  max-width: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.floating-admission:hover {
+  padding-right: 26px;
+  background-color: #ffcc33;
+}
+
+.floating-admission:hover {
+  animation-play-state: paused;
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 18px 40px rgba(244, 180, 0, 0.5);
+}
+
+
+/* SHOW TEXT ON HOVER */
+.floating-admission:hover .floating-text {
+  max-width: 120px;
+  opacity: 1;
+}
+
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes iconPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.12);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

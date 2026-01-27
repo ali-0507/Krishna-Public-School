@@ -12,8 +12,8 @@ export default function Navbar() {
           🎓
         </div>
         <div className="school-name">
-          <h2>Krishna Public School</h2>
-          <p>Tendua</p>
+          <h2>Krishna Public School Tendua</h2>
+          <p >Raipur (C.G.) - 492099</p>
         </div>
       </div>
 
@@ -47,7 +47,6 @@ export default function Navbar() {
         <NavLink to="/contact">Contact Us</NavLink>
       </nav>
        
-        <button className="enroll-btn">Enroll Now</button>
     </header>
   );
 }
