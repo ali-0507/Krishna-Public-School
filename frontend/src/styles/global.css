@@ -3,6 +3,7 @@
 *::after {
   box-sizing: border-box;
 }
+
 /* ===== NAVBAR ===== */
 .navbar {
   display: flex;
@@ -87,6 +88,7 @@
   font-weight: 700;
   cursor: pointer;
 }
+
 
 /* ===== HERO SECTION ===== */
  .hero-section {

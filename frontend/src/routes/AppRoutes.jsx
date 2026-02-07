@@ -7,6 +7,7 @@ import Gallery from "../pages/Gallery";
 import MandatoryPublicDisclosure from "../pages/MandatoryPublicDisclosure";
 import Contact from "../pages/Contact";
 
+
 export default function AppRoutes() {
   return (
     <Routes>
