@@ -1,6 +1,7 @@
 import AppRoutes from "./routes/AppRoutes";
 import Navbar from "./components/common/Navbar";
 import Footer from "./components/common/Footer";
+import FloatingAdmissionButton from "./components/FloatingAdmissionButton";
 import "../src/App.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navbar />
       <AppRoutes />
+       <FloatingAdmissionButton />
       <Footer />
     </>
   );

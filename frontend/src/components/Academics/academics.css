@@ -1,0 +1,70 @@
+/* ===== HERO ===== */
+.academics-hero {
+  background: linear-gradient(180deg, #0f2a55, #143b78);
+  padding: 120px 20px;
+  color: #fff;
+}
+
+.hero-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: rgba(244,180,0,0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: #f4b400;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  max-width: 520px;
+  margin: 10px auto 0;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* ===== EXPLORE MORE ===== */
+.explore-more {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.explore-title {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.explore-card {
+  background: #f3f4f6;
+  border-radius: 14px;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #0f2a55;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.explore-card:hover {
+  background: #f4b400;
+  color: #fff;
+  transform: translateY(-4px);
+}
+
+.explore-card.active {
+  background: #f4b400;
+  color: #0f2a55;
+}
+
+.explore-icon {
+  font-size: 20px;
+}

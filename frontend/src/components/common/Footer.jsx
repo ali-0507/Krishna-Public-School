@@ -54,7 +54,7 @@ export default function Footer() {
         {/* Contact */}
         <div className="footer-col">
           <h4>Contact Us</h4>
-          <p><i className="fas fa-map-marker-alt"></i> Tendua Road, Near Main Market,<br/>Raipur, Chhattisgarh - 492001</p>
+          <p><i className="fas fa-map-marker-alt"></i> NEAR BANGLAMUKHI MANDIR, NANDANVAN ROAD, TENDUA, RAIPUR, CHHATTISGARH - 492099</p>
           <p><i className="fas fa-phone"></i> +91 98765 43210</p>
           <p><i className="fas fa-envelope"></i> info@kpstendua.edu.in</p>
           

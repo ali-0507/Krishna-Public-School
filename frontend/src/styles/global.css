@@ -23,6 +23,7 @@
   display: flex;
   align-items: center;
   gap: 17px;
+  margin-left: 20px;
 }
 
 .logo-box {
@@ -39,27 +40,29 @@
 .school-name h2 {
   font-family: 'Playfair Display', serif;
   margin: 0;
-  font-size: 18px;
+  font-size: 20px;
   color: #0f2a44;
+  font-weight: 700;
 }
 
 .school-name p {
   font-family: 'Playfair Display', serif;
   margin: 0;
-  font-size: 13px;
+  font-size: 16px;
   color: #777;
 }
 
 .navbar-center {
   font-family: 'Inter', sans-serif;
   display: flex;
-  gap: 28px;
+  gap: 24px;
+  margin-right: 30px;
 }
 
 .navbar-center a {
   text-decoration: none;
-  color: #0f2a44;
-  font-weight: 700;
+  color: #072037;
+  font-weight: 500;
   position: relative;
   padding-bottom: 4px;
 }
@@ -79,7 +82,7 @@
   border-radius: 2px;
 }
 
-.enroll-btn {
+/* .enroll-btn {
   background: #fbbc05;
   border: none;
   margin-right: 15px;
@@ -87,8 +90,76 @@
   border-radius: 8px;
   font-weight: 700;
   cursor: pointer;
+} */
+
+/* Academic Dropdown */
+.nav-dropdown {
+  position: relative;
 }
 
+<<<<<<< HEAD
+=======
+.academics-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.arrow {
+  font-size: 12px;
+  transition: transform 0.3s ease;
+}
+
+/* rotate arrow on hover */
+.nav-dropdown:hover .arrow {
+  transform: rotate(180deg);
+}
+
+/* Dropdown box */
+.dropdown-menu-custom {
+  position: absolute;
+  top: 125%;
+  left: -20px;
+  min-width: 280px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+  padding: 12px 0;
+  display: none;
+  z-index: 999;
+}
+
+/* Show on hover */
+.nav-dropdown:hover .dropdown-menu-custom {
+  display: block;
+}
+
+/* Dropdown items */
+.dropdown-menu-custom a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  color: #0f2a55;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 8px;
+  margin: 2px 8px;
+}
+
+/* Hover style (light yellow like reference) */
+.dropdown-menu-custom a:hover {
+  background: #fff3cd;
+  color: #f4b400;
+}
+
+/* Icon style */
+.dd-icon {
+  font-size: 16px;
+  color: #f4b400;
+}
+
+>>>>>>> 7045ca5d63f7fea1c402e36a832063dc81fdc9bb
 
 /* ===== HERO SECTION ===== */
  .hero-section {

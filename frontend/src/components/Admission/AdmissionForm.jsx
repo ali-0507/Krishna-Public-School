@@ -1,7 +1,7 @@
 const AdmissionForm = () => {
   return (
     <section className="admission-form-section" data-aos="zoom-out">
-      <form className="admission-form">
+      <form  id="admission-form" className="admission-form">
         <h2 className="text-center">Online Admission Form</h2>
 
         <div className="form-grid mt-4">

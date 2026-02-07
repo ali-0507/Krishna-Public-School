@@ -1,7 +1,7 @@
- import ContactHero from "../components/contact/ContactHero";
-import ContactInfo from "../components/contact/ContactInfo";
-import ContactForm from "../components/contact/ContactForm";
-import ContactFAQ from "../components/contact/ContactFAQ";
+ import ContactHero from "../components/Contact/ContactHero";
+import ContactInfo from "../components/Contact/ContactInfo";
+import ContactForm from "../components/Contact/ContactForm";
+import ContactFAQ from "../components/Contact/ContactFAQ";
 import "../styles/contact.css";
 
 const Contact = () => {
