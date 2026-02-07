@@ -82,23 +82,12 @@
   border-radius: 2px;
 }
 
-/* .enroll-btn {
-  background: #fbbc05;
-  border: none;
-  margin-right: 15px;
-  padding: 12px 25px;
-  border-radius: 8px;
-  font-weight: 700;
-  cursor: pointer;
-} */
 
 /* Academic Dropdown */
 .nav-dropdown {
   position: relative;
 }
 
-<<<<<<< HEAD
-=======
 .academics-link {
   display: flex;
   align-items: center;
@@ -158,8 +147,6 @@
   font-size: 16px;
   color: #f4b400;
 }
-
->>>>>>> 7045ca5d63f7fea1c402e36a832063dc81fdc9bb
 
 /* ===== HERO SECTION ===== */
  .hero-section {
