@@ -6,7 +6,6 @@ import KidsAcademy from "../pages/KidsAcademy";
 import Gallery from "../pages/Gallery";
 import MandatoryPublicDisclosure from "../pages/MandatoryPublicDisclosure";
 import Contact from "../pages/Contact";
-// import AcademicsLayout from "../pages/academics/AcademicsLayout";
 import { FaBook } from "react-icons/fa";
 import CoursesOffered from "../pages/academics/CoursesOffered";
 import Syllabus from "../pages/academics/Syllabus";
