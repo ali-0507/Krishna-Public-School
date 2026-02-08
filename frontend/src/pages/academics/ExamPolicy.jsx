@@ -9,7 +9,7 @@ import AdditionalSubjects from "../../components/Academics/ExamPolicy/Additional
 import ResultCalculationTable from "../../components/Academics/ExamPolicy/ResultCalculationTable";
 import ExamPolicyNotes from "../../components/Academics/ExamPolicy/ExamPolicyNotes";
 import "../../styles/academics.css";
-import "../../styles/examPolicy.css";
+import "../../styles/exampolicy.css";
 
 
 
