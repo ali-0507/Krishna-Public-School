@@ -29,6 +29,30 @@ export default function ParentTeacherMeeting() {
         title="Parent-Teacher Meeting"
         subtitle="Strengthening communication between parents and educators"
       />
+
+
+      {/* PTM FULL DESCRIPTION */}
+    <section className="ptm-description-section" data-aos="fade-up">
+      <div className="container">
+        <div className="ptm-description-card">
+
+          <h4 className="ptm-description-title">About Parent–Teacher Meeting</h4>
+            <p>
+              The Parents–Teachers Meet was a productive and insightful event, fostering a strong bond between home and school. Our school conducts PTMs seven times in a month, providing regular opportunities for parents to interact with teachers,discuss their child’s progress, and gain valuable insights into their academic and personal growth.
+            </p>
+
+            <p>
+              Teachers shared detailed feedback on students’ strengths, areas for improvement, and suggested ways to support their development. The open and honest exchange of ideas helped build trust and understanding, enabling parents and teachers to work together.
+            </p>
+
+            <p>
+              Each meeting concludes with a renewed sense of collaboration and commitment to students’ overall growth and well-being.
+            </p>
+        </div>
+      </div>
+    </section>
+
+    {/* Cards */}
     <section className="academics-section">
       <div className="container">
         <div className="row g-4">
