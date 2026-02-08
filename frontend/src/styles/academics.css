@@ -131,18 +131,12 @@
   align-items: center;
 }
 
-.dropdown-icon {
-  margin-left: 11px;          /*Right side push */
-  font-size: 25px;            /* Bigger icon */
+.dropdowns-icon {
+  margin-left: 1000px;          /*Right side push */
+  font-size: 20px;            /* Bigger icon */
   font-weight: bold;
-  /* color: #f4b400; */
   color: black;
   transition: transform 0.3s ease;
-}
-
-/* Optional hover effect */
-.academics-card:hover .dropdown-icon {
-  transform: scale(1.2);
 }
 
 .school-timing-note {
@@ -247,7 +241,7 @@
 
 .course-dropdown ul li::before {
   content: "•";
-  color: #f4b400; /* yellow bullet like screenshot */
+  color: #f4b400;  
   font-weight: bold;
   position: absolute;
   left: -1rem;
