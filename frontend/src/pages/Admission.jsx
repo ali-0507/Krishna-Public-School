@@ -4,6 +4,8 @@ import DocumentsAndFees from "../components/Admission/DocumentsandFees";
 import ImportantDates from "../components/Admission/ImportantDates";
 import AdmissionForm from "../components/Admission/AdmissionForm.jsx";
 import AdmissionCTA from "../components/Admission/AdmissionCTA.jsx";
+import AdmissionRules from "../components/Admission/AdmissionRules.jsx";
+import AgeCriteria from "../components/Admission/AgeCriteria.jsx";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "../styles/admission.css"
@@ -23,7 +25,9 @@ const Admission = () => {
   return (
     <>
       <AdmissionHero />
+      <AgeCriteria/>
       <AdmissionProcess />
+      <AdmissionRules/>
       <DocumentsAndFees />
       <ImportantDates />
       <AdmissionForm />

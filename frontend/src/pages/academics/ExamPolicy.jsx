@@ -1,7 +1,17 @@
 import { FaClipboardCheck, FaBalanceScale, FaChartLine, FaUserShield, FaFileAlt } from "react-icons/fa";
 import AcademicHero from "../../components/Academics/AcademicHero";
 import ExploreMore from "../../components/Academics/ExploreMore";
+import ExamPolicyOverview from "../../components/Academics/ExamPolicy/ExamPolicyOverview";
+import ExamPolicyByClass from "../../components/Academics/ExamPolicy/ExamPolicyByClass";
+import InternalAssessment from "../../components/Academics/ExamPolicy/InternalAssessment";
+import GradingSystem from "../../components/Academics/ExamPolicy/GradingSystem";
+import AdditionalSubjects from "../../components/Academics/ExamPolicy/AdditionalSubjects";
+import ResultCalculationTable from "../../components/Academics/ExamPolicy/ResultCalculationTable";
+import ExamPolicyNotes from "../../components/Academics/ExamPolicy/ExamPolicyNotes";
 import "../../styles/academics.css";
+import "../../styles/examPolicy.css";
+
+
 
 const examPolicyData = [
   {
@@ -34,34 +44,15 @@ export default function ExamPolicy() {
         title="Exam Policy"
         subtitle="Transparent and fair assessment system for students"
       />
-    
-    <section className="academics-section">
-      <div className="container">
-        <div className="row g-4">
-          {examPolicyData.map((item, index) => (
-            <div
-              className="col-md-6"
-              key={index}
-              data-aos="fade-right"
-              data-aos-delay={index * 120}
-            >
-              <div className="card exam-policy-card h-100">
-                <div className="card-body d-flex gap-3">
-                  <div className="icon-box">
-                    {item.icon}
-                  </div>
-                  <div>
-                    <h5 className="card-title">{item.title}</h5>
-                    <p className="card-text">{item.desc}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-    <ExploreMore />
+      <ExamPolicyOverview />
+      <ExamPolicyByClass />
+      <InternalAssessment />
+      <ResultCalculationTable/>
+      <GradingSystem />
+      <AdditionalSubjects />
+      <ExamPolicyNotes/>
+      <ExploreMore />
     </>
   );
 }
+
