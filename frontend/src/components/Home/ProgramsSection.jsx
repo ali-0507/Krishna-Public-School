@@ -8,21 +8,20 @@ export default function ProgramsSection() {
         <h2 data-aos="fade-up">Academic Excellence at Every Level</h2>
 
         <p data-aos="fade-up">
-          From kindergarten to senior secondary, we offer comprehensive
-          programs designed to bring out the best in every student.
+           Our school is structured to cater to the specific developmental needs of students at every stage.
         </p>
       </div>
 
-      <div className="programs-grid"data-aos="fade-right">
+      <div className="programs-grid" data-aos="fade-right">
         {/* Kids Academy */}
         <div className="program-card">
           <div className="program-icon yellow">
             <i class="fa-solid fa-face-smile"></i>
           </div>
-          <h3>Pre-Primary</h3>
-          <span className="program-sub">Nursery - KG</span>
+          <h3>Tendua Krishna Kids Academy</h3>
+          <span className="program-sub">PlayGroup, Nursery, KG-I, KG-II (UKG)</span>
           <p>
-            In our <b> kids academy (pre-primary)</b>, play-based learning in a nurturing environment that builds strong
+            <strong>Pre-Primary Wing Situauted At UDAYA Society: </strong>Play-based learning in a nurturing environment that builds strong
             foundations for lifelong learning.
           </p>
           {/* <a href="#">Learn More →</a> */}
@@ -34,7 +33,8 @@ export default function ProgramsSection() {
             <i class="fa-solid fa-book"></i>
           </div>
           <h3>Primary School</h3>
-          <span className="program-sub">Classes I - V</span>
+          <span className="program-sub">Class I - V</span>
+          <br/>
           <p>
             Building fundamental skills in reading, writing, and mathematics
             with activity-based learning.
@@ -48,7 +48,8 @@ export default function ProgramsSection() {
             <i class="fa-solid fa-school"></i>
           </div>
           <h3>Middle School</h3>
-          <span className="program-sub">Classes VI - VIII</span>
+          <span className="program-sub">Class VI - VIII</span>
+           <br/>
           <p>
             Developing critical thinking and analytical skills through an
             integrated curriculum approach.
@@ -62,7 +63,23 @@ export default function ProgramsSection() {
             <i class="fa-solid fa-graduation-cap"></i>
           </div>
           <h3>High School</h3>
-          <span className="program-sub">Classes IX - XII</span>
+          <span className="program-sub">Class IX & X</span>
+           <br/>
+          <p>
+            Preparing students for board examinations and higher education
+            with focused academic programs.
+          </p>
+          <a href="#">Learn More →</a>
+        </div>
+
+        {/* Senior Secondary School */}
+        <div className="program-card">
+          <div className="program-icon orange">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <h3>Senior Secondary School</h3>
+          <span className="program-sub">Class XI & XII</span>
+          <p className="mt-1"><strong>(Streams: Science & Commerce)</strong></p>
           <p>
             Preparing students for board examinations and higher education
             with focused academic programs.
@@ -70,6 +87,7 @@ export default function ProgramsSection() {
           {/* <a href="#">Learn More →</a> */}
         </div>
       </div>
+      
 
       {/* <div className="programs-cta">
         <button className="cta-btn">

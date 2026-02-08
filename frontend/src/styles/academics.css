@@ -102,6 +102,116 @@
   transform: translateY(-6px);
   box-shadow: 0 26px 60px rgba(244,180,0,0.28);
 }
+
+
+/* Sports Card */
+.sports-details {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #5f6c85;
+  line-height: 1.7;
+}
+
+.sports-details h6 {
+  margin-top: 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.sports-note {
+  margin-top: 10px;
+  background: #fff3cd;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.sports-title {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-icon {
+  margin-left: 11px;          /*Right side push */
+  font-size: 25px;            /* Bigger icon */
+  font-weight: bold;
+  /* color: #f4b400; */
+  color: black;
+  transition: transform 0.3s ease;
+}
+
+/* Optional hover effect */
+.academics-card:hover .dropdown-icon {
+  transform: scale(1.2);
+}
+
+.school-timing-note {
+  margin: 40px auto 0;
+  max-width: 1300px;
+  background: white;
+  border-left: 6px solid #f4b400;
+  padding: 16px 22px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: black;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+.school-timing-note strong {
+  color: #0f2a55;
+}
+
+.session-terms {
+  background: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  margin-bottom: 40px;
+}
+
+.session-title {
+  /* text-align: center; */
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #0f2a55;
+}
+
+.session-table {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.session-table td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/* PTM */
+.ptm-description-section{
+  padding: 40px 0;
+}
+
+.ptm-description-card{
+  background:#fff;
+  border-radius:16px;
+  padding:28px;
+  box-shadow:0 14px 35px rgba(0,0,0,0.08);
+}
+
+.ptm-description-title{
+  text-align:center;
+  font-weight:600;
+  margin-bottom:15px;
+  color:#0f2a55;
+}
+
+.ptm-description-card p{
+  color:#5b6472;
+  line-height:1.7;
+  text-align:justify;
+}
+
+
 .course-header {
   cursor: pointer;
 }

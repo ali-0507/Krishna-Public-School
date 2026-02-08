@@ -7,9 +7,8 @@ export default function Footer() {
         {/* School Info */}
         <div className="footer-col">
           <div className="footer-logo">
-            <h4>🎓Krishna Public School</h4>
+            <h4>🎓Krishna Public School Tendua</h4>
           </div>
-          <small>Tendua</small>
 
           <p>
             Established in 1995, Krishna Public School Tendua has been a beacon
@@ -47,7 +46,8 @@ export default function Footer() {
             <li>LKG & UKG</li>
             <li>Primary School</li>
             <li>Middle School</li>
-            <li>High School</li>
+            <li>Secondary School</li>
+            <li>Senior Secondary School</li>
           </ul>
         </div>
 
@@ -56,9 +56,9 @@ export default function Footer() {
           <h4>Contact Us</h4>
           <p><i className="fas fa-map-marker-alt"></i> NEAR BANGLAMUKHI MANDIR, NANDANVAN ROAD, TENDUA, RAIPUR, CHHATTISGARH - 492099</p>
           <p><i className="fas fa-phone"></i> +91 98765 43210</p>
-          <p><i className="fas fa-envelope"></i> info@kpstendua.edu.in</p>
+          <p><i className="fas fa-envelope"></i> kpstendua18@gmail.com</p>
           
-          <p><i className="fas fa-clock"></i> Mon - Sat: 8:00 AM - 3:00 PM</p>
+          <p><i className="fas fa-clock"></i> Mon - Sat: 7:30 AM - 2:30 PM</p>
   
         </div>
       </div>
