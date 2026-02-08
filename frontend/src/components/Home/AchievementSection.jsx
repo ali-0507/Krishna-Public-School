@@ -8,19 +8,19 @@ const achievements = [
         title: "Best School Award",
         subtitle: "Recognized for excellence",
         tag: "District Level Recognition",
-        image:"src/assets/award.jpeg"
+        image:"/award.jpeg"
     },
     {
         title: "Academic Excellence",
         subtitle: "Outstanding CBSE board results",
         tag: "Academic Achievement",
-        image:"src/assets/academic.jpeg"
+        image:"/academic.jpeg"
     },
      {
         title: "Sports Excellence",
         subtitle: "Champions in inter-school sports events",
         tag: "Sports Achievement",
-        image:"src/assets/sports.jpeg"
+        image:"/sports.jpeg"
     },  
 ];
 

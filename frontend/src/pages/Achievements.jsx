@@ -7,18 +7,16 @@ const achievementsData = [
     title: "Academic Achievements",
     desc: "Outstanding academic performance and board results achieved by our students.",
     images: [
-      "src/assets/award.jpeg",
-      "src/assets/academic.jpeg",
-      "/assets/achievements/academic3.jpg",
+      "/award.jpeg",
+      "/academic.jpeg",
     ],
   },
   {
     title: "Sports Achievements",
     desc: "State and district level victories in athletics and team sports.",
     images: [
-      "src/assets/sportClub.webp",
-      "src/assets/sportClub2.webp",
-      "/assets/achievements/sports3.jpg",
+      "/sportClub.webp",
+      "/sportClub2.webp",
     ],
   },
   {
@@ -26,17 +24,15 @@ const achievementsData = [
     desc: "Award-winning performances in music, dance, drama, and arts.",
     images: [
       "/assets/achievements/cultural1.jpg",
-      "/assets/achievements/cultural2.jpg",
-      "/assets/achievements/cultural3.jpg",
     ],
   },
   {
     title: "Olympiads & Competitions",
     desc: "National and regional level success in Olympiads and quiz competitions.",
     images: [
-      "src/assets/olympiad.jpeg",
-      "src/assets/olympiad2.jpeg",
-      "/assets/achievements/olympiad3.jpg",
+      "/olympiad.jpeg",
+      "/olympiad2.jpeg",
+       
     ],
   },
 ];

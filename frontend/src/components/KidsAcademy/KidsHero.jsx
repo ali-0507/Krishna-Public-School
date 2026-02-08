@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import kidsHeroImg from "../../assets/kids.jpg";
+import kidsHeroImg from "/kids.jpg";
 
 const KidsHero = () => {
   const [count, setCount] = useState(0);

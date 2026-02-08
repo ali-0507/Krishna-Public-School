@@ -71,8 +71,8 @@ export default function Clubs() {
         title="Literary Club"
         text="The Literary Club nurtures the love for language and literature through debates, poetry, essay writing, and creative workshops."
         images={[
-          "src/assets/Lclub.webp",
-          "src/assets/Lclub2.jpg",
+          "/Lclub.webp",
+          "/Lclub2.jpg",
         ]}
       />
       <hr/>
@@ -81,8 +81,8 @@ export default function Clubs() {
         title="Science Club"
         text="A hub for curious minds where students engage in experiments, exhibitions, robotics, and science olympiads."
         images={[
-          "src/assets/Sclub.webp",
-          "src/assets/Sclub2.avif",
+          "/Sclub.webp",
+          "/Sclub2.avif",
         ]}
       />
       <hr/>
@@ -90,8 +90,8 @@ export default function Clubs() {
         title="Sports Club"
         text="Promotes fitness, teamwork, and sportsmanship through cricket, football, athletics, and yoga."
         images={[
-          "src/assets/sportClub.webp",
-          "src/assets/sportClub2.webp",
+          "/sportClub.webp",
+          "/sportClub2.webp",
         ]}
       />
       <hr/>
@@ -100,8 +100,8 @@ export default function Clubs() {
         title="Art & Craft Club"
         text="Encourages creativity through painting, sketching, clay modelling, and craft activities."
         images={[
-          "src/assets/AandC.jpg",
-          "src/assets/AandC2.webp",
+          "/AandC.jpg",
+          "/AandC2.webp",
         ]}
       />
       <hr/>
@@ -109,8 +109,8 @@ export default function Clubs() {
         title="Music & Dance Club"
         text="Celebrates cultural heritage through classical and modern music and dance performances."
         images={[
-          "src/assets/MandD.jpeg",
-          "src/assets/MandD2.webp",
+          "/MandD.jpeg",
+          "/MandD2.webp",
         ]}
       />
       <hr/>
@@ -119,8 +119,8 @@ export default function Clubs() {
         title="Eco Club"
         text="Builds environmental awareness through tree plantation drives, cleanliness campaigns, and eco initiatives."
         images={[
-          "src/assets/ecoClub.avif",
-          "src/assets/ecoClub2.webp",
+          "/ecoClub.avif",
+          "/ecoClub2.webp",
         ]}
       />
 
