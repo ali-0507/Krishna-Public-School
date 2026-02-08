@@ -1,0 +1,123 @@
+.achievements-section {
+  background: linear-gradient(180deg, #3d5e90, #215586);
+  padding: 80px 20px 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.section-pill {
+  background: rgba(255, 196, 0, 0.15);
+  color: #ffc400;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.achievements-section h2 {
+  font-size: 40px;
+  margin: 15px 0 10px;
+}
+
+.section-subtitle {
+  max-width: 600px;
+  margin: auto;
+  font-size: 15px;
+  color: #ffffff !important;
+}
+
+.achievement-carousel {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.achievement-card {
+  background: #fff;
+  color: #0f2a44;
+  border-radius: 16px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  gap: 20px;
+  padding:20px;
+  width: 700px;
+  height:280px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+.ach-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.achievement-content h4 {
+  font-size: 40px;
+
+}
+
+.achievement-content p {
+  font-size: 20px;
+  color:#6a5510;
+}
+
+.achievement-tag {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 10px;
+  background: #fff3cd;
+  color: #c99700;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.nav-btn {
+  background:transparent;
+  /* color:#ffc400; */
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 70%;
+  font-size: 22px;
+  cursor: pointer;
+  padding:3px;
+  padding-top:0.2px;
+}
+
+.dots {
+  margin-top: 20px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #ccc;
+  display: inline-block;
+  margin: 0 4px;
+  border-radius: 50%;
+}
+
+.dot.active {
+  background: #ffc400;
+}
+
+.view-all-btn {
+  margin-top: 30px;
+  background: #ffc400;
+  color: #000;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.view-all-btn:hover{
+  background:#fef2cb;
+  color:#223552;
+  transform: translateY(-5px) !important;
+}

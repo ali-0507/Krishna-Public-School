@@ -316,10 +316,11 @@
 
 .leadership-grid {
   max-width: 1100px;
-  margin: auto;
+  /* margin: auto; */
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 36px;
+  margin-left:10px;
 }
 
 /* CARD */
@@ -327,13 +328,15 @@
 .leader-card {
   background: #ffffff;
   padding: 50px 32px;
+  width:300px;
+  height:500px;
   border-radius: 18px;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease;
 }
 
 .leader-card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-8px) !important;
 }
 
 /* ICON */

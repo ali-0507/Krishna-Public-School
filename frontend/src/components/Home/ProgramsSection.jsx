@@ -24,7 +24,7 @@ export default function ProgramsSection() {
             <strong>Pre-Primary Wing Situauted At UDAYA Society: </strong>Play-based learning in a nurturing environment that builds strong
             foundations for lifelong learning.
           </p>
-          <a href="#">Learn More →</a>
+          {/* <a href="#">Learn More →</a> */}
         </div>
 
         {/* Primary School */}
@@ -39,7 +39,7 @@ export default function ProgramsSection() {
             Building fundamental skills in reading, writing, and mathematics
             with activity-based learning.
           </p>
-          <a href="#">Learn More →</a>
+          {/* <a href="#">Learn More →</a> */}
         </div>
 
         {/* Middle School */}
@@ -54,7 +54,7 @@ export default function ProgramsSection() {
             Developing critical thinking and analytical skills through an
             integrated curriculum approach.
           </p>
-          <a href="#">Learn More →</a>
+          {/* <a href="#">Learn More →</a> */}
         </div>
 
         {/* High School */}
@@ -84,16 +84,16 @@ export default function ProgramsSection() {
             Preparing students for board examinations and higher education
             with focused academic programs.
           </p>
-          <a href="#">Learn More →</a>
+          {/* <a href="#">Learn More →</a> */}
         </div>
       </div>
       
 
-      <div className="programs-cta">
+      {/* <div className="programs-cta">
         <button className="cta-btn">
           <Link to="/kids-academy">Explore Kids Academy →</Link>
         </button>
-      </div>
+      </div> */}
     </section>
   );
 }

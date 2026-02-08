@@ -174,6 +174,17 @@ export default function About() {
 
     <div className="leader-card"data-aos="fade-right" data-aos-delay="900">
       <div className="leader-icon">
+        {/* <img src="./images/md.jpg"/> */}
+      </div>
+      <h3>Shri J.P Mani</h3>
+      <span className="leader-role">Chairman, KPS Tendua</span>
+      <p>We believe there can be no higher calling than to deliver an outstanding education for your child and we have an excellent faculty and staff who are committed to that very purpose. .
+      </p>
+    </div>
+
+
+    <div className="leader-card"data-aos="fade-right" data-aos-delay="900">
+      <div className="leader-icon">
         <img src="./images/md.jpg"/>
       </div>
       <h3>Nagendra Tripathi</h3>
@@ -189,7 +200,8 @@ export default function About() {
       </div>
       <h3>Shipra Trirpathi</h3>
       <span className="leader-role">Director, KPS Hirapur, Tendua</span>
-      <p>KPS Tendua Hirapur stands for structure, stability and it’s commitment to discipline. We also ceaselessly strive to keep abreast of our times to be able to create an environment at school that nurtures all the faculties of our children: social, physical, intellectual and emotional.We like our children to feel safe, well-loved and secure in the understanding that every one of them is special.</p>
+      <p>KPS Tendua Hirapur stands for structure, stability and it’s commitment to discipline. We also ceaselessly strive to keep abreast of our times to be able to create an environment at school that nurtures all the faculties of our children: social, physical, intellectual 
+        and emotional.</p>
     </div>
 
       <div className="leader-card"data-aos="fade-right" data-aos-delay="700">
