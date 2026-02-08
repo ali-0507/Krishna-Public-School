@@ -19,13 +19,13 @@ export default function ProgramsSection() {
           <div className="program-icon yellow">
             <i class="fa-solid fa-face-smile"></i>
           </div>
-          <h3>Kids Academy</h3>
+          <h3>Pre-Primary</h3>
           <span className="program-sub">Nursery - KG</span>
           <p>
-            Play-based learning in a nurturing environment that builds strong
+            In our <b> kids academy (pre-primary)</b>, play-based learning in a nurturing environment that builds strong
             foundations for lifelong learning.
           </p>
-          <a href="#">Learn More →</a>
+          {/* <a href="#">Learn More →</a> */}
         </div>
 
         {/* Primary School */}
@@ -39,7 +39,7 @@ export default function ProgramsSection() {
             Building fundamental skills in reading, writing, and mathematics
             with activity-based learning.
           </p>
-          <a href="#">Learn More →</a>
+          {/* <a href="#">Learn More →</a> */}
         </div>
 
         {/* Middle School */}
@@ -53,7 +53,7 @@ export default function ProgramsSection() {
             Developing critical thinking and analytical skills through an
             integrated curriculum approach.
           </p>
-          <a href="#">Learn More →</a>
+          {/* <a href="#">Learn More →</a> */}
         </div>
 
         {/* High School */}
@@ -67,15 +67,15 @@ export default function ProgramsSection() {
             Preparing students for board examinations and higher education
             with focused academic programs.
           </p>
-          <a href="#">Learn More →</a>
+          {/* <a href="#">Learn More →</a> */}
         </div>
       </div>
 
-      <div className="programs-cta">
+      {/* <div className="programs-cta">
         <button className="cta-btn">
           <Link to="/kids-academy">Explore Kids Academy →</Link>
         </button>
-      </div>
+      </div> */}
     </section>
   );
 }

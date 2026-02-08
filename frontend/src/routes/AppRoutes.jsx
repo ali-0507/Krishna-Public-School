@@ -16,7 +16,8 @@ import PolicyDocumentation from "../pages/academics/PolicyDocumentation";
 import BookList from "../pages/academics/BookList";
 import CoScholastic from "../pages/academics/CoScholastic";
 import AcademicsLayout from "../pages/academics/AcademicsLayout";
- 
+import Clubs from "../pages/Clubs/";
+import Achievements from "../pages/Achievements";
 
 
 export default function AppRoutes() {
@@ -41,6 +42,8 @@ export default function AppRoutes() {
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/mandatory-public-disclosure" element={<MandatoryPublicDisclosure />} />
       <Route path="/contact" element={<Contact />} />
+       <Route path="/clubs" element={<Clubs />} />
+       <Route path="/achievements" element={<Achievements/>}/>
     </Routes>
   );
 }
