@@ -12,8 +12,8 @@ const ContactInfo = () => {
           <div>
             <h5 className="info-title">Visit Us</h5>
             <p className="info-text">
-              Tendua Road, Near Main Market, <br />
-              Raipur, Chhattisgarh - 492001
+             Near Banglamukhi Mandir, Nandanvan Road, Tendua,
+              Raipur, Chhattisgarh - 492099
             </p>
           </div>
         </div>
@@ -44,7 +44,7 @@ const ContactInfo = () => {
           <div>
             <h5 className="info-title">Email Us</h5>
             <p className="info-text">
-              info@kpstendua.edu.in <br />
+               kpstendua18gmail.com<br />
               admissions@kpstendua.edu.in
             </p>
           </div>
@@ -60,7 +60,7 @@ const ContactInfo = () => {
           <div>
             <h5 className="info-title">School Hours</h5>
             <p className="info-text">
-              Mon – Sat: 8:00 AM – 3:00 PM <br />
+              Mon – Sat: 7:30 AM – 2:30 PM <br />
               Sunday: Closed
             </p>
           </div>
@@ -84,7 +84,7 @@ const ContactInfo = () => {
                     referrerPolicy="no-referrer-when-downgrade"
                   ></iframe>
                 </div>
-        </div>
+          </div>
     </div>
   );
 };

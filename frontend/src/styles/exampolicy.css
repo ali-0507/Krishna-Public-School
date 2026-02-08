@@ -1,0 +1,133 @@
+/* ===== Exam Policy Global ===== */
+.exam-section {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.exam-section h2 {
+  font-size: 32px;
+  color: #0f2a55;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.exam-section h2::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background: #f4b400;
+  display: block;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.exam-section h3 {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #1a3d7c;
+}
+
+.exam-section p {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.exam-section ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.exam-section ul li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* ===== Tables ===== */
+.exam-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.exam-table th {
+  background: #0f2a55;
+  color: #fff;
+  padding: 14px;
+  text-align: left;
+}
+
+.exam-table td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.exam-table tr:last-child td {
+  border-bottom: none;
+}
+
+.exam-table tr:hover {
+  background: #f9fafc;
+}
+
+/* ===== Highlight Note ===== */
+.exam-note {
+  background: #fff7e6;
+  border-left: 5px solid #f4b400;
+  padding: 15px;
+  margin-top: 20px;
+  color: #333;
+  border-radius: 6px;
+}
+
+
+/* ===== Important Notes Box ===== */
+.exam-note-box {
+  background: #fff7e6;
+  border-left: 7px solid #f4b400;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.exam-note-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.note-icon {
+  font-size: 28px;
+  color: #f4b400;
+}
+
+.exam-note-header h2 {
+  font-size: 26px;
+  color: #0f2a55;
+  margin: 0;
+}
+
+.exam-note-list {
+  padding-left: 20px;
+}
+
+.exam-note-list li {
+  margin-bottom: 12px;
+  line-height: 1.7;
+  color: #333;
+  font-size: 15px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .exam-section h2 {
+    font-size: 26px;
+  }
+}

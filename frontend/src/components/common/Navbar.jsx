@@ -39,7 +39,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <a href="/kids-academy"target="_blank"rel="noopener noreferrer"
+        <a href="/kids-academy" target="_blank" rel="noopener noreferrer"
         className="nav-link">
         Kids Academy</a>
         <NavLink to="/gallery">Gallery</NavLink>
