@@ -69,7 +69,7 @@ export default function ProgramsSection() {
             Preparing students for board examinations and higher education
             with focused academic programs.
           </p>
-          <a href="#">Learn More →</a>
+          {/* <a href="#">Learn More →</a> */}
         </div>
 
         {/* Senior Secondary School */}
