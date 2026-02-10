@@ -1,5 +1,5 @@
 import "./academics.css";
-
+ 
 export default function AcademicHero({ icon, title, subtitle }) {
   return (
     <section className="academics-hero">

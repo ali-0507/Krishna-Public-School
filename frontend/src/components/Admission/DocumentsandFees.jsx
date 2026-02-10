@@ -43,41 +43,54 @@ const DocumentsAndFees = () => {
       </div>
 
       <div className="fees" data-aos="fade-left">
-        <h3>Fee Structure</h3>
+        <h3>Tuition Fee Structure - 2026-27</h3>
 
         <table>
           <thead>
-            <tr>
-              <th>Class</th>
-              <th>Admission Fee</th>
-              <th>Annual Fee</th>
+            <tr style={{textDecoration:"underline"}}>
+              <th >INSTALLMENT</th>
+              <th>Class - I TO V</th>
+              <th>Class - VI TO VIII</th>
+              <th>Class - IX TO XII</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Play Group - UKG</td>
-              <td>₹15,000</td>
-              <td>₹45,000</td>
+              <td>I INSTALLMENT - 30% <br/>(APRIL)</td>
+              <td>₹15,770/-</td>
+              <td>₹17,990/-</td>
+              <td>₹20,000/-</td>
             </tr>
             <tr>
-              <td>Class I - V</td>
-              <td>₹20,000</td>
-              <td>₹55,000</td>
+              <td>II INSTALLMENT - 25%  <br/>(JULY) </td>
+              <td>₹13,140/-</td>
+              <td>₹14,995/-</td>
+              <td>₹16,670/-</td>
             </tr>
             <tr>
-              <td>Class VI - VIII</td>
-              <td>₹25,000</td>
-              <td>₹65,000</td>
+              <td>III INSTALLMENT - 25% (OCTOBER)</td>
+              <td>₹13,140/-</td>
+              <td>₹14,995/-</td>
+              <td>₹16,670/-</td>
             </tr>
             <tr>
-              <td>Class IX - XII</td>
-              <td>₹30,000</td>
-              <td>₹75,000</td>
+              <td>IV INSTALLMENT - 20% (JANUARY)</td>
+              <td>₹10,510/-</td>
+              <td>₹11,995/-</td>
+              <td>₹13,330/-</td>
+            </tr>
+            <tr>
+            
+              <td><strong>TOTAL</strong></td>
+              <td><strong>₹52,560/-</strong></td>
+              <td><strong>₹59,975/-</strong></td>
+              <td><strong>₹66,670/-</strong></td>
+             
             </tr>
           </tbody>
         </table>
 
-        <p className="fee-note">
+        <p className="fee-note mt-3">
           * Fee structure is subject to change. Transport and other facilities charged separately.
         </p>
       </div>

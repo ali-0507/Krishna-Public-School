@@ -8,9 +8,7 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-left">
-        <div className="logo-box">
-          🎓
-        </div>
+          <img src="/SCHOOL LOGO.png" className="school-logo"></img>
         <div className="school-name">
           <h2>Krishna Public School Tendua</h2>
           <p >Raipur (C.G.) - 492099</p>
@@ -43,7 +41,7 @@ export default function Navbar() {
         className="nav-link">
         Kids Academy</a>
         <NavLink to="/gallery">Gallery</NavLink>
-        <NavLink to="/mandatory-public-disclosure">Mandatory Public Disclosure</NavLink>
+        <NavLink to="/mandatory-public-disclosure" className="nav-special">Mandatory Public Disclosure</NavLink>
         <NavLink to="/contact">Contact Us</NavLink>
       </nav>
     </header>

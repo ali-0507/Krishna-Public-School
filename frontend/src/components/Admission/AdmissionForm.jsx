@@ -31,9 +31,10 @@ const AdmissionForm = () => {
               </label>
           <select  required>
             <option value="" disabled selected>Select grade to Apply *</option>
+            <option>PlayGroup</option>
             <option>Nursery</option>
-            <option>LKG</option>
-            <option>UKG</option>
+            <option>KG-I</option>
+            <option>KG-II</option>
             <option>Class I</option>
             <option>Class II</option>
             <option>Class III</option>
