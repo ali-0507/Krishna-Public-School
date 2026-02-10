@@ -40,9 +40,9 @@ export default function HeroSection() {
         <div className="hero-content">
 
           {/* LEFT LOGO */}
-          <div className="hero-logo">
+          <div className="hero-logo" >
              <img src="/SCHOOL LOGO.png" alt="School logo" 
-                  className="hero-school-logo" />
+                  className="hero-school-logo" data-aos="fade-up"/>
           </div>
          
           <div className="hero-text mt-3"> 
