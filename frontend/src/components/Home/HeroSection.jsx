@@ -42,7 +42,7 @@ export default function HeroSection() {
           {/* LEFT LOGO */}
           <div className="hero-logo" >
              <img src="/SCHOOL LOGO.png" alt="School logo" 
-                  className="hero-school-logo" data-aos="fade-up"/>
+                  className="hero-school-logo" data-aos="fade-up" data-aos-delay="1500"/>
           </div>
          
           <div className="hero-text mt-3"> 
