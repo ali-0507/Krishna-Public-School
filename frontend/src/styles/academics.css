@@ -36,46 +36,187 @@
   background: #f9f7f4;
 }
 
-/* ===== Syllabus Card ===== */
-.syllabus-card {
-  border: none;
-  border-radius: 16px;
-  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
-  transition: all 0.35s ease;
+ /* ===== Syllabus Download Section ===== */
+.syllabus-download-section {
+  padding: 40px 0;
+  background: #f9f7f4;
+}
+.download-heading {
+  font-weight: 700;
+  color: #0f2a55;
+  margin-bottom: 40px;
 }
 
-.syllabus-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 25px 55px rgba(244,180,0,0.25);
+/* Button Group */
+.download-btn-group {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-/* Icon */
-.icon-box {
-  width: 48px;
-  height: 48px;
-  background: #fff3cd;
-  color: #f4b400;
-  border-radius: 12px;
+/* Buttons */
+.download-btn {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Primary Button */
+.download-btn.primary {
+  background: #f9f7f4;
+  color:#0f2a55;
+  border: 3px solid #0b0c0d;
+}
+
+.download-btn.primary:hover {
+  border: 3px solid #4179d3;
+  color:#4179d3;
+}
+
+/* Secondary Button */
+.download-btn.secondary {
+  background: #f9f7f4;
+  color: #0f2a55;
+  border: 3px solid #10100e;
+}
+
+.download-btn.secondary:hover {
+  border: 3px solid #edcb1f;
+  color:#edcb1f;
+}
+
+.cbse.danger{
+  border-radius: 6px;
+  padding:7px;
+  background: rgb(194, 34, 34);
+  color:white;
+  border:2px solid rgb(194, 34, 34);
+}
+.cbse.danger:hover{
+  background: #f9f7f4;
+  color:rgb(194, 34, 34);
+  border:2px solid rgb(194, 34, 34);
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .download-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+/* ===== Syllabus Tables Section ===== */
+.syllabus-table-section {
+  padding: 70px 0;
+  background: #f9f7f4;
+}
+
+.table-main-heading {
+  text-align: center;
+  font-weight: 700;
+  color: #0f2a55;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.table-sub-heading {
+  text-align: center;
+  color: #e0a502;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 30px 0 15px;
+}
+
+/* Table Wrapper */
+.table-wrapper {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  overflow-x: auto;
+  margin-bottom: 40px;
+}
+
+/* Table */
+.syllabus-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.syllabus-table th {
+  background: #0f2a55;
+  color: #ffffff;
+  padding: 14px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.syllabus-table td {
+  padding: 14px;
+  border-bottom: 1px solid #eaeaea;
+  color: #333;
+  vertical-align: top;
+}
+
+.syllabus-table tr:last-child td {
+  border-bottom: none;
+}
+
+.syllabus-table tr:hover {
+  background: #fffefa;
+}
+
+/* Center-heavy exam tables */
+.syllabus-table-center th,
+.syllabus-table-center td {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.4;
+}
+
+/* Improve readability for multi-line cells */
+.syllabus-table td {
+  white-space: normal;
+}
+.class-selector {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
-  flex-shrink: 0;
+  gap: 12px;
+  margin:auto;
+  background:#f9f7f4 ;
 }
 
-.card-title {
+.class-selector label {
   font-weight: 600;
   color: #0f2a55;
-  margin-left: 1rem;
 }
 
-.card-text {
-  color: #5b6472;
-  font-size: 17px;
+.class-selector select {
+  padding: 9px 14px;
+  border-radius: 9px;
   font-weight: 500;
-  margin-left: 1rem;
-  margin-bottom:0px;
+  color:#f4b400;
+  background:transparent;
+  cursor: pointer;
 }
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .table-sub-heading {
+    font-size: 18px;
+  }
+}
+
 
 
 /* ===== Exam Policy Cards ===== */
