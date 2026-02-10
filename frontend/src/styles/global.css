@@ -26,22 +26,15 @@
   margin-left: 20px;
 }
 
-.logo-box {
-  width: 48px;
-  height: 48px;
-  background: #fbbc05;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  font-size: 22px;
+.school-logo{
+  width: 40px;
+  height: 50px;
 }
-
 .school-name h2 {
   font-family: 'Playfair Display', serif;
   margin: 0;
-  font-size: 20px;
-  color: #0f2a44;
+  font-size: 25px;
+  color: #004483;
   font-weight: 700;
 }
 
@@ -61,8 +54,9 @@
 
 .navbar-center a {
   text-decoration: none;
-  color: #072037;
+  color:  #004483;
   font-weight: 500;
+  font-size: 17px;
   position: relative;
   padding-bottom: 4px;
 }
@@ -148,6 +142,35 @@
   color: #f4b400;
 }
 
+
+/* Mnadatory Public Disclosure navlink styling*/
+
+.nav-special {
+  padding: 0px 14px;
+  border: 2px solid #ca3628;    
+  border-radius: 8px;
+  color: #004483;
+  font-weight: 600;
+}
+
+/* hover effect */
+.nav-special:hover {
+  border: 2px solid #ca3628;
+  color: #000;
+}
+
+/* active page */
+.nav-special.active {
+  color: #000;
+  border-color: #fbbc05;
+}
+
+/* remove underline animation for this link */
+.nav-special::after {
+  display: none;
+}
+
+
 /* ===== HERO SECTION ===== */
  .hero-section {
   position: relative;
@@ -194,14 +217,48 @@
 
 /* Content */
 .hero-content {
-  max-width: 650px;
+  display: flex;                /* IMPORTANT */
+  align-items: center;
+  gap: 40px;  
+  max-width: 1100px;
   color: #ffffff;
+}
+/* NEW – minimal layout fix */
+.hero-flex {
+  display: flex;
+  align-items: center;
+  gap: 28px; /* keeps text close, not far */
+}
+
+.hero-logo {
+  flex-shrink: 0;
+}
+
+.hero-school-logo {
+  width: 240px;
+  height: auto;
+  margin-left: -30px;
+  margin-bottom: 100px;
+}
+
+.hero-text {
+  max-width: 600px;
 }
 
 .hero-tag {
   color: #fbbc05;
   font-weight: 600;
   font-size:1.5rem;
+}
+
+.school-name {
+  display: block;      /* forces single line */
+  white-space: nowrap; /* prevents breaking */
+}
+
+.school-location {
+  display: block;      /* moves Tendua to next line */
+  color: #fbbc05;      /* your yellow */
 }
 
 /* Heading */
@@ -487,46 +544,6 @@
 }
 
 
-/* Cards */
-/* .about-cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
-}
-
-.about-card {
-  background: #ffffff;
-  padding: 36px 32px;
-  border-radius: 16px;
-  text-align: left;
-
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.1);
-}
-
-.about-card h3 {
-  font-family: 'Playfair Display', serif;
-  font-size: 22px;
-  color: #0f2a44;
-  margin-bottom: 16px;
-}
-
-.about-card p {
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #5f6c85;
-}
-
-.about-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.about-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
-} */
-
-
 /* ================= PROGRAMS SECTION ================= */
 
 .programs-section {
@@ -680,6 +697,10 @@
   background: linear-gradient(135deg, #142b4f, #1c3b6a);
 }
 
+.footer-school-logo{
+  width: 35px;
+  height: auto;
+}
 .footer-cta h2 {
   font-size: 42px;
   margin-bottom: 16px;
@@ -762,15 +783,6 @@
   padding: 0;
 }
 
-.footer-logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 4px;
-}
 
 .footer-socials i {
   display: inline-flex;

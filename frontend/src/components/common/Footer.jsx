@@ -7,16 +7,15 @@ export default function Footer() {
         {/* School Info */}
         <div className="footer-col">
           <div className="footer-logo">
-            <h4>🎓Krishna Public School Tendua</h4>
+            <h4><img src="/SCHOOL LOGO.png" className="footer-school-logo "/> Krishna Public School Tendua</h4>
           </div>
-
           <p>
             Established in 1995, Krishna Public School Tendua has been a beacon
             of educational excellence in Raipur, shaping young minds for over
             25 years.
           </p>
 
-          <div className="footer-socials">
+          <div className="footer-socials mt-1">
             <i class="fa-brands fa-facebook-f"></i>
             <i className="fab fa-instagram"></i>
             <i class="fa-brands fa-square-twitter"></i>
