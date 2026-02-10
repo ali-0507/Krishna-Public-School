@@ -60,7 +60,8 @@ const ContactInfo = () => {
           <div>
             <h5 className="info-title">School Hours</h5>
             <p className="info-text">
-              Mon – Sat: 7:30 AM – 2:30 PM <br />
+              Mon – Fri: 7:30 AM – 1:15 PM <br />
+              Saturday: 7:30 AM - 11:30 AM <br />
               Sunday: Closed
             </p>
           </div>

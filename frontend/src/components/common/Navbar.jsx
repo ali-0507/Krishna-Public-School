@@ -31,7 +31,7 @@ export default function Navbar() {
             <Link to="/academics/exam-policy"><i class="fa-solid fa-clipboard"></i>Exam Policy</Link>
             <Link to="/academics/school-timing"><i class="fa-solid fa-clock"></i>School Timing</Link>
             <Link to="/academics/parent-teacher-meeting"><FaUsers/> Parent-Teacher-Meeting</Link>
-            <Link to="/academics/policy-documentation"><FaFolderOpen />Policy Documentation</Link>
+            <Link to="/academics/policy-documentation"><FaFolderOpen />Rules & Regulations</Link>
             <Link to="/academics/book-list"><RiBookShelfFill />Book List 2026–27</Link>
             <Link to="/academics/co-scholastic"><FaTrophy />Co-Scholastic</Link>
           </div>

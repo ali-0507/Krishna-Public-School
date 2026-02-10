@@ -3,18 +3,18 @@ import GalleryCard from "./GalleryCard";
 const galleryItems = [
   { title: "Main Building", category: "Campus", color: "#cfe3ff",
     images:[
-      {src:"/images/mainbuilding.jpeg",
+      {src:"/Gallery/SCHOOL BUILDING.jpeg",
        caption:"Main Building of KPS Tendua"},
 
-      {src:"/images/mb2.jpeg",
-        caption:"Overall View of Main Building"
+      {src:"/Gallery/School Building night view.jpeg",
+        caption:"Night View of Main Building"
       },
       ],
   },
-  { title: "Annual Sports Day", category: "Sports", color: "#c9fdd7",
+  { title: "Annual Sports Meet", category: "Sports", color: "#c9fdd7",
      images:[
-      {src:"/images/sports.jpeg",
-       caption:"Sports at KPS Tendua"},
+      {src:"/Gallery/Annual Sports Meet.jpeg",
+       caption:"Sports @ KPS Tendua"},
 
       {src:"/images/sports2.jpeg",
         caption:"Decorated Sports Ground"

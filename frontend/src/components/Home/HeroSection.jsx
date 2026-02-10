@@ -72,7 +72,7 @@ export default function HeroSection() {
               className="secondary-btn"
               onClick={() => navigate("/about")}
             >
-              Explore More
+              Programs Offered
             </button>
           </div>
           </div>
