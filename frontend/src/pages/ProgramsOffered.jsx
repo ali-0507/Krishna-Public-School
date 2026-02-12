@@ -38,10 +38,10 @@ export default function ProgramsOffered() {
             </p>
 
             <ul  data-aos="fade-left">
-              <li>Play-based & activity-driven learning</li>
-              <li>Development of motor & social skills</li>
-              <li>Introduction to numbers, alphabets & rhymes</li>
-              <li>Safe, child-friendly classrooms</li>
+              <li>English, Hindi, Mathematics.</li>
+              <li>Environmental Awareness, Art & Craft, Music & Dance.</li>
+              <li>Focus on play-based and activity based learning.</li>
+              
             </ul>
 
             <button
@@ -59,7 +59,7 @@ export default function ProgramsOffered() {
         <div className="program-container reverse">
 
           <div className="program-image" data-aos="fade-left">
-            <img src="/images/primary.jpg" alt="Primary School" />
+            <img src="/PrimaryClasses.JPG" alt="Primary School" />
           </div>
 
           <div className="program-content" >
@@ -73,9 +73,10 @@ export default function ProgramsOffered() {
 
             <ul data-aos="fade-right">
               <li>CBSE-aligned NCERT curriculum</li>
-              <li>Activity-based & experiential learning</li>
-              <li>Computer education from Class I</li>
-              <li>Co-curricular: Art, Music, Yoga & Sports</li>
+              <li>English, Hindi, Mathematics,</li>
+              <li>Environmental Studies (EVS)/Science & Social Studies.</li>
+              <li>Computer Science, General knowledge, Art & Craft</li>
+              <li>Music, Abacus, Yoga, Self Defence, Games, Robotics.</li>
             </ul>
 
             <button
@@ -93,7 +94,7 @@ export default function ProgramsOffered() {
         <div className="program-container">
 
           <div className="program-image"data-aos="fade-right">
-            <img src="/images/middle.jpg" alt="Middle School" />
+            <img src="/MiddleClasses.JPG" alt="Middle School" />
           </div>
 
           <div className="program-content">
@@ -105,10 +106,11 @@ export default function ProgramsOffered() {
             </p>
 
             <ul data-aos="fade-left">
-              <li>In-depth Science & Mathematics curriculum</li>
-              <li>Dedicated Science & Computer labs</li>
-              <li>Olympiad & competitive exam preparation</li>
-              <li>Leadership through clubs & student council</li>
+              <li>English, Hindi, Mathematics</li>
+              <li>Science (Physics, Chemistry, Biology)</li>
+              <li>Social Science (History, Civics, Geography)</li>
+              <li>Sanskrit (as Third Language), Computer Science, General knowledge</li>
+              <li>Art Education, Yoga, Games, Robotics.</li>
             </ul>
 
             <button
@@ -126,7 +128,7 @@ export default function ProgramsOffered() {
         <div className="program-container reverse">
 
           <div className="program-image"data-aos="fade-left">
-            <img src="/images/highschool.jpg" alt="High School" />
+            <img src="/HighClasses.JPG" alt="High School" />
           </div>
 
           <div className="program-content">
@@ -139,10 +141,31 @@ export default function ProgramsOffered() {
             </p>
 
             <ul data-aos="fade-right">
-              <li>Science, Commerce & Arts streams</li>
-              <li>Board exam & entrance test coaching</li>
-              <li>Career guidance & counselling</li>
-              <li>Modern labs, library & smart classrooms</li>
+              <strong>IX - X</strong>
+              <li>Language I (English), Language II (Hindi), Mathematics</li>
+             <li>Science (Physics, Chemistry, Biology)</li>
+              <li>Social Science (History, Civics, Geography, Economics)</li>
+              <li>Artificial Intelligence / Computer Applications (Skill Subject)</li>
+              <li>Yoga, Games.</li>
+            </ul>
+             <ul data-aos="fade-right">
+              <strong>XI - XII</strong>
+              <ol>
+                <li><strong>Science Stream:</strong>
+                <ul>
+                  <li>English, Physics, Chemistry, Mathematics / Biology</li>
+                  <li>Computer Science / Physical Education(Optional).</li>
+                </ul>
+                </li>
+               
+         
+                <li><strong>Commerce Stream:</strong>
+                <ul>
+                  <li>English, Accountancy, Business Studies</li>
+                  <li>Economics, Mathematics / Applied Mathematics / Physical Education (Optional).</li>
+                </ul>
+                </li>
+              </ol>
             </ul>
 
             <button

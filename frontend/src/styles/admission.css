@@ -147,8 +147,10 @@
   gap: 20px;
   padding: 80px 40px;
   background: #f7f4ee;
+  
 }
 
+ 
 .doc-list {
   list-style: none;
   padding: 0;
@@ -242,6 +244,8 @@
   color: #4b5563;
   margin: 0;
 }
+
+
 /* ===== Form ===== */
 .admission-form-section {
   padding: 80px 20px;
@@ -249,7 +253,7 @@
 }
 
 .admission-form {
-  max-width: 750px;
+  max-width: 950px;
   margin: auto;
   background: #fff;
   padding: 40px;
@@ -259,12 +263,12 @@
 .form-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 20px;
+  gap: 30px;
 }
 
 .form-grid input,
 .form-grid select {
-  padding: 14px;
+  padding: 12px;
   border-radius: 8px;
   border: 1px solid #ccc;
   background-color: #fbfbfc;
