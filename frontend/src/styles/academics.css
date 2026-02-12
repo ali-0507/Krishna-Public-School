@@ -398,3 +398,34 @@
     transform: translateY(0);
   }
 }
+
+/* PDF of Booklist */
+.booklist-btn-wrapper {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.booklist-view-btn {
+  background-color: #1f3b73;
+  color: #fff;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.booklist-view-btn:hover {
+  background-color: #f4b400;
+  color: #000;
+  transform: translateY(-2px);
+}
+
+.mpd-page {
+  padding-top: 14px;
+}
+
+.mpd-section {
+  margin-top: 25px; 
+}

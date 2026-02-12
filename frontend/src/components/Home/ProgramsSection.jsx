@@ -63,23 +63,8 @@ export default function ProgramsSection() {
             <i class="fa-solid fa-graduation-cap"></i>
           </div>
           <h3>High School</h3>
-          <span className="program-sub">Class IX & X</span>
+          <span className="program-sub">Class IX - XII</span>
            <br/>
-          <p>
-            Preparing students for board examinations and higher education
-            with focused academic programs.
-          </p>
-          {/* <a href="#">Learn More →</a> */}
-        </div>
-
-        {/* Senior Secondary School */}
-        <div className="program-card">
-          <div className="program-icon orange">
-            <i class="fa-solid fa-graduation-cap"></i>
-          </div>
-          <h3>Senior Secondary School</h3>
-          <span className="program-sub">Class XI & XII</span>
-          <p className="mt-1"><strong>(Streams: Science & Commerce)</strong></p>
           <p>
             Preparing students for board examinations and higher education
             with focused academic programs.

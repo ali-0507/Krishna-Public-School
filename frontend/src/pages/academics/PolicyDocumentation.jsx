@@ -26,7 +26,7 @@ export default function PolicyDocumentation() {
     <>
       <AcademicHero
         icon={<FaFolderOpen />}
-        title="Policy Documentation"
+        title="Rules & Regulations"
         subtitle="Guidelines and policies ensuring a safe learning environment"
       />
     <section className="academics-section">

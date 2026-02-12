@@ -2,7 +2,7 @@ const GalleryHero = () => {
   return (
     <section className="gallery-hero" data-aos="fade-down">
       <span className="gallery-badge">Photo Gallery</span>
-      <h1>Life at Krishna Public School Tendua</h1>
+      <h1>Life @ Krishna Public School Tendua</h1>
       <p>
         Explore memorable moments from our campus, events, sports,
         and celebrations.
