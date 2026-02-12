@@ -37,9 +37,13 @@ export default function About() {
       </h1>
 
       <p  data-aos="fade-right" data-aos-delay="900">
-        For over 25 years, Krishna Public School Tendua has been committed to
-        providing exceptional education that develops well-rounded individuals
-        ready to lead and serve.
+        Krishna Public School, Tendua, Raipur, established in 2018 is a forward-thinking 
+        educational institution dedicated to delivering high-quality education blended with strong values 
+        and contemporary learning methods, including AI readiness.We strive to nurture academically robust, 
+        socially responsible, and confident individuals who are ready to face future challenges.
+        Our Higher Secondary section emphasizes academic excellence, career readiness, 
+        and character development, providing a supportive, inspiring environment where every student 
+        can uncover their true potential and thrive.
       </p>
     </section>
 

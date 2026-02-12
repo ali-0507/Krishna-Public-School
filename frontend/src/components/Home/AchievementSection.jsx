@@ -5,23 +5,42 @@ import { useNavigate } from "react-router-dom";
 
 const achievements = [
     {
-        title: "Best School Award",
-        subtitle: "Recognized for excellence",
-        tag: "District Level Recognition",
-        image:"/award.jpeg"
+        title: "Award For AI Adoption In School",
+        subtitle: "Inspiring Woman Leader in AI Powered Education",
+        tag: "",
+        image:"/Home/award.jpeg"
     },
     {
         title: "Academic Excellence",
         subtitle: "Outstanding CBSE board results",
-        tag: "Academic Achievement",
-        image:"/academic.jpeg"
+        tag: "",
+        image:"/Home/BoardAchievers.jpeg"
     },
      {
-        title: "Sports Excellence",
-        subtitle: "Champions in inter-school sports events",
-        tag: "Sports Achievement",
-        image:"/sports.jpeg"
+        title: "Inter-School AI Startup Ideas",
+        subtitle: "Champion in inter-school event",
+        tag: "",
+        image:"/Home/award2.jpeg"
+    }, 
+    {
+        title: "Gold Medal In Sports Event",
+        subtitle: "1st Position In National Gatka Association Of India",
+        tag: "",
+        image:"/Home/award3.jpeg"
     },  
+    {
+        title: "Award In Dance",
+        subtitle: "1st Prize In Jhoom Tarana Mahotsav",
+        tag: "",
+        image:"/Home/prize1.jpeg"
+    },
+    {
+        title: "Group Dance Event",
+        subtitle: "Group Dance Winners",
+        tag: "",
+        image:"/Home/prize2.jpeg"
+    },
+     
 ];
 
 export default function AchievementSection (){

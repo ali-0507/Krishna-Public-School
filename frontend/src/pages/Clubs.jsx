@@ -26,7 +26,7 @@ function ImageSlider({ images }) {
 }
 
 // ---------- Club Section ----------
-function ClubSection({ title, icon, text, images, reverse }) {
+function ClubSection({ title, icon, text,objective,images, reverse }) {
   return (
     <section className={`club-section ${reverse ? "reverse" : ""}`}>
       <div className="club-text">
@@ -35,6 +35,7 @@ function ClubSection({ title, icon, text, images, reverse }) {
           <h2>{title}</h2>
         </div>
         <p>{text}</p>
+        <p>{objective}</p>
       </div>
 
       <ImageSlider images={images} />
@@ -68,8 +69,9 @@ export default function Clubs() {
 
       {/* CLUBS */}
       <ClubSection
-        title="Literary Club"
-        text="The Literary Club nurtures the love for language and literature through debates, poetry, essay writing, and creative workshops."
+        title="Photography Club "
+        text=""
+        objective="Objective: To nurture creativity and technical skills in photography, encouraging students to capture and express their perspectives, while exploring various genres like nature, portrait, and documentary photography."
         images={[
           "/Lclub.webp",
           "/Lclub2.jpg",
@@ -78,8 +80,9 @@ export default function Clubs() {
       <hr/>
       <ClubSection
         reverse
-        title="Science Club"
-        text="A hub for curious minds where students engage in experiments, exhibitions, robotics, and science olympiads."
+        title="Heritage Club "
+        text=""
+        objective="Objective: To instill a sense of pride and appreciation for our cultural heritage, promoting awareness, preservation, and exploration of India's rich history, art, and traditions through interactive activities and visits."
         images={[
           "/Sclub.webp",
           "/Sclub2.avif",
@@ -88,7 +91,9 @@ export default function Clubs() {
       <hr/>
       <ClubSection
         title="Sports Club"
-        text="Promotes fitness, teamwork, and sportsmanship through cricket, football, athletics, and yoga."
+        text= ""
+        objective=
+        "Objective: To promote physical fitness, teamwork, and sportsmanship among students, while identifying and nurturing talent in various sports disciplines."
         images={[
           "/sportClub.webp",
           "/sportClub2.webp",
@@ -97,8 +102,9 @@ export default function Clubs() {
       <hr/>
       <ClubSection
         reverse
-        title="Art & Craft Club"
-        text="Encourages creativity through painting, sketching, clay modelling, and craft activities."
+        title="G K Club "
+        text=""
+        objective="Objective: To spark curiosity and broaden knowledge horizons! The G K Club aims to foster a culture of general awareness, encouraging students to stay updated, think critically, and explore diverse subjects."
         images={[
           "/AandC.jpg",
           "/AandC2.webp",
@@ -106,8 +112,9 @@ export default function Clubs() {
       />
       <hr/>
       <ClubSection
-        title="Music & Dance Club"
-        text="Celebrates cultural heritage through classical and modern music and dance performances."
+        title="Events Club "
+        text=""
+        objective="Objective: The Events Club plans and executes engaging activities, fostering teamwork, leadership, and fun, making school life memorable for all."
         images={[
           "/MandD.jpeg",
           "/MandD2.webp",
@@ -116,8 +123,31 @@ export default function Clubs() {
       <hr/>
       <ClubSection
         reverse
+        title="Hindi Club"
+        text=""
+        objective="Objective: To celebrate the beauty of Hindi language and culture! The Hindi Club promotes linguistic pride, creativity, and expression through literature, debates, and cultural activities."
+        images={[
+          "/ecoClub.avif",
+          "/ecoClub2.webp",
+        ]}
+      />
+      <hr/>
+      <ClubSection
+        title="English Club "
+        text=""
+        objective="Objective: To enhance language skills and confidence! The English Club fosters effective communication, creative expression, and literary appreciation through discussions, debates, and writing workshops."
+        images={[
+          "/MandD.jpeg",
+          "/MandD2.webp",
+        ]}
+      />
+      <hr/>
+     
+      <ClubSection
+        reverse
         title="Eco Club"
-        text="Builds environmental awareness through tree plantation drives, cleanliness campaigns, and eco initiatives."
+        text=""
+        objective="Objective: To nurture environmental stewards! The Eco Club promotes sustainability, conservation, and eco-awareness through activities like tree planting, clean-ups, and eco-friendly initiatives."
         images={[
           "/ecoClub.avif",
           "/ecoClub2.webp",
