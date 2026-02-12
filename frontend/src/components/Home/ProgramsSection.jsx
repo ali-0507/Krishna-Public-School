@@ -73,12 +73,6 @@ export default function ProgramsSection() {
         </div>
       </div>
       
-
-      {/* <div className="programs-cta">
-        <button className="cta-btn">
-          <Link to="/kids-academy">Explore Kids Academy →</Link>
-        </button>
-      </div> */}
     </section>
   );
 }

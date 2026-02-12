@@ -178,21 +178,10 @@ export default function About() {
 
     <div className="leader-card"data-aos="fade-right" data-aos-delay="900">
       <div className="leader-icon">
-        {/* <img src="./images/md.jpg"/> */}
-      </div>
-      <h3>Shri J.P Mani</h3>
-      <span className="leader-role">Chairman, KPS Tendua</span>
-      <p>We believe there can be no higher calling than to deliver an outstanding education for your child and we have an excellent faculty and staff who are committed to that very purpose. .
-      </p>
-    </div>
-
-
-    <div className="leader-card"data-aos="fade-right" data-aos-delay="900">
-      <div className="leader-icon">
         <img src="./images/md.jpg"/>
       </div>
       <h3>Nagendra Tripathi</h3>
-      <span className="leader-role">Managing director, KPS Tendua</span>
+      <span className="leader-role">Managing Director, KPS Tendua</span>
       <p>We believe there can be no higher calling than to deliver an outstanding education for your child and we have an excellent faculty and staff who are committed to that very purpose. .
       </p>
     </div>
@@ -202,9 +191,9 @@ export default function About() {
         {/* <i class="fa-solid fa-graduation-cap"></i> */}
         <img src="./images/director.jpeg"/>
       </div>
-      <h3>Shipra Trirpathi</h3>
-      <span className="leader-role">Director, KPS Hirapur, Tendua</span>
-      <p>KPS Tendua Hirapur stands for structure, stability and it’s commitment to discipline. We also ceaselessly strive to keep abreast of our times to be able to create an environment at school that nurtures all the faculties of our children: social, physical, intellectual 
+      <h3>Mrs. Shipra Tripathi</h3>
+      <span className="leader-role">Director, KPS Tendua</span>
+      <p>KPS Tendua stands for structure, stability and it’s commitment to discipline. We also ceaselessly strive to keep abreast of our times to be able to create an environment at school that nurtures all the faculties of our children: social, physical, intellectual 
         and emotional.</p>
     </div>
 
@@ -213,7 +202,7 @@ export default function About() {
           <img src="./images/principal.jpg"/>
         </div>
       <h3>Mrs. Deepika Agarwal</h3>
-      <span className="leader-role">Principal, KPS Hirapur, Tendua</span>
+      <span className="leader-role">Principal, KPS Tendua</span>
       <p>I strongly believe that education is a collaborative effort that involves professional administrators committed teachers and motivated students. We dedicate ourselves as professional administrators in creating a dynamic education programme empowering the students in a global perspective.</p>
     </div>
 

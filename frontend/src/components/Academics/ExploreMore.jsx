@@ -16,7 +16,7 @@ const exploreLinks = [
   { to: "/academics/exam-policy", label: "Exam Policy", icon: <FaFileAlt /> },
   { to: "/academics/school-timing", label: "School Timing", icon: <FaClock /> },
   { to: "/academics/parent-teacher-meeting", label: "PTM", icon: <FaUsers /> },
-  { to: "/academics/policy-documentation", label: "Policy Docs", icon: <FaFolderOpen /> },
+  { to: "/academics/policy-documentation", label: "Rules & Regulations", icon: <FaFolderOpen /> },
   { to: "/academics/book-list", label: "Book List", icon: <FaBookOpen /> },
   { to: "/academics/co-scholastic", label: "Co-Scholastic", icon: <FaTrophy /> }
 ];
