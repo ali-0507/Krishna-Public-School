@@ -29,7 +29,7 @@ const ContactFAQ = () => {
                   data-bs-parent="#faqAccordion"
                 >
                   <div className="accordion-body">
-                    School operates from 8:00 AM to 2:30 PM for classes I–XII.
+                    School operates from Mon - Fri 7:30 AM to 1:15 PM and Sat from 7:30 AM to 11:30 AM.
                     Kids Academy has flexible half-day options.
                   </div>
                 </div>

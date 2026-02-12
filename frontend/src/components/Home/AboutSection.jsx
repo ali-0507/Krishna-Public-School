@@ -10,39 +10,15 @@ export default function AboutSection() {
         <h2 data-aos="fade-right">Welcome to Krishna Public School</h2>
 
         <p className="about-description"data-aos="fade-right">
-          Established in 1995, Krishna Public School Tendua has been a beacon of
-          educational excellence in Raipur, shaping young minds for over 25
-          years. Our commitment to holistic development, academic rigor, and
-          character building has made us one of the most trusted educational
-          institutions in the region.
+        Krishna Public School, Tendua, Raipur, established in 2018 is a forward-thinking 
+        educational institution dedicated to delivering high-quality education blended with strong values 
+        and contemporary learning methods, including AI readiness. We strive to nurture academically robust, 
+        socially responsible, and confident individuals who are ready to face future challenges. 
+        Our Higher Secondary section emphasizes academic excellence, career readiness, 
+        and character development, providing a supportive, inspiring environment where every student 
+        can uncover their true potential and thrive.
         </p>
       </div>
-
-      {/* <div className="about-cards"data-aos="fade-down">
-        <div className="about-card">
-          <h3>Our Vision</h3>
-          <p>
-            To be a center of excellence that nurtures globally competitive
-            learners with strong moral values.
-          </p>
-        </div>
-
-        <div className="about-card">
-          <h3>Our Mission</h3>
-          <p>
-            To provide quality education that develops critical thinking,
-            creativity, and leadership skills.
-          </p>
-        </div>
-
-        <div className="about-card">
-          <h3>Our Values</h3>
-          <p>
-            Integrity, Excellence, Respect, Innovation, and Compassion guide
-            everything we do.
-          </p>
-        </div>
-      </div> */}
 
       <div className="clubs-section">
         {/* LEFT */}
@@ -66,23 +42,23 @@ export default function AboutSection() {
         {/* RIGHT */}
         <div className="clubs-right" data-aos="fade-left">
           <div className="club-card blue">
-            <span>🔬</span>
-            <h4>Science & Robotics Club</h4>
+            {/* <span>🔬</span> */}
+            <h4>Sports Club</h4>
           </div>
 
           <div className="club-card yellow">
-            <span>📚</span>
-            <h4>Literary & Debate Society</h4>
+            {/* <span>📚</span> */}
+            <h4>G K Club</h4>
           </div>
 
           <div className="club-card green">
-            <span>🎨</span>
-            <h4>Art & Craft Workshop</h4>
+            {/* <span>🎨</span> */}
+            <h4>English Club</h4>
           </div>
 
           <div className="club-card peach">
-            <span>🎵</span>
-            <h4>Music & Dance Academy</h4>
+            {/* <span>🎵</span> */}
+            <h4>Photography Club</h4>
           </div>
         </div>
       </div>

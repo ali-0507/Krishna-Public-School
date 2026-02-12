@@ -19,7 +19,7 @@ export default function HeroSection() {
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % heroImages.length);
-    }, 4000); // 5 seconds
+    }, 5000); // 5 seconds
 
     return () => clearInterval(timer);
   }, []);
@@ -47,7 +47,7 @@ export default function HeroSection() {
           {/* LEFT LOGO */}
           <div className="hero-logo" >
              <img src="/SCHOOL LOGO.png" alt="School logo" 
-                  className="hero-school-logo" data-aos="fade-up" data-aos-delay="1500"/>
+                  className="hero-school-logo" data-aos="fade-up" data-aos-delay="1200"/>
           </div>
          
           <div className="hero-text mt-3"> 
