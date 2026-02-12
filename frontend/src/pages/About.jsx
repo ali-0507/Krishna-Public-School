@@ -79,37 +79,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* JOURNEY + STATS SECTION */}
-      <section className="about-dark-stats">
-  <div className="dark-stats-container">
-
-    <div className="dark-stat">
-      <div className="dark-icon"><i class="fa-solid fa-children"></i></div>
-      <h3>2500+</h3>
-      <p>Students</p>
-    </div>
-
-    <div className="dark-stat">
-      <div className="dark-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-      <h3>120+</h3>
-      <p>Teachers</p>
-    </div>
-
-    <div className="dark-stat">
-      <div className="dark-icon"><i class="fa-solid fa-trophy"></i></div>
-      <h3>150+</h3>
-      <p>Awards</p>
-    </div>
-
-    <div className="dark-stat">
-      <div className="dark-icon"><i class="fa-solid fa-star"></i></div>
-      <h3>98%</h3>
-      <p>Success Rate</p>
-    </div>
-
-  </div>
-</section>
-
 
 {/* TIMELINE SECTION */}
 <section className="timeline-section">
@@ -189,7 +158,7 @@ export default function About() {
     <div className="leader-card"data-aos="fade-right" data-aos-delay="1000">
       <div className="leader-icon">
         {/* <i class="fa-solid fa-graduation-cap"></i> */}
-        <img src="./images/director.jpeg"/>
+        <img src="/DirectorPhoto.jpeg"/>
       </div>
       <h3>Mrs. Shipra Tripathi</h3>
       <span className="leader-role">Director, KPS Tendua</span>

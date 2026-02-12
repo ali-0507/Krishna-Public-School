@@ -83,6 +83,10 @@ export default function HeroSection() {
           </div>
 
         </div>
+        <div className="cbse-no">
+           <p>CBSE Affiliation no : 3330397  <br/>
+           School code : 15954</p>
+        </div>
       </div>
     </section>
   );

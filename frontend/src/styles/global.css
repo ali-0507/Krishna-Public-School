@@ -232,6 +232,7 @@
 
 .hero-logo {
   flex-shrink: 0;
+  
 }
 
 .hero-school-logo {
@@ -241,6 +242,12 @@
   margin-bottom: 100px;
 }
 
+.cbse-no{
+   color: #ffffff;
+   font-weight: 700;
+   margin-top: 40%;
+   margin-left: -60%;
+}
 .hero-text {
   max-width: 600px;
 }
