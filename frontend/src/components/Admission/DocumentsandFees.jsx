@@ -42,7 +42,8 @@ const DocumentsAndFees = () => {
         </ul>
       </div>
 
-      <div className="fees" data-aos="fade-left">
+     {/* Fee Structure Table */}
+      {/* <div className="fees" data-aos="fade-left">
         <h3>Tuition Fee Structure - 2026-27</h3>
 
         <table>
@@ -93,7 +94,7 @@ const DocumentsAndFees = () => {
         <p className="fee-note mt-3">
           * Fee structure is subject to change. Transport and other facilities charged separately.
         </p>
-      </div>
+      </div> */}
     </section>
   );
 };

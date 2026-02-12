@@ -28,8 +28,8 @@ const ContactInfo = () => {
           <div>
             <h5 className="info-title">Call Us</h5>
             <p className="info-text">
-              +91 98765 43210 <br />
-              +91 77123 45678
+             0771-2572015 <br/>
+             88710-18515
             </p>
           </div>
         </div>
@@ -44,8 +44,8 @@ const ContactInfo = () => {
           <div>
             <h5 className="info-title">Email Us</h5>
             <p className="info-text">
-               kpstendua18gmail.com<br />
-              admissions@kpstendua.edu.in
+                infokpstendua@gmail.com <br/>
+                 kpstendua18gmail.com
             </p>
           </div>
         </div>

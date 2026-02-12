@@ -73,8 +73,8 @@ export default function Clubs() {
         text=""
         objective="Objective: To nurture creativity and technical skills in photography, encouraging students to capture and express their perspectives, while exploring various genres like nature, portrait, and documentary photography."
         images={[
-          "/Lclub.webp",
-          "/Lclub2.jpg",
+          "/Club/PhotoClub.jpeg",
+          "/Club/PhotoClub2.jpeg",
         ]}
       />
       <hr/>
@@ -84,8 +84,8 @@ export default function Clubs() {
         text=""
         objective="Objective: To instill a sense of pride and appreciation for our cultural heritage, promoting awareness, preservation, and exploration of India's rich history, art, and traditions through interactive activities and visits."
         images={[
-          "/Sclub.webp",
-          "/Sclub2.avif",
+          "/Club/HeritageClub.jpeg",
+          "/Club/HeritageClub2.jpeg",
         ]}
       />
       <hr/>
@@ -95,8 +95,12 @@ export default function Clubs() {
         objective=
         "Objective: To promote physical fitness, teamwork, and sportsmanship among students, while identifying and nurturing talent in various sports disciplines."
         images={[
-          "/sportClub.webp",
-          "/sportClub2.webp",
+          "/Club/Sport4.JPG",
+          "/Club/Sport5.JPG",
+          "/Club/Sport6.JPG",
+          "/Club/Sport7.JPG",
+           "/Club/Sport8.jpeg",
+            "/Club/Sport9.jpeg"
         ]}
       />
       <hr/>
@@ -106,8 +110,9 @@ export default function Clubs() {
         text=""
         objective="Objective: To spark curiosity and broaden knowledge horizons! The G K Club aims to foster a culture of general awareness, encouraging students to stay updated, think critically, and explore diverse subjects."
         images={[
-          "/AandC.jpg",
-          "/AandC2.webp",
+          "/Club/GKClub1.JPG",
+          "/Club/GKClub2.JPG",
+          "/Club/GKClub3.JPG",
         ]}
       />
       <hr/>
@@ -116,8 +121,9 @@ export default function Clubs() {
         text=""
         objective="Objective: The Events Club plans and executes engaging activities, fostering teamwork, leadership, and fun, making school life memorable for all."
         images={[
-          "/MandD.jpeg",
-          "/MandD2.webp",
+          "/Club/Dance3.JPG",
+          "/Club/Fest1.jpeg",
+          "/Club/Elec4.jpeg",  
         ]}
       />
       <hr/>
@@ -127,8 +133,8 @@ export default function Clubs() {
         text=""
         objective="Objective: To celebrate the beauty of Hindi language and culture! The Hindi Club promotes linguistic pride, creativity, and expression through literature, debates, and cultural activities."
         images={[
-          "/ecoClub.avif",
-          "/ecoClub2.webp",
+          "/Club/HindiClub.jpeg",
+          "/Club/HindiClub2.jpeg",
         ]}
       />
       <hr/>
@@ -137,7 +143,7 @@ export default function Clubs() {
         text=""
         objective="Objective: To enhance language skills and confidence! The English Club fosters effective communication, creative expression, and literary appreciation through discussions, debates, and writing workshops."
         images={[
-          "/MandD.jpeg",
+          "/Club/EnglishClub.jpeg",
           "/MandD2.webp",
         ]}
       />
@@ -149,8 +155,8 @@ export default function Clubs() {
         text=""
         objective="Objective: To nurture environmental stewards! The Eco Club promotes sustainability, conservation, and eco-awareness through activities like tree planting, clean-ups, and eco-friendly initiatives."
         images={[
-          "/ecoClub.avif",
-          "/ecoClub2.webp",
+          "/Club/EcoClub.jpeg",
+          "/Club/EcoClub2.jpeg",
         ]}
       />
 
