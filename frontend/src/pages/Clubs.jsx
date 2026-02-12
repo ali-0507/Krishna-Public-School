@@ -170,19 +170,19 @@ export default function Clubs() {
 
         <div className="houses-grid">
           <div className="house-card red">
-            <h3>Shaurya House</h3>
+            <h3>AGNI HOUSE</h3>
             <span>Motto: Courage & Valour</span>
           </div>
           <div className="house-card blue">
-            <h3>Pragya House</h3>
+            <h3>JAL HOUSE</h3>
             <span>Motto: Wisdom & Knowledge</span>
           </div>
           <div className="house-card green">
-            <h3>Ekta House</h3>
+            <h3>PRITHVI HOUSE</h3>
             <span>Motto: Unity & Harmony</span>
           </div>
           <div className="house-card yellow">
-            <h3>Tej House</h3>
+            <h3>VAYU HOUSE</h3>
             <span>Motto: Brilliance & Energy</span>
           </div>
         </div>

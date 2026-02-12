@@ -10,9 +10,9 @@ export default function Footer() {
             <h4><img src="/SCHOOL LOGO.png" className="footer-school-logo "/> Krishna Public School Tendua</h4>
           </div>
           <p>
-            Established in 1995, Krishna Public School Tendua has been a beacon
+            Established in 2018, Krishna Public School Tendua has been a beacon
             of educational excellence in Raipur, shaping young minds for over
-            25 years.
+            8 years.
           </p>
 
           <div className="footer-socials mt-1">
@@ -38,15 +38,13 @@ export default function Footer() {
 
         {/* Programs */}
         <div className="footer-col">
-          <h4>Our Programs</h4>
+          <h4>Important Links</h4>
           <ul>
-            <li>Play Group</li>
-            <li>Nursery</li>
-            <li>LKG & UKG</li>
-            <li>Primary School</li>
-            <li>Middle School</li>
-            <li>Secondary School</li>
-            <li>Senior Secondary School</li>
+           <li><a href="/programs-offered">Our Programs</a></li>
+            <li><a href="/achievements">Achievements</a></li>
+            <li><a href="/clubs">Clubs</a></li>
+            <li><a href="/academics/syllabus">Academic Syllabus</a></li>
+            <li><a href="/academics/exam-policy">Exam Policy</a></li>
           </ul>
         </div>
 
@@ -54,10 +52,10 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Contact Us</h4>
           <p><i className="fas fa-map-marker-alt"></i> NEAR BANGLAMUKHI MANDIR, NANDANVAN ROAD, TENDUA, RAIPUR, CHHATTISGARH - 492099</p>
-          <p><i className="fas fa-phone"></i> +91 98765 43210</p>
-          <p><i className="fas fa-envelope"></i> kpstendua18@gmail.com</p>
+          <p><i className="fas fa-phone"></i>0771-2572015, +91 8871018515</p>
+          <p><i className="fas fa-envelope"></i> infokpstendua@gmail.com, kpstendua18@gmail.com</p>
           
-          <p><i className="fas fa-clock"></i> Mon - Sat: 7:30 AM - 2:30 PM</p>
+          <p><i className="fas fa-clock"></i> Mon - Sat: 7:30 AM - 2:30 PM (Office Hours)</p>
   
         </div>
       </div>
