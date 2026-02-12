@@ -8,13 +8,13 @@
   align-items: center;
   gap: 10px;
 
-  background-color: #f4b400;
-  color: #0f2a55;
+  background-color: #79f2c6;
+  color: #303133;
   padding: 14px 18px;
   border-radius: 50px;
-
+  font-weight: 700;
   cursor: pointer;
-  box-shadow: 0 12px 30px rgba(244, 180, 0, 0.35);
+  box-shadow: 0 12px 30px rgba(0, 244, 183, 0.35);
   overflow: hidden;
   animation: floatUpDown 2.5s ease-in-out infinite;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
@@ -40,13 +40,13 @@
 /* HOVER EFFECT */
 .floating-admission:hover {
   padding-right: 26px;
-  background-color: #ffcc33;
+  background-color: #79f2c6;
 }
 
 .floating-admission:hover {
   animation-play-state: paused;
   transform: translateY(-4px) scale(1.05);
-  box-shadow: 0 18px 40px rgba(244, 180, 0, 0.5);
+  box-shadow: 0 18px 40px rgba(0, 244, 183, 0.5);
 }
 
 /* SHOW TEXT ON HOVER */

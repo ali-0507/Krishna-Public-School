@@ -10,7 +10,7 @@ export default function FloatingAdmissionButton() {
 
   return (
     <div className="floating-admission" onClick={handleClick}>
-      <FaGraduationCap className="floating-icon" />
+      {/* <FaGraduationCap className="floating-icon" /> */}
       <span className="floating-label">Admission Open</span>
       <span className="floating-text">Click to Enroll</span>
     </div>

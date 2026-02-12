@@ -2,9 +2,14 @@ import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 const heroImages = [
-  "/images/school.webp",
-  "/images/school2.webp",
-  "/images/school3.jpg",
+  "/Home/SCHOOL.jpeg",
+  "/Home/BoardAchievers.jpeg",
+  "/Home/assembly.jpeg",
+  "/Home/Classroom.jpeg",
+  "/Home/ChemLab.jpeg",
+  "/Home/complab.jpeg",
+  "/Home/Sport2.jpeg",
+  "/Home/Dance.jpeg",
 ];
 
 export default function HeroSection() {
@@ -57,7 +62,7 @@ export default function HeroSection() {
           </h1>
            
           <p data-aos="fade-left" data-aos-delay="900">
-            Nurturing young minds with excellence in education since 1995.
+            Nurturing young minds with excellence in education since 2018.
             Where every child's potential is discovered and developed.
           </p>
 
@@ -70,7 +75,7 @@ export default function HeroSection() {
             </button>
             <button
               className="secondary-btn"
-              onClick={() => navigate("/about")}
+              onClick={() => navigate("/programs-offered")}
             >
               Programs Offered
             </button>

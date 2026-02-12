@@ -24,7 +24,7 @@ export default function StatsSection() {
     return () => observer.disconnect();
   }, []);
 
-  const students = useCountUp(2500, 1800, startCount);
+  // const students = useCountUp(2500, 1800, startCount);
   const years = useCountUp(25, 1200, startCount);
   const awards = useCountUp(150, 1600, startCount);
   const success = useCountUp(98, 1400, startCount);
@@ -34,13 +34,13 @@ export default function StatsSection() {
       <div className="stats-card" data-aos="fade-up">
         <div className="stats-grid">
 
-          <div className="stat-item">
+          {/* <div className="stat-item">
             <div className="stat-icon">
               <i className="fa-solid fa-children"></i>
             </div>
             <h3 className="stat-number">{students}+</h3>
             <p className="stat-label">Students Enrolled</p>
-          </div>
+          </div> */}
 
           <div className="stat-item">
             <div className="stat-icon">

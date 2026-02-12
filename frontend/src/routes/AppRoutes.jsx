@@ -18,6 +18,7 @@ import CoScholastic from "../pages/academics/CoScholastic";
 import AcademicsLayout from "../pages/academics/AcademicsLayout";
 import Clubs from "../pages/Clubs/";
 import Achievements from "../pages/Achievements";
+import ProgramsOffered from "../pages/ProgramsOffered";
 
 
 export default function AppRoutes() {
@@ -37,13 +38,13 @@ export default function AppRoutes() {
         <Route path="book-list" element={<BookList />} />
         <Route path="co-scholastic" element={<CoScholastic />} />
       </Route>
-
       <Route path="/kids-academy" element={<KidsAcademy />} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/mandatory-public-disclosure" element={<MandatoryPublicDisclosure />} />
       <Route path="/contact" element={<Contact />} />
        <Route path="/clubs" element={<Clubs />} />
        <Route path="/achievements" element={<Achievements/>}/>
+       <Route path="/programs-offered" element={<ProgramsOffered/>}/>
     </Routes>
   );
 }
