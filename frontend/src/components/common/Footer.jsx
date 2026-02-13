@@ -16,9 +16,9 @@ export default function Footer() {
           </p>
 
           <div className="footer-socials mt-1">
-            <i class="fa-brands fa-facebook-f"></i>
+            <i className="fa-brands fa-facebook-f"></i>
             <i className="fab fa-instagram"></i>
-            <i class="fa-brands fa-square-twitter"></i>
+            <i className="fa-brands fa-square-twitter"></i>
             <i className="fab fa-youtube"></i>
           </div>
         </div>

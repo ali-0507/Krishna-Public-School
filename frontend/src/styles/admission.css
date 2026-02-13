@@ -182,14 +182,14 @@
   color: #e0a800;
 }
 
-.fees {
-  background: #fff;
-  padding: 30px;
-  width: 110%;
-  margin-left: -40px;
-  border-radius: 12px;
-}
 
+.fees {
+    width: 110%;
+    margin-left: -40px;
+    padding: 30px;
+    border-radius: 12px;
+    background: #fff;
+}
  
 .fees table {
   width: 100%;
@@ -391,11 +391,6 @@
 .cta-btn:hover {
   background-color: #0b2042;
 }
-
-
-
-
-
 
 /* Admission Form CSS */
 .form-field {
