@@ -2,11 +2,11 @@ import "../styles/disclosure.css";
 
 export default function MandatoryDisclosure() {
   return (
-    <section className="mpd-page">
+    <section className="mpd-page mt-5">
 
-      <p className="mpd-appendix">APPENDIX – IX</p>
+      <p className="mpd-appendix mt-5">APPENDIX – IX</p>
 
-      <div className="mpd-header">
+      <div className="mpd-header mt-2">
         Mandatory Public Disclosure
       </div>
 
