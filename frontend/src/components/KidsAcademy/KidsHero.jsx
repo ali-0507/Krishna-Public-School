@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import kidsHeroImg from "/kids.jpg";
+
 
 const KidsHero = () => {
   const [count, setCount] = useState(0);
@@ -55,7 +55,7 @@ const KidsHero = () => {
 
         {/* RIGHT IMAGE */}
         <div className="kids-hero-image">
-          <img src={kidsHeroImg} alt="Kids learning happily" />
+          <img src="/kids/kids4.jpeg"alt="Kids learning happily" />
 
           <div className="kids-stats">
             <strong>{count}+</strong>

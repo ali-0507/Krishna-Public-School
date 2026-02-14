@@ -23,7 +23,7 @@ export default function Navbar() {
            {/* ACADEMICS DROPDOWN */}
         <div className="nav-dropdown">
          <NavLink to="/academics/courses-offered" className="nav-link">
-              Academics <span className="arrow">▾</span>
+              Academics <span className="arrow">▼</span>
           </NavLink> 
           <div className="dropdown-menu-custom">
             <Link to="/academics/courses-offered"><IoBookOutline /> Courses Offered</Link>
