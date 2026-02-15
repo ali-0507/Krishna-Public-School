@@ -1,10 +1,14 @@
 import { NavLink, Link } from "react-router-dom";
 import { IoBookOutline } from "react-icons/io5";
+import { useState } from "react";
 import { GoPeople } from "react-icons/go";
 import { FaUsers,FaTrophy, FaFolderOpen } from "react-icons/fa";
 import { RiBookShelfFill } from "react-icons/ri";
+import { HiMenu, HiX } from "react-icons/hi";
 
 export default function Navbar() {
+   const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="navbar">
       <div className="navbar-left">
@@ -15,16 +19,28 @@ export default function Navbar() {
         </div>
       </div>
 
-      <nav className="navbar-center">
-        <NavLink to="/" end>Home</NavLink>
-        <NavLink to="/about">About Us</NavLink>
-        <NavLink to="/admission">Admission</NavLink>
+          {/* HAMBURGER ICON */}
+      <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
+        {menuOpen ? <HiX /> : <HiMenu />}
+      </div>
+
+
+      <nav className={`navbar-center ${menuOpen ? "active" : ""}`}>
+        <NavLink to="/" end onClick={() => setMenuOpen(false)}>Home</NavLink>
+        <NavLink to="/about" onClick={() => setMenuOpen(false)}>About Us</NavLink>
+        <NavLink to="/admission" onClick={() => setMenuOpen(false)}>Admission</NavLink>
         {/* <NavLink to="/kids-academy">Kids Academy</NavLink> */}
+        
            {/* ACADEMICS DROPDOWN */}
-        <div className="nav-dropdown">
-         <NavLink to="/academics/courses-offered" className="nav-link">
-              Academics <span className="arrow">▼</span>
-          </NavLink> 
+        <div className="nav-dropdown"
+        onClick={(e) => {
+           e.stopPropagation();
+         e.currentTarget.classList.toggle("active");
+          }}
+        >
+          <span className="nav-link">
+            Academics <span className="arrow">▼</span>
+          </span>
           <div className="dropdown-menu-custom">
             <Link to="/academics/courses-offered"><IoBookOutline /> Courses Offered</Link>
             <Link to="/academics/syllabus"><i class="fa-solid fa-file-lines"></i>Syllabus</Link>
@@ -40,9 +56,9 @@ export default function Navbar() {
         <a href="/kids-academy" target="_blank" rel="noopener noreferrer"
         className="nav-link">
         Kids Academy</a>
-        <NavLink to="/gallery">Gallery</NavLink>
+        <NavLink to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</NavLink>
         <NavLink to="/mandatory-public-disclosure" className="nav-special">Mandatory Public Disclosure</NavLink>
-        <NavLink to="/contact">Contact Us</NavLink>
+        <NavLink to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</NavLink>
       </nav>
     </header>
   );

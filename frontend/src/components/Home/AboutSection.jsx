@@ -23,7 +23,7 @@ export default function AboutSection() {
       <div className="clubs-section">
         {/* LEFT */}
         <div className="clubs-left" data-aos="fade-right">
-          <span className="clubs-badge">🎓 Student Life</span>
+          <span className="clubs-badge">Student Life @ KPS Tendua</span>
           <h3>Discover Our Vibrant Clubs</h3>
           <p>
             At Krishna Public School, we believe in nurturing talents beyond the

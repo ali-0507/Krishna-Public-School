@@ -9,23 +9,27 @@ const KidsEnquiry = () => {
         <div className="enquiry-info"data-aos="fade-right">
           <h2>Visit Our School</h2>
           <p>
-            We invite you to visit our campus and experience the KPS Kids
-            Academy difference. See our facilities, meet our teachers,
+            We invite you to visit our campus and experience 
+            TENDUA KRISHNA KIDS ACADEMY.  See our facilities, meet our teachers,
             and discover why parents trust us with their little ones.
           </p>
 
           <ul>
             <li>
-              <i className="fa-solid fa-location-dot"></i>
-              Tendua Road, Near Main Market, Raipur - 492001
+              <i className="fa-solid fa-location-dot fs-5"></i>
+              B-29/19, SECTOR-3, UDAYA SOCIETY, NEAR AGRASEN BHAWAN, TATIBANDH, RAIPUR (C.G.) - 492099
             </li>
             <li>
               <i className="fa-solid fa-clock"></i>
-              School Tours: Mon - Sat, 9:00 AM - 12:00 PM
+              School Hours: Mon - Sat, 9:00 AM - 12:00 PM
             </li>
             <li>
               <i className="fa-solid fa-phone"></i>
-              +91 98765 43210
+              +91 95161 38515,  0771 2572015
+            </li>
+            <li>
+              <i className="fas fa-envelope"></i>
+                Krishnakidsacademy9@gmail.com
             </li>
           </ul>
 

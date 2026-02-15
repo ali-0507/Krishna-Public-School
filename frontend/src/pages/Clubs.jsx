@@ -29,6 +29,7 @@ function ImageSlider({ images }) {
 function ClubSection({ title, icon, text,objective,images, reverse }) {
   return (
     <section className={`club-section ${reverse ? "reverse" : ""}`}>
+     <ImageSlider images={images} />
       <div className="club-text">
         <div className="club-title">
           <span className="club-icon">{icon}</span>
@@ -37,8 +38,6 @@ function ClubSection({ title, icon, text,objective,images, reverse }) {
         <p>{text}</p>
         <p>{objective}</p>
       </div>
-
-      <ImageSlider images={images} />
       
     </section>
   );

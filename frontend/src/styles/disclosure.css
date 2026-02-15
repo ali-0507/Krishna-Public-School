@@ -75,6 +75,9 @@ html {
   .mpd-intro {
     font-size: 16px;
   }
+  .mpd-appendix{
+    margin-top: 60px !important;
+  }
 }
 
 

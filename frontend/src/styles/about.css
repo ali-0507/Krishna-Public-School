@@ -386,4 +386,7 @@
   .leadership-grid {
     grid-template-columns: 1fr;
   }
+  .about-pill{
+    margin-top: 30px;
+  }
 }

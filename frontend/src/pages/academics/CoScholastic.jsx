@@ -48,11 +48,11 @@ export default function CoScholastic() {
         subtitle="Encouraging creativity, leadership, sports, and holistic development"
       />
 
-      <section className="academics-section">
+      <section className="academics-section ">
         <div className="container">
           <div className="row g-4">
             {coData.map((item, index) => (
-              <div className="col-md-12" key={index}>
+              <div className="col-12 col-lg-9 mx-auto" key={index}>
                 <div
                   className="card academic-card"
                   onClick={() =>
@@ -180,32 +180,32 @@ export default function CoScholastic() {
 
                           <ul>
                             <li>
-                              <strong>Personality Development:</strong> Speech,
+                              <b>Personality Development:</b> Speech,
                               Extempore, Recitation, Fancy Dress, Solo Dance,
                               Solo Song, Shloka Recitation, Master Chef.
                             </li>
                             <li>
-                              <strong>Problem Solving Skills:</strong> Quiz,
+                              <b>Problem Solving Skills:</b> Quiz,
                               Memory Contest, Word Puzzle, Object Identification.
                             </li>
                             <li>
-                              <strong>Creative Thinking:</strong> Creative
+                              <b>Creative Thinking:</b> Creative
                               Writing, Story Writing, Handwriting, Sorting.
                             </li>
                             <li>
-                              <strong>Critical Thinking:</strong> Debate and Ad
+                              <b>Critical Thinking:</b> Debate and Ad
                               Making.
                             </li>
                             <li>
-                              <strong>Creative Development:</strong> Rangoli,
+                              <b>Creative Development:</b> Rangoli,
                               Drawing, Jewelry Making, Poster Making, Best Out
                               of Waste, Origami, Rakhi Making, Diya Decoration.
                             </li>
                           </ul>
 
                           <p>
-                            Every year more than <strong>100 competitions</strong>{" "}
-                            are conducted and over <strong>300 prizes</strong>{" "}
+                            Every year more than <b>100 competitions</b>{" "}
+                            are conducted and over <b>300 prizes</b>{" "}
                             are awarded, promoting all-round development.
                           </p>
                         </div>
