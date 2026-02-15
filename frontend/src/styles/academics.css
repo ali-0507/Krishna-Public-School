@@ -18,8 +18,9 @@
 }
 
 .academic-icon {
-  width: 50px;
+  width: 80px;
   height: 50px;
+  margin-right:10px;
   background: #fff3cd;
   color: #f4b400;
   border-radius: 12px;
@@ -27,6 +28,13 @@
   align-items: center;
   justify-content: center;
   font-size: 22px;
+}
+@media (max-width: 768px) {
+  .academic-icon {
+    width: 40%;
+    padding:0.3rem;
+    justify-content: center;
+  }
 }
 
 

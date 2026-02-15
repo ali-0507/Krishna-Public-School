@@ -6,7 +6,6 @@ import "../../styles/academics.css";
 
 
 const courses = [
-
    {
     title: "Pre-Primary (playgroup - UKG)",
     desc: "Focus on play-based and activity-based learning.",
@@ -19,8 +18,10 @@ const courses = [
     title: "Primary Education (Class 1–5)",
     desc: "Foundation building with focus on core subjects and holistic development.",
     subjects:[
-      ["English","Hindi","Mathematics","Environmental Studies(EVS)"],
-      ["Computer Science", "Art & craft", "Physical Education"]
+      ["English","Hindi","Mathematics"],
+      ["Environmental Studies(EVS) / Science & Social Studies"],
+      ["Computer Science", "Art & craft", "General knowledge"],
+      ["Music", "Abacus", "Yoga", "Self Defence", "Games", "Robotics"]
     ]
   },
   {
@@ -29,8 +30,8 @@ const courses = [
     subjects:[
       ["English","Hindi","Mathematics","Science (Physics, CHemistry, Biology)"],
       ["Social Science (History, Civics, Geography)", "Sanskrit (as third language)"], 
-      ["Computer Scirnce","General Knowledge", "Art Education"], 
-      ["Yoga", "Games","Robotics","Financial Literacy"]
+      ["Computer Science","General Knowledge", "Art Education"], 
+      ["Yoga", "Games","Robotics"]
     ]
   },
   {
@@ -48,8 +49,8 @@ const courses = [
     title: "Senior Secondary (Class 11–12)",
     desc: "Science, Commerce, and Arts streams with specialized subjects.",
     subjects:[
-      ["Science Stream: English,Physics,Chemistry,Mathematics/Biology,Computer Science/Physical Education(optional)"],
-      ["Commerce Stream: English, Accountancy, Business Studies, Economics, Mathematics/Applied Mathematics/Physical Education(optional)"]
+      ["Science Stream: English,Physics, Chemistry, Mathematics / Biology, Computer Science / Physical Education(optional)"],
+      ["Commerce Stream: English, Accountancy, Business Studies, Economics, Mathematics / Applied Mathematics / Physical Education(optional)"]
     ]
   }
 ];
