@@ -141,7 +141,7 @@ export default function ProgramsOffered() {
             </p>
 
             <ul data-aos="fade-right">
-              <strong>IX - X</strong>
+              <b>IX - X</b>
               <li>Language I (English), Language II (Hindi), Mathematics</li>
              <li>Science (Physics, Chemistry, Biology)</li>
               <li>Social Science (History, Civics, Geography, Economics)</li>
@@ -149,9 +149,9 @@ export default function ProgramsOffered() {
               <li>Yoga, Games.</li>
             </ul>
              <ul data-aos="fade-right">
-              <strong>XI - XII</strong>
+              <b>XI - XII</b>
               <ol>
-                <li><strong>Science Stream:</strong>
+                <li><b>Science Stream:</b>
                 <ul>
                   <li>English, Physics, Chemistry, Mathematics / Biology</li>
                   <li>Computer Science / Physical Education(Optional).</li>
@@ -159,7 +159,7 @@ export default function ProgramsOffered() {
                 </li>
                
          
-                <li><strong>Commerce Stream:</strong>
+                <li><b>Commerce Stream:</b>
                 <ul>
                   <li>English, Accountancy, Business Studies</li>
                   <li>Economics, Mathematics / Applied Mathematics / Physical Education (Optional).</li>

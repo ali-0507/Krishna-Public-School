@@ -7,8 +7,8 @@
   transition: all 0.35s ease;
   margin: 16px 0px;
   gap:0.6px;
-  margin-left: 20px;
-  margin-right: 15px;
+  /* margin-left: 20px;
+  margin-right: 15px; */
  }
 
 
@@ -110,6 +110,9 @@
   .download-btn {
     width: 100%;
     justify-content: center;
+  }
+  .hero-icon{
+    margin-top: 15px;
   }
 }
 
@@ -270,16 +273,21 @@
 .sports-title {
   display: flex;
   align-items: center;
+  justify-content: space-between;   /* push arrow to right */
+  width: 100%;
 }
 
 .dropdowns-icon {
-  margin-left: 1000px;          /*Right side push */
   font-size: 20px;            /* Bigger icon */
   font-weight: bold;
   color: black;
   transition: transform 0.3s ease;
 }
-
+.dropdowns-icon.open {
+  transform: rotate(180deg);
+}
+ 
+/* School timing page */
 .school-timing-note {
   margin: 40px auto 0;
   max-width: 1300px;
@@ -429,3 +437,37 @@
 .mpd-section {
   margin-top: 25px; 
 }
+
+
+
+@media (max-width: 768px) {
+
+  .academic-card {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .card-body {
+    flex-direction: column;   /* stack icon + text vertically */
+  }
+
+  .sports-title {
+    font-size: 16px;
+  }
+
+  .sports-details {
+    font-size: 14px;
+  }
+
+  .sports-details p,
+  .sports-details ul {
+    word-break: break-word;
+  }
+
+  .sports-details ul {
+    padding-left: 18px;
+  }
+
+}
+
+ 

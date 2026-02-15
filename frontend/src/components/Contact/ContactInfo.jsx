@@ -45,7 +45,7 @@ const ContactInfo = () => {
             <h5 className="info-title">Email Us</h5>
             <p className="info-text">
                 infokpstendua@gmail.com <br/>
-                 kpstendua18gmail.com
+                 kpshirapur18gmail.com
             </p>
           </div>
         </div>

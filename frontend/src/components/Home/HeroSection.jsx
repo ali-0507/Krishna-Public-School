@@ -45,9 +45,14 @@ export default function HeroSection() {
         <div className="hero-content">
 
           {/* LEFT LOGO */}
-          <div className="hero-logo" >
+          <div className="hero-left" >
              <img src="/SCHOOL LOGO.png" alt="School logo" 
                   className="hero-school-logo" data-aos="fade-up" data-aos-delay="1200"/>
+            
+            <div className="cbse-no">
+             <p>CBSE Affiliation no : 3330397  <br/>
+                  School code : 15954</p>
+              </div>
           </div>
          
           <div className="hero-text mt-3"> 
@@ -83,10 +88,7 @@ export default function HeroSection() {
           </div>
 
         </div>
-        <div className="cbse-no">
-           <p>CBSE Affiliation no : 3330397  <br/>
-           School code : 15954</p>
-        </div>
+        
       </div>
     </section>
   );
