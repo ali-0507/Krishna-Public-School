@@ -213,7 +213,7 @@ export default function MandatoryDisclosure() {
         <tr>
           <td>2</td>
           <td>Annual Academic Calendar</td>
-          <td><a href="/pdf/ACADEMIC_CALANDER_2025-26.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View List</a></td>
+          <td><a href="/pdf/ACADEMIC_CALENDAR.pdf" target="_blank" rel="noopener noreferrer" className="doc-link">View List</a></td>
         </tr>
 
         <tr>

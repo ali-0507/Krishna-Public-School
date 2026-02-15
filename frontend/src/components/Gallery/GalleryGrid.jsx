@@ -170,22 +170,44 @@ const galleryItems = [
 
   { title: "Clubs & Exhibition", category: "Academics", color: "#fff3a0",
      images:[
-      {src:"/images/se.jpeg",
-       caption:"Students Presenting Science Projects"},
-
-      {src:"/images/se2.jpeg",
-        caption:"Decorated Science Exhibition Area"
+      {src:"/Gallery/EnglishClub.jpeg",
+       caption:"English Club"
+      },
+      {src:"/Gallery/HindiClub.jpeg",
+       caption:"Hindi Club"
+      },
+      {src:"/Gallery/PhotoClub.jpeg",
+       caption:"Photography Club"
+      },
+      {src:"/Gallery/HeritageClub.jpeg",
+       caption:"Heritage Club"
+      },
+     {src:"/Gallery/EcoClub.jpeg",
+       caption:"Eco Club"
+      },
+     {src:"/Gallery/Dance3.JPG",
+       caption:"Events Club"
+      },
+      {src:"/Gallery/Sport9.jpeg",
+       caption:"Sports Club"
+      },
+       {src:"/Gallery/Fest3.JPG",
+       caption:"Science Exhibition"
       },
       ],
    },
 
   { title: "Achievements & Accolades", category: "Academics", color: "#ffd6ec",
      images:[
-      {src:"/images/smartclass.jpeg",
-       caption:"Modern Smart Classroom Setup"},
-
-      {src:"/images/smartclass2.jpeg",
-        caption:"Interactive Learning in Smart Classrooms"
+      {src:"/Gallery/award.jpeg",
+       caption:""},
+          
+       {src:"/Gallery/award2.jpeg",
+       caption:""},
+        {src:"/Gallery/award3.jpeg",
+       caption:""},
+      {src:"/Gallery/BoardAchievers.jpeg",
+        caption:"Board Achievers"
       },
       ],
    },
@@ -272,18 +294,64 @@ const galleryItems = [
 
   { title: "Special Day Celebrations", category: "Celebrations", color: "#e4e5f1",
      images:[
-      {src:"/images/iday.jpeg",
-       caption:"Singing competition on Independence Day"},
-
-      {src:"/images/iday2.jpeg",
-        caption:"Prayers on Independence Day"
+      {src:"/Gallery/SD1.jpeg",
+       caption:""
+      },
+       {src:"/Gallery/SD2.jpeg",
+       caption:""
+      },
+       {src:"/Gallery/SD3.jpeg",
+       caption:""
+      },
+       {src:"/Gallery/SD4.jpeg",
+       caption:""
+      },
+       {src:"/Gallery/SD5.jpeg",
+       caption:""
+      },
+       {src:"/Gallery/SD6.jpeg",
+       caption:""
+      },
+       {src:"/Gallery/SD7.jpeg",
+       caption:""
+      },
+       {src:"/Gallery/SD8.jpeg",
+       caption:""
+      },
+       {src:"/Gallery/SD9.jpeg",
+       caption:""
+      },
+       {src:"/Gallery/SD10.jpeg",
+       caption:""
+      },
+       {src:"/Gallery/SD11.jpeg",
+       caption:""
       },
       ],
    },
   { title: "Special Assembly Celebrations", category: "Celebrations", color: "#cfd9ff",
     images:[
-      {src:"/images/dc.jpeg",
-       caption:"Diwali Celebration at KPS Tendua"},
+      {src:"/Gallery/SPA1.jpeg",
+       caption:" "
+      },
+       {src:"/Gallery/SPA2.jpeg",
+       caption:" "
+      },
+       {src:"/Gallery/SPA3.jpeg",
+       caption:" "
+      },
+       {src:"/Gallery/SPA4.jpeg",
+       caption:" "
+      },
+       {src:"/Gallery/SPA5.jpeg",
+       caption:" "
+      },
+       {src:"/Gallery/SPA6.jpeg",
+       caption:" "
+      },
+       {src:"/Gallery/SPA7.jpeg",
+       caption:" "
+      },
       ],
    },
  

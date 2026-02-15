@@ -218,4 +218,15 @@
   .section-badge{
     margin-top: 40px;
   }
+  .contact-info-card{
+    padding-left: 0px;
+    margin-left: 0px;
+    text-align: center !important;
+  }
+  .info-icon{
+    margin: auto;
+  }
+  .contact-form-card{
+    margin: auto;
+  }
 }

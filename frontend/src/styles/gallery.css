@@ -125,6 +125,10 @@
     color:#faef74;
     font-weight: 600;
 }
+.btn-secondary{
+  padding: 15px;
+  background-color: #537eb9;
+}
 
 /* RESPONSIVE */
 

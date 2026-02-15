@@ -29,7 +29,7 @@ const KidsHero = () => {
       <div className="kids-hero-container"data-aos="fade-up">
 
         {/* LEFT CONTENT */}
-        <div className="kids-hero-text">
+        <div className="kids-hero-text mt-2">
           <span className="kids-badge">Krishna Kids Academy Tendua</span>
 
           <h1 data-aos="fade-left">
