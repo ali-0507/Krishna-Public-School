@@ -65,12 +65,13 @@ const GalleryCard = ({ item }) => {
 
                 {/* CONTROLS */}
                 <button
-                  className="carousel-control-prev"
+                  className="carousel-control-prev "
                   type="button"
                   data-bs-target={`#${modalId}-carousel`}
                   data-bs-slide="prev"
+                 
                 >
-                  <span className="carousel-control-prev-icon"></span>
+                  <span className="carousel-control-prev-icon btn-secondary" ></span>
                 </button>
 
                 <button
@@ -79,7 +80,7 @@ const GalleryCard = ({ item }) => {
                   data-bs-target={`#${modalId}-carousel`}
                   data-bs-slide="next"
                 >
-                  <span className="carousel-control-next-icon"></span>
+                  <span className="carousel-control-next-icon btn-secondary"></span>
                 </button>
               </div>
             </div>

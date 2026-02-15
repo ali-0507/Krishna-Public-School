@@ -124,7 +124,7 @@
 }
 
 .kids-stats strong {
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: var(--kids-primary);
   display: block;
 }
@@ -153,6 +153,10 @@
   .kids-stats {
     left: 50%;
     transform: translateX(-50%);
+  }
+  .kids-stats{
+    padding: 0.5rem 0.8rem;
+    margin-left: 110px;
   }
 }
 
@@ -289,10 +293,10 @@
   margin-top:0;
 }
 
-.activity-list {
+.activities-list {
   display: flex;
-  justify-content:space-evenly;
-  gap: 3rem;
+  justify-content:center;
+  gap: 0.8rem;
 }
 
 .activity-item {
@@ -305,11 +309,7 @@
   font-size: 0.95rem;
   transition: box-shadow 0.3s ease;
 }
-.activity-item:hover {
-  box-shadow: 0 8px 20px rgba(146, 214, 250, 0.4);
-  color:#c99700;
-}
-
+ 
 /*Why Choose Us Section*/
 
 .kids-why-modern {
@@ -481,5 +481,12 @@
 @media (max-width: 900px) {
   .enquiry-container {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .activities-list{
+     flex-direction: column;
+     justify-content:center;
   }
 }
