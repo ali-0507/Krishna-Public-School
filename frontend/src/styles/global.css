@@ -105,7 +105,7 @@ html, body {
 /* Dropdown box */
 .dropdown-menu-custom {
   position: absolute;
-  top: 125%;
+  top: 90%;
   left: -20px;
   min-width: 280px;
   background: #fff;

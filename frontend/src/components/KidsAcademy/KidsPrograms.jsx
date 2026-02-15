@@ -1,7 +1,7 @@
 
 const programs = [
   {
-    image:"../src/assets/playgrp.avif",
+    image:"/kids/kids13.jpeg",
     title: "Play Group",
     age: "2 - 3 years",
     desc:
@@ -14,7 +14,7 @@ const programs = [
     ],
   },
   {
-    image:"../src/assets/nursery.webp",
+    image:"/kids/kids1.jpeg",
     title: "Nursery",
     age: "3 - 4 years",
     desc:
@@ -27,7 +27,7 @@ const programs = [
     ],
   },
   {
-    image:"../src/assets/lkg.jpg",
+    image:"/kids/kids7.jpeg",
     title: "LKG",
     age: "4 - 5 years",
     desc:
@@ -40,7 +40,7 @@ const programs = [
     ],
   },
   {
-    image:"../src/assets/ukg.jpeg",
+    image:"/kids/kids9.jpeg",
     title: "UKG",
     age: "5 - 6 years",
     desc:

@@ -44,6 +44,11 @@ export default function Footer() {
               <li><Link className="text-light text-decoration-none" to="/gallery">Gallery</Link></li>
               <li><Link className="text-light text-decoration-none" to="/contact">Contact</Link></li>
             </ul>
+          <div className="footer-socials mt-1">
+            <i className="fa-brands fa-facebook-f"></i>
+            <i className="fab fa-instagram"></i>
+            <i className="fa-brands fa-square-twitter"></i>
+            <i className="fab fa-youtube"></i>
           </div>
 
           {/* Important Links */}

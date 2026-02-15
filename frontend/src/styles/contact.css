@@ -180,6 +180,11 @@
   box-shadow: 0 8px 25px rgba(0,0,0,0.06);
   margin-bottom: 16px;
 }
+.accordion-body{
+  font-size:17px;
+  color:#1f145c;
+  font-weight:400;
+}
 
 .accordion-button {
   font-weight: 600;
@@ -189,7 +194,15 @@
 .accordion-button:not(.collapsed) {
   background-color: #eef2f7;
 }
+/* Reset default arrow rotation */
+.accordion-button::after {
+  transition: transform 0.3s ease;
+}
 
+/* Rotate ONLY when the button's target is actually shown */
+.accordion-button[aria-expanded="true"]::after {
+  transform: rotate(-180deg);
+}
 
 
 

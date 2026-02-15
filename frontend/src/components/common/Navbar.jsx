@@ -39,7 +39,7 @@ export default function Navbar() {
           }}
         >
           <span className="nav-link">
-            Academics <span className="arrow">▾</span>
+            Academics <span className="arrow">▼</span>
           </span>
           <div className="dropdown-menu-custom">
             <Link to="/academics/courses-offered"><IoBookOutline /> Courses Offered</Link>

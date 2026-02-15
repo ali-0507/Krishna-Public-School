@@ -58,7 +58,7 @@ export default function MandatoryDisclosure() {
         <tr>
           <td>1</td>
           <td>Name of the School</td>
-          <td>Krishna Public School Tendua, Raipur (CG)</td>
+          <td>KRISHNA PUBLIC SCHOOL TENDUA ,RAIPUR (CG)</td>
         </tr>
         <tr>
           <td>2</td>
@@ -68,32 +68,32 @@ export default function MandatoryDisclosure() {
         <tr>
           <td>3</td>
           <td>School Code</td>
-          <td>12456</td>
+          <td>15954</td>
         </tr>
         <tr>
           <td>4</td>
           <td>Complete Address with Pin Code</td>
-          <td>Tendua, Raipur, Chhattisgarh - 492001</td>
+          <td>KRISHNA PUBLIC SCHOOL TENDUA, ON NANDANVAN ROAD, NEAR BANGLAMUKHI MANDIR, <br/>(VILG:TENDUA) RAIPUR CHATTISGARH ,RAIPUR , 492099</td>
         </tr>
         <tr>
           <td>5</td>
           <td>Principal Name</td>
-          <td>Dr. Rajesh Kumar Sharma</td>
+          <td>MRS. DEEPIKA AGRAWAL</td>
         </tr>
         <tr>
           <td>6</td>
           <td>Principal Qualification</td>
-          <td>M.A., M.Ed., Ph.D. (Education)</td>
+          <td>M.SC. BOTANY, B.ED</td>
         </tr>
         <tr>
           <td>7</td>
           <td>School Email ID</td>
-          <td>info@krishnapublicschool.edu.in</td>
+          <td>kpshirapur18@gmail.com</td>
         </tr>
         <tr>
           <td>8</td>
           <td>Contact Details</td>
-          <td>+91 771 123 4567 / +91 98765 43210</td>
+          <td>0771-2572015, 8871018515</td>
         </tr>
       </tbody>
     </table>
@@ -123,7 +123,7 @@ export default function MandatoryDisclosure() {
             Copies of Affiliation/Upgradation Letter and Recent Extension of
             Affiliation, if any
           </td>
-          <td><a href="#" className="doc-link">View Document</a></td>
+          <td><a href="/pdf/AFFILIATION_AND_UPGRADATION_LETTER.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
         </tr>
 
         <tr>
@@ -131,7 +131,8 @@ export default function MandatoryDisclosure() {
           <td>
             Copies of Societies/Trust/Company Registration/Renewal Certificate
           </td>
-          <td><a href="#" className="doc-link">View Document</a></td>
+          <td><a href="/pdf/SOCIETY_RENEWAL.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
+
         </tr>
 
         <tr>
@@ -139,7 +140,7 @@ export default function MandatoryDisclosure() {
           <td>
             Copy of No Objection Certificate (NOC) issued by the State Govt/UT
           </td>
-          <td><a href="#" className="doc-link">View Document</a></td>
+          <td><a href="/pdf/NOC.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
         </tr>
 
         <tr>
@@ -147,7 +148,7 @@ export default function MandatoryDisclosure() {
           <td>
             Copies of Recognition Certificate under RTE Act, 2009 and Renewal
           </td>
-          <td><a href="#" className="doc-link">View Document</a></td>
+          <td><a href="/pdf/RECOGNITION_CERTIFICATE.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
         </tr>
 
         <tr>
@@ -155,7 +156,7 @@ export default function MandatoryDisclosure() {
           <td>
             Copy of Valid Building Safety Certificate as per National Building Code
           </td>
-          <td><a href="#" className="doc-link">View Document</a></td>
+          <td><a href="/pdf/Building_Safety_Certificate.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
         </tr>
 
         <tr>
@@ -163,7 +164,7 @@ export default function MandatoryDisclosure() {
           <td>
             Copy of Valid Fire Safety Certificate issued by Competent Authority
           </td>
-          <td><a href="#" className="doc-link">View Document</a></td>
+          <td><a href="/pdf/FIRE_SAFATY_CERTIFICATE.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
         </tr>
 
         <tr>
@@ -171,7 +172,7 @@ export default function MandatoryDisclosure() {
           <td>
             Copy of DEO Certificate submitted by the school for affiliation/upgradation
           </td>
-          <td><a href="#" className="doc-link">View Document</a></td>
+          <td><a href="/pdf/DEO_Certificate.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
         </tr>
 
         <tr>
@@ -179,7 +180,7 @@ export default function MandatoryDisclosure() {
           <td>
             Copies of Valid Water, Health and Sanitation Certificates
           </td>
-          <td><a href="#" className="doc-link">View Document</a></td>
+          <td><a href="/pdf/HEALTH_&_WATER_CERTIFICATE.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
         </tr>
       </tbody>
     </table>
@@ -206,34 +207,32 @@ export default function MandatoryDisclosure() {
         <tr>
           <td>1</td>
           <td>Fee Structure of the School</td>
-          <td><a href="#" className="doc-link">View Details</a></td>
+          <td><a href="/pdf/FEE_STRUCTURE_2026-27.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View List</a></td>
         </tr>
 
         <tr>
           <td>2</td>
           <td>Annual Academic Calendar</td>
-          <td><a href="#" className="doc-link">View Calendar</a></td>
+          <td><a href="/pdf/ACADEMIC_CALANDER_2025-26.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View List</a></td>
         </tr>
 
         <tr>
           <td>3</td>
           <td>List of School Management Committee (SMC)</td>
-          <td><a href="#" className="doc-link">View List</a></td>
+          <td><a href="/pdf/LIST_OF_SMC.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View List</a></td>
         </tr>
 
         <tr>
           <td>4</td>
           <td>List of Parents Teachers Association (PTA) Members</td>
-          <td><a href="#" className="doc-link">View List</a></td>
+          <td><a href="/pdf/PARENT_TEACHER_MEMBERS_ASSOCIATION.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View List</a></td>
         </tr>
-
-        <tr>
+          <tr>
           <td>5</td>
           <td>
             Last Three-Year Result of the Board Examination (as per applicability)
           </td>
-          <td><a href="#" className="doc-link">View Results</a></td>
-        </tr>
+          </tr>
       </tbody>
     </table>
   </div>
@@ -260,43 +259,50 @@ export default function MandatoryDisclosure() {
         <tr>
           <td>1</td>
           <td>Principal</td>
-          <td>01</td>
+          <td>MRS. DEEPIKA AGRAWAL</td>
         </tr>
 
         <tr>
           <td>2</td>
-          <td>Total No. of Teachers (PGT)</td>
-          <td>12</td>
+          <td>Total No. of Teachers</td>
+          <td>24</td>
         </tr>
+
 
         <tr>
           <td>3</td>
-          <td>Total No. of Teachers (TGT)</td>
-          <td>18</td>
+          <td>PGT</td>
+          <td>8</td>
         </tr>
 
         <tr>
           <td>4</td>
-          <td>Total No. of Teachers (PRT)</td>
-          <td>25</td>
+          <td>TGT</td>
+          <td>8</td>
         </tr>
 
         <tr>
           <td>5</td>
+          <td>PRT</td>
+          <td>8</td>
+        </tr>
+
+        <tr>
+          <td>6</td>
           <td>Teachers Section Ratio</td>
           <td>1 : 1.5</td>
         </tr>
 
         <tr>
-          <td>6</td>
+          <td>7</td>
           <td>Details of Special Educator</td>
-          <td>02</td>
+          <td>MRS. RITU GUPTA- (B. Ed. SPECIAL EDUCATION)</td>
         </tr>
 
         <tr>
-          <td>7</td>
+          <td>8</td>
           <td>Details of Counsellor and Wellness Teacher</td>
-          <td>02</td>
+          <td>JATIN LOHANA- B.B.A.</td>
         </tr>
       </tbody>
     </table>
@@ -323,47 +329,45 @@ export default function MandatoryDisclosure() {
       <tbody>
         <tr>
           <td>1</td>
-          <td>Total Campus Area of the School (in sq. mtr.)</td>
-          <td>15,000 sq. mtr.</td>
+          <td>TOTAL CAMPUS AREA OF THE SCHOOL (IN SQUARE METRE)</td>
+          <td>11230</td>
         </tr>
 
         <tr>
           <td>2</td>
-          <td>No. and Size of the Class Rooms (in sq. mtr.)</td>
-          <td>45 Classrooms (50 sq. mtr. each)</td>
+          <td>NUMBER AND SIZE OF THE CLASS ROOM (IN SQUARE METRE)</td>
+          <td>14 ROOMS, 48 SQUARE METRE</td>
         </tr>
 
         <tr>
           <td>3</td>
-          <td>No. and Size of Laboratories (in sq. mtr.)</td>
-          <td>5 Labs (80 sq. mtr. each)</td>
+          <td>NUMBER AND SIZE OF LABORATORIES INCLUDING COMPUTER LAB</td>
+          <td>5 LABORATORIES, 55 SQUARE METRE</td>
         </tr>
 
         <tr>
           <td>4</td>
-          <td>Internet Facility (Y/N)</td>
-          <td>Yes</td>
+          <td>INTERNET FACILITY</td>
+          <td>YES</td>
         </tr>
 
         <tr>
           <td>5</td>
-          <td>No. of Girls Toilets</td>
-          <td>25</td>
+          <td>NO. OF GIRLS TOILET</td>
+          <td>15</td>
         </tr>
 
         <tr>
           <td>6</td>
-          <td>No. of Boys Toilets</td>
-          <td>25</td>
+          <td>NO. OF BOYS TOILET</td>
+          <td>15</td>
         </tr>
 
         <tr>
           <td>7</td>
+          <td>LINK OF YOU TUBE VIDEO OF INSPECTION OF SCHOOL</td>
           <td>
-            Link of YouTube Video of the Inspection of School Infrastructure
-          </td>
-          <td>
-            <a href="#" className="doc-link">View Video</a>
+            <a href="https://www.youtube.com/watch?v=vUqZ8iY3rxM&t=7s" className="doc-link">View Video</a>
           </td>
         </tr>
       </tbody>
