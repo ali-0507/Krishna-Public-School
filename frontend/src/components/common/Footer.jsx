@@ -93,10 +93,10 @@ export default function Footer() {
         <div className="container d-md-flex justify-content-between">
           <span>© 2026 Krishna Public School Tendua. All rights reserved.</span>
           <div>
-            <a href="#" className="text-light text-decoration-none me-3">
+            <a href="/privacy-policy" className="text-light text-decoration-none me-3">
               Privacy Policy
             </a>
-            <a href="#" className="text-light text-decoration-none">
+            <a href="/terms-conditions" className="text-light text-decoration-none">
               Terms of Service
             </a>
           </div>

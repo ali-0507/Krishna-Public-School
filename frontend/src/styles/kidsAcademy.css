@@ -19,6 +19,7 @@
 .kids-hero-modern {
   background-color: var(--kids-bg);
   padding: 3rem 1rem;
+  margin-top:1.5rem;
 }
 
 .kids-hero-container {
@@ -86,16 +87,15 @@
 }
 
 .btn-secondary {
-  border: 2px solid var(--kids-dark);
-  color: var(--kids-dark);
+  color: white !important;
   padding: 0.75rem 1.8rem;
   border-radius: 30px;
   font-weight: 600;
   text-decoration: none;
 }
 .btn-secondary:hover {
-  background-color: var(--kids-dark);
-  color: white;
+  background-color: var(--kids-dark) !important;
+  color: white !important;
 }
 
 /* RIGHT IMAGE */
@@ -155,8 +155,17 @@
     transform: translateX(-50%);
   }
   .kids-stats{
-    padding: 0.5rem 0.8rem;
-    margin-left: 110px;
+    display:flex;
+    flex-direction: row;
+    padding: 0.1rem 0.6rem;
+    margin-left: 100px;
+    font-weight:500 !important;
+  }
+  .kids-hero-modern {
+    margin-top:2rem;
+  }
+  .kids-stats span{
+    font-size: 5px;
   }
 }
 
