@@ -1,0 +1,133 @@
+.academic-calendar-section {
+  background: #f7f9fc;
+  padding: 80px 20px;
+}
+
+.calendar-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+/* Table Wrapper */
+.calendar-table-wrapper {
+  overflow-x: auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+/* Table */
+.calendar-table {
+  width: 100%;
+  border-collapse:collapse;
+  min-width: 900px;
+}
+
+.calendar-table thead {
+  background: #004483;
+  color: #ffffff;
+}
+
+.calendar-table th,
+.calendar-table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #e4e4e4;
+  font-size: 15px;
+}
+
+.calendar-table th {
+  font-weight: 600;
+}
+
+.calendar-table tbody tr:hover {
+  background: #fff8e1;
+}
+
+.calendar-table td:first-child {
+  font-weight: 600;
+  color: #fbbc05;
+}
+
+/* Note */
+.calendar-note {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+  text-align: right;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.calendar-header h2 {
+  font-size: 38px;
+  color: #004483;
+  font-weight: 700;
+}
+
+.calendar-actions {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Month Filter */
+.month-filter {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #1d198b;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+/* Download Button */
+.download-btn {
+  background: #fbbc05;
+  color: #000;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.download-btn:hover {
+  color: #fff;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .calendar-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .calendar-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .calendar-title {
+    font-size: 28px;
+  }
+
+  .calendar-table th,
+  .calendar-table td {
+    padding: 10px;
+    font-size: 13px;
+  }
+}
