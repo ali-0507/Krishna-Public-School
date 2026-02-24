@@ -1,70 +1,7 @@
-// import { FaBookOpen, FaDownload, FaListUl } from "react-icons/fa";
-// import { RiBookShelfFill } from "react-icons/ri";
-// import AcademicHero from "../../components/Academics/AcademicHero";
-// import ExploreMore from "../../components/Academics/ExploreMore";
-// import "../../styles/academics.css";
-
-// const bookListData = [
-//   {
-//     title: "Primary Section",
-//     desc: "Book list for Nursery to Class V (2026–27)",
-//     icon: <FaBookOpen />
-//   },
-//   {
-//     title: "Middle & Senior",
-//     desc: "Book list for Class VI to XII",
-//     icon: <FaListUl />
-//   },
-//   {
-//     title: "Download PDF",
-//     desc: "Download complete book list in PDF format.",
-//     icon: <FaDownload />
-//   }
-// ];
-
-// export default function BookList() {
-//   return (
-//      <>
-//       <AcademicHero
-//         icon={<RiBookShelfFill />}
-//         title="Book List 2026–27"
-//         subtitle="Prescribed textbooks for all academic levels"
-//       />
-//     <section className="academics-section">
-//       <div className="container">
-//         <div className="row g-4">
-//           {bookListData.map((item, index) => (
-//             <div
-//               className="col-md-4"
-//               key={index}
-//               data-aos="flip-up"
-//               data-aos-delay={index * 120}
-//             >
-//               <div className="card academics-card h-100 text-center">
-//                 <div className="card-body">
-//                   <div className="icon-box mx-auto mb-3">{item.icon}</div>
-//                   <h5>{item.title}</h5>
-//                   <p>{item.desc}</p>
-//                 </div>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//         <ExploreMore />
-//     </>
-//   );
-// }
-
-
-
 import { RiBookShelfFill } from "react-icons/ri";
 import AcademicHero from "../../components/Academics/AcademicHero";
 import ExploreMore from "../../components/Academics/ExploreMore";
 import "../../styles/academics.css";
-
-
 
 export default function BookList() {
   return (
@@ -75,21 +12,23 @@ export default function BookList() {
         subtitle="Prescribed textbooks for all academic levels"
       />
 
-      {/* VIEW PDF BUTTON */}
-      <div className="booklist-btn-wrapper" data-aos="fade-up">
-        <h3>View & Download Complete Book List (PDF)</h3>
-      <button className="booklist-view-btn mt-2"
-        onClick={() => window.open("/pdf/book-list-2026-27.pdf", "_blank")}>
-          Click Here !
-      </button>
-      </div>
+      
 
       <section className="mpd-page">
-
         {/* CLASS I */}
         <div className="mpd-section">
-          <h3 className="mpd-section-title" data-aos="fade-up">Class I</h3>
-
+         
+          <h3 className="mpd-section-title" data-aos="fade-up">Class I
+           <span className="fs-6 ms-5" style={{color:"black"}}>View & Download Pdf 
+               <button
+            className="booklist-view-btn fs-6 ms-3"
+            onClick={() => window.open("/pdf/CLASS-I.pdf", "_blank")}
+          >
+           <i class="fa-solid fa-download"></i> Download
+          </button>
+          </span></h3>
+          
+          
           <div className="mpd-table-wrapper">
             <table className="mpd-table">
               <thead>
@@ -105,7 +44,7 @@ export default function BookList() {
                   <td>1</td>
                   <td>English</td>
                   <td>English Expert [Course Book] 1</td>
-                  <td>Collins</td> 
+                  <td>Collins</td>
                 </tr>
                 <tr>
                   <td>2</td>
@@ -139,24 +78,31 @@ export default function BookList() {
                 </tr>
                 <tr>
                   <td>7</td>
-                  <td>Computer</td>
-                  <td>Computers with-AI</td>
-                  <td>Creative Kids Cardova</td>
+                  <td>Robotics</td>
+                  <td>Let's Explore Robotics</td>
+                  <td>OLL</td>
                 </tr>
+
                 <tr>
                   <td>8</td>
+                  <td>AI (Computer)</td>
+                  <td>Embracing the AI revolution</td>
+                  <td>E-BOT</td>
+                </tr>
+                <tr>
+                  <td>9</td>
                   <td>G.K</td>
                   <td>Junior Genius (Ver.-2.0)</td>
                   <td>My Stone Education</td>
                 </tr>
                 <tr>
-                  <td>9</td>
+                  <td>10</td>
                   <td>Reasoning & Aptitude</td>
                   <td>Junior Thinkers (Ver.-1)</td>
                   <td>Focus Learning</td>
                 </tr>
                 <tr>
-                  <td>10</td>
+                  <td>11</td>
                   <td>Art & Craft</td>
                   <td>Junior Artist Ver.-2</td>
                   <td>My Stone Education</td>
@@ -166,12 +112,21 @@ export default function BookList() {
           </div>
         </div>
 
-
         {/* CLASS II */}
-         <div className="mpd-section">
-          <h3 className="mpd-section-title" data-aos="fade-up">Class II</h3>
+        <div className="mpd-section">
+          <h3 className="mpd-section-title" data-aos="fade-up">
+            Class II
+            <span className="fs-6 ms-5" style={{color:"black"}}>View & Download Pdf 
+               <button
+            className="booklist-view-btn fs-6 ms-3"
+            onClick={() => window.open("/pdf/CLASS II.pdf", "_blank")}
+          >
+           <i class="fa-solid fa-download"></i> Download
+          </button>
+          </span>
+          </h3>
 
-          <div className="mpd-table-wrapper"> 
+          <div className="mpd-table-wrapper">
             <table className="mpd-table">
               <thead>
                 <tr>
@@ -220,24 +175,31 @@ export default function BookList() {
                 </tr>
                 <tr>
                   <td>7</td>
-                  <td>Computer</td>
-                  <td>Computers with-AI</td>
-                  <td>Creative Kids Cardova</td>
+                  <td>Robotics</td>
+                  <td>Let's Explore Robotics</td>
+                  <td>OLL</td>
                 </tr>
+
                 <tr>
                   <td>8</td>
+                  <td>AI (Computer)</td>
+                  <td>Embracing the AI revolution</td>
+                  <td>E-BOT</td>
+                </tr>
+                <tr>
+                  <td>9</td>
                   <td>G.K</td>
                   <td>Junior Genius (Ver.-2.0)</td>
                   <td>My Stone Education</td>
                 </tr>
                 <tr>
-                  <td>9</td>
+                  <td>10</td>
                   <td>Reasoning & Aptitude</td>
-                  <td>Junior Thinkers (Ver.-1)</td>
+                  <td>Junior Thinkers (Ver.- 1)</td>
                   <td>Focus Learning</td>
                 </tr>
                 <tr>
-                  <td>10</td>
+                  <td>11</td>
                   <td>Art & Craft</td>
                   <td>Junior Artist Ver.-2</td>
                   <td>My Stone Education</td>
@@ -247,10 +209,19 @@ export default function BookList() {
           </div>
         </div>
 
-
         {/* CLASS III */}
         <div className="mpd-section">
-          <h3 className="mpd-section-title" data-aos="fade-up">Class III</h3>
+          <h3 className="mpd-section-title" data-aos="fade-up">
+            Class III
+            <span className="fs-6 ms-5" style={{color:"black"}}>View & Download Pdf 
+               <button
+            className="booklist-view-btn fs-6 ms-3"
+            onClick={() => window.open("/pdf/CLASS III.pdf", "_blank")}
+          >
+           <i class="fa-solid fa-download"></i> Download
+          </button>
+          </span>
+          </h3>
 
           <div className="mpd-table-wrapper">
             <table className="mpd-table">
@@ -299,7 +270,8 @@ export default function BookList() {
                   <td>Dimensions 3</td>
                   <td>Collins</td>
                 </tr>
-                 <tr>
+
+                <tr>
                   <td>7</td>
                   <td>G.K</td>
                   <td>Junior Genius (Ver.-2.0)</td>
@@ -307,18 +279,24 @@ export default function BookList() {
                 </tr>
                 <tr>
                   <td>8</td>
-                  <td>Computer</td>
-                  <td>Computers with-AI</td>
-                  <td>Creative Kids Cardova</td>
+                  <td>Robotics</td>
+                  <td>Let's Explore Robotics</td>
+                  <td>OLL</td>
                 </tr>
                 <tr>
                   <td>9</td>
+                  <td>AI (Computer)</td>
+                  <td>Embracing the AI revolution</td>
+                  <td>E-BOT</td>
+                </tr>
+                <tr>
+                  <td>10</td>
                   <td>Reasoning & Aptitude</td>
                   <td>Junior Thinkers (Ver.-1)</td>
                   <td>Focus Learning</td>
                 </tr>
                 <tr>
-                  <td>10</td>
+                  <td>11</td>
                   <td>Art & Craft</td>
                   <td>Junior Artist Ver.-2</td>
                   <td>My Stone Education</td>
@@ -328,10 +306,19 @@ export default function BookList() {
           </div>
         </div>
 
-
         {/* CLASS IV */}
         <div className="mpd-section">
-          <h3 className="mpd-section-title" data-aos="fade-up">Class IV</h3>
+          <h3 className="mpd-section-title" data-aos="fade-up">
+            Class IV
+            <span className="fs-6 ms-5" style={{color:"black"}}>View & Download Pdf 
+               <button
+            className="booklist-view-btn fs-6 ms-3"
+            onClick={() => window.open("/pdf/CLASS IV.pdf", "_blank")}
+          >
+           <i class="fa-solid fa-download"></i> Download
+          </button>
+          </span>
+          </h3>
 
           <div className="mpd-table-wrapper">
             <table className="mpd-table">
@@ -383,23 +370,29 @@ export default function BookList() {
                 <tr>
                   <td>7</td>
                   <td>G.K</td>
-                  <td>Junior Genius Ver.-2</td>
+                  <td>Junior Artist Ver.-2</td>
                   <td>My Stone Education</td>
                 </tr>
                 <tr>
                   <td>8</td>
-                  <td>Computer</td>
-                  <td>Computers with-AI</td>
-                  <td>Creative Kids Cardova</td>
+                  <td>Robotics</td>
+                  <td>Let's Explore Robotics</td>
+                  <td>OLL</td>
                 </tr>
                 <tr>
                   <td>9</td>
+                  <td>AI (Computer)</td>
+                  <td>Embracing the AI revolution</td>
+                  <td>E-BOT</td>
+                </tr>
+                <tr>
+                  <td>10</td>
                   <td>Reasoning & Aptitude</td>
                   <td>Junior Thinkers (Ver.-1)</td>
                   <td>Focus Learning</td>
                 </tr>
                 <tr>
-                  <td>10</td>
+                  <td>11</td>
                   <td>Art & Craft</td>
                   <td>Junior Artist Ver.-2</td>
                   <td>My Stone Education</td>
@@ -409,10 +402,19 @@ export default function BookList() {
           </div>
         </div>
 
-
         {/* CLASS V */}
         <div className="mpd-section">
-          <h3 className="mpd-section-title" data-aos="fade-up">Class V</h3>
+          <h3 className="mpd-section-title" data-aos="fade-up">
+            Class V
+            <span className="fs-6 ms-5" style={{color:"black"}}>View & Download Pdf 
+               <button
+            className="booklist-view-btn fs-6 ms-3"
+            onClick={() => window.open("/pdf/CLASS V.pdf", "_blank")}
+          >
+           <i class="fa-solid fa-download"></i> Download
+          </button>
+          </span>
+          </h3>
 
           <div className="mpd-table-wrapper">
             <table className="mpd-table">
@@ -437,7 +439,7 @@ export default function BookList() {
                   <td>Grammar Blocks</td>
                   <td>Collins</td>
                 </tr>
-                 <tr>
+                <tr>
                   <td>3</td>
                   <td>Hindi</td>
                   <td> Vat Vriksh VER-2</td>
@@ -455,7 +457,7 @@ export default function BookList() {
                   <td>Cascade 5</td>
                   <td>Collins</td>
                 </tr>
-                 <tr>
+                <tr>
                   <td>6</td>
                   <td>Science</td>
                   <td>Enhanced Science Now 5</td>
@@ -475,18 +477,24 @@ export default function BookList() {
                 </tr>
                 <tr>
                   <td>9</td>
-                  <td>Computer</td>
-                  <td>Computers with-AI</td>
-                  <td>Creative Kids Cardova</td>
+                  <td>Robotics</td>
+                  <td>Let's Explore Robotics</td>
+                  <td>OLL</td>
                 </tr>
                 <tr>
-                  <td>9</td>
+                  <td>10</td>
+                  <td>AI (Computer)</td>
+                  <td>Embracing the AI revolution</td>
+                  <td>E-BOT</td>
+                </tr>
+                <tr>
+                  <td>11</td>
                   <td>Reasoning & Aptitude</td>
                   <td>Junior Thinkers (Ver.-1)</td>
                   <td>Focus Learning</td>
                 </tr>
                 <tr>
-                  <td>10</td>
+                  <td>12</td>
                   <td>GK</td>
                   <td>Junior Genius (Ver.-2.0)</td>
                   <td>My Stone Education</td>
@@ -496,10 +504,19 @@ export default function BookList() {
           </div>
         </div>
 
-
         {/* CLASS VI */}
         <div className="mpd-section">
-          <h3 className="mpd-section-title" data-aos="fade-up">Class VI</h3>
+          <h3 className="mpd-section-title" data-aos="fade-up">
+            Class VI
+            <span className="fs-6 ms-5" style={{color:"black"}}>View & Download Pdf 
+               <button
+            className="booklist-view-btn fs-6 ms-3"
+            onClick={() => window.open("/pdf/CLASS VI.pdf", "_blank")}
+          >
+           <i class="fa-solid fa-download"></i> Download
+          </button>
+          </span>
+          </h3>
 
           <div className="mpd-table-wrapper">
             <table className="mpd-table">
@@ -536,7 +553,7 @@ export default function BookList() {
                   <td>Vyakaran Sambodh</td>
                   <td>Madhuban pub</td>
                 </tr>
-                
+
                 <tr>
                   <td>5</td>
                   <td>Social Science</td>
@@ -575,24 +592,30 @@ export default function BookList() {
                 </tr>
                 <tr>
                   <td>11</td>
-                  <td>Computer</td>
-                  <td>Computers with-AI</td>
-                  <td>Creative Kids Cardova</td>
+                  <td>Robotics</td>
+                  <td>Let's Explore Robotics</td>
+                  <td>OLL</td>
                 </tr>
                 <tr>
                   <td>12</td>
+                  <td>AI (Computer)</td>
+                  <td>Embracing the AI revolution</td>
+                  <td>E-BOT</td>
+                </tr>
+                <tr>
+                  <td>13</td>
                   <td>Sanskrit</td>
                   <td>Deepakam-I</td>
                   <td>NCERT</td>
                 </tr>
                 <tr>
-                  <td>13</td>
+                  <td>14</td>
                   <td>Sanskrit</td>
                   <td>Together with Divyam(for practice)</td>
                   <td>Rachna Sagar</td>
                 </tr>
                 <tr>
-                  <td>14</td>
+                  <td>15</td>
                   <td>Drawing</td>
                   <td>Junior Artist</td>
                   <td>My Stone Education</td>
@@ -602,10 +625,19 @@ export default function BookList() {
           </div>
         </div>
 
-
         {/* CLASS VII */}
         <div className="mpd-section">
-          <h3 className="mpd-section-title" data-aos="fade-up">Class VII</h3>
+          <h3 className="mpd-section-title" data-aos="fade-up">
+            Class VII
+            <span className="fs-6 ms-5" style={{color:"black"}}>View & Download Pdf 
+               <button
+            className="booklist-view-btn fs-6 ms-3"
+            onClick={() => window.open("/pdf/CLASS VII.pdf", "_blank")}
+          >
+           <i class="fa-solid fa-download"></i> Download
+          </button>
+          </span>
+          </h3>
 
           <div className="mpd-table-wrapper">
             <table className="mpd-table">
@@ -680,24 +712,30 @@ export default function BookList() {
                 </tr>
                 <tr>
                   <td>11</td>
-                  <td>Computer</td>
-                  <td>Computers with-AI</td>
-                  <td>Creative Kids Cardova</td>
+                  <td>Robotics</td>
+                  <td>Let's Explore Robotics</td>
+                  <td>OLL</td>
                 </tr>
                 <tr>
                   <td>12</td>
+                  <td>AI (Computer)</td>
+                  <td>Embracing the AI revolution</td>
+                  <td>E-BOT</td>
+                </tr>
+                <tr>
+                  <td>13</td>
                   <td>Sanskrit</td>
                   <td>Deepakam</td>
                   <td>NCERT</td>
                 </tr>
                 <tr>
-                  <td>13</td>
+                  <td>14</td>
                   <td>Sanskrit</td>
                   <td>Together with Divyam (for Practice)</td>
                   <td>Rachna Sagar</td>
                 </tr>
                 <tr>
-                  <td>14</td>
+                  <td>15</td>
                   <td>Drawing</td>
                   <td>Junior Artist</td>
                   <td>My Stone Education</td>
@@ -707,10 +745,19 @@ export default function BookList() {
           </div>
         </div>
 
-
         {/* CLASS VIII */}
         <div className="mpd-section">
-          <h3 className="mpd-section-title" data-aos="fade-up">Class VIII</h3>
+          <h3 className="mpd-section-title" data-aos="fade-up">
+            Class VIII
+            <span className="fs-6 ms-5" style={{color:"black"}}>View & Download Pdf 
+               <button
+            className="booklist-view-btn fs-6 ms-3"
+            onClick={() => window.open("/pdf/CLASS VIII.pdf", "_blank")}
+          >
+           <i class="fa-solid fa-download"></i> Download
+          </button>
+          </span>
+          </h3>
 
           <div className="mpd-table-wrapper">
             <table className="mpd-table">
@@ -785,24 +832,30 @@ export default function BookList() {
                 </tr>
                 <tr>
                   <td>11</td>
-                  <td>Computer</td>
-                  <td>Computers with-AI</td>
-                  <td>Creative Kids Cardova</td>
+                  <td>Robotics</td>
+                  <td>Let's Explore Robotics</td>
+                  <td>OLL</td>
                 </tr>
                 <tr>
                   <td>12</td>
+                  <td>AI (Computer)</td>
+                  <td>Embracing the AI revolution</td>
+                  <td>E-BOT</td>
+                </tr>
+                <tr>
+                  <td>13</td>
                   <td>Sanskrit</td>
                   <td>Deepakam</td>
                   <td>NCERT</td>
                 </tr>
                 <tr>
-                  <td>13</td>
+                  <td>14</td>
                   <td>Sanskrit</td>
                   <td>Together with Divyam (for Practice)</td>
                   <td>Rachna Sagar</td>
                 </tr>
                 <tr>
-                  <td>14</td>
+                  <td>15</td>
                   <td>Drawing</td>
                   <td>Junior Artist</td>
                   <td>My Stone Education</td>
@@ -814,7 +867,17 @@ export default function BookList() {
 
         {/* CLASS IX */}
         <div className="mpd-section">
-          <h3 className="mpd-section-title" data-aos="fade-up">Class IX</h3>
+          <h3 className="mpd-section-title" data-aos="fade-up">
+            Class IX
+            <span className="fs-6 ms-5" style={{color:"black"}}>View & Download Pdf 
+               <button
+            className="booklist-view-btn fs-6 ms-3"
+            onClick={() => window.open("/pdf/CLASS IX.pdf", "_blank")}
+          >
+           <i class="fa-solid fa-download"></i> Download
+          </button>
+          </span>
+          </h3>
 
           <div className="mpd-table-wrapper">
             <table className="mpd-table">
@@ -851,7 +914,7 @@ export default function BookList() {
                   <td>Purak Pustak Sanchyan</td>
                   <td>NCERT</td>
                 </tr>
-                 <tr>
+                <tr>
                   <td>5</td>
                   <td>Hindi</td>
                   <td>Vyakaran Grammer Parichay</td>
@@ -905,13 +968,13 @@ export default function BookList() {
                   <td>Chemistry</td>
                   <td>S.Chand</td>
                 </tr>
-                 <tr>
+                <tr>
                   <td>14</td>
                   <td>Science</td>
                   <td>Biology-Foundation Course</td>
                   <td>MTG</td>
                 </tr>
-                 <tr>
+                <tr>
                   <td>15</td>
                   <td>Science</td>
                   <td>Lab Mannual ABC</td>
@@ -931,29 +994,36 @@ export default function BookList() {
                 </tr>
                 <tr>
                   <td>18</td>
-                  <td>Computer</td>
-                  <td>Information Technology</td>
-                  <td>Sumita Arora</td>
+                  <td>Robotics</td>
+                  <td>Let's Explore Robotics</td>
+                  <td>OLL</td>
                 </tr>
-                 <tr>
+                <tr>
                   <td>19</td>
+                  <td>AI</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>20</td>
                   <td>Sanskrit</td>
                   <td>Together with Sanskrit Part-1</td>
                   <td>Rachna Sagar</td>
                 </tr>
                 <tr>
-                  <td>20</td>
+                  <td>21</td>
                   <td>Sanskrit</td>
                   <td>Shemushi</td>
                   <td>NCERT</td>
                 </tr>
                 <tr>
-                  <td>21</td>
+                  <td>22</td>
                   <td>Drawing</td>
                   <td>Big Drawing Copy</td>
                 </tr>
-                 <tr>
-                  <td>22</td>
+                <tr>
+                  <td>23</td>
                   <td>Colour</td>
                   <td>Doms Pencil Colour (Super Soft)</td>
                 </tr>
@@ -962,10 +1032,19 @@ export default function BookList() {
           </div>
         </div>
 
-
         {/* CLASS X */}
         <div className="mpd-section">
-          <h3 className="mpd-section-title" data-aos="fade-up">Class X</h3>
+          <h3 className="mpd-section-title" data-aos="fade-up">
+            Class X
+            <span className="fs-6 ms-5" style={{color:"black"}}>View & Download Pdf 
+               <button
+            className="booklist-view-btn fs-6 ms-3"
+            onClick={() => window.open("/pdf/CLASS X.pdf", "_blank")}
+          >
+           <i class="fa-solid fa-download"></i> Download
+          </button>
+          </span>
+          </h3>
 
           <div className="mpd-table-wrapper">
             <table className="mpd-table">
@@ -1002,7 +1081,7 @@ export default function BookList() {
                   <td>Purak Pustak Sanchyan</td>
                   <td>NCERT</td>
                 </tr>
-                 <tr>
+                <tr>
                   <td>5</td>
                   <td>Hindi</td>
                   <td>Vyakaran Grammer Parichay</td>
@@ -1056,13 +1135,13 @@ export default function BookList() {
                   <td>Chemistry</td>
                   <td>S.Chand</td>
                 </tr>
-                 <tr>
+                <tr>
                   <td>14</td>
                   <td>Science</td>
                   <td>Biology</td>
                   <td>MTG</td>
                 </tr>
-                 <tr>
+                <tr>
                   <td>15</td>
                   <td>Science Lab Mannual</td>
                   <td>Lab Mannual ABC</td>
@@ -1082,11 +1161,11 @@ export default function BookList() {
                 </tr>
                 <tr>
                   <td>18</td>
-                  <td>Computer</td>
-                  <td>Information Technology (402)</td>
-                  <td>Sumita Arora</td>
+                  <td>Robotics</td>
+                  <td>Let's Explore Robotics</td>
+                  <td>OLL</td>
                 </tr>
-                 <tr>
+                <tr>
                   <td>19</td>
                   <td>Sanskrit</td>
                   <td>Together with Sanskrit Part-1</td>
@@ -1103,7 +1182,7 @@ export default function BookList() {
                   <td>Drawing</td>
                   <td>Big Drawing Copy</td>
                 </tr>
-                 <tr>
+                <tr>
                   <td>22</td>
                   <td>Colour</td>
                   <td>Doms Pencil Colour (Super Soft)</td>
@@ -1113,10 +1192,19 @@ export default function BookList() {
           </div>
         </div>
 
-
         {/* CLASS XI */}
         <div className="mpd-section">
-          <h3 className="mpd-section-title" data-aos="fade-up">Class XI</h3>
+          <h3 className="mpd-section-title" data-aos="fade-up">
+            Class XI
+            <span className="fs-6 ms-5" style={{color:"black"}}>View & Download Pdf 
+               <button
+            className="booklist-view-btn fs-6 ms-3"
+            onClick={() => window.open("/pdf/CLASS XI.pdf", "_blank")}
+          >
+           <i class="fa-solid fa-download"></i> Download
+          </button>
+          </span>
+          </h3>
 
           <div className="mpd-table-wrapper">
             <table className="mpd-table">
@@ -1206,16 +1294,25 @@ export default function BookList() {
                   <td>Computer Science</td>
                   <td>Computer Science with Python (083)</td>
                   <td>Sumita Arora</td>
-                </tr>                                  
+                </tr>
               </tbody>
             </table>
           </div>
         </div>
 
-
-         {/* CLASS XII */}
+        {/* CLASS XII */}
         <div className="mpd-section">
-          <h3 className="mpd-section-title" data-aos="fade-up">Class XII</h3>
+          <h3 className="mpd-section-title" data-aos="fade-up">
+            Class XII
+            <span className="fs-6 ms-5" style={{color:"black"}}>View & Download Pdf 
+               <button
+            className="booklist-view-btn fs-6 ms-3"
+            onClick={() => window.open("/pdf/CLASS XII.pdf", "_blank")}
+          >
+           <i class="fa-solid fa-download"></i> Download
+          </button>
+          </span>
+          </h3>
 
           <div className="mpd-table-wrapper">
             <table className="mpd-table">
@@ -1285,7 +1382,11 @@ export default function BookList() {
                 <tr>
                   <td>10</td>
                   <td>Commerce</td>
-                  <td>Accounting-Part-A-Accounting for partnership firm and Companies <br/>Part-B-Financial Statement Analysis</td>
+                  <td>
+                    Accounting-Part-A-Accounting for partnership firm and
+                    Companies <br />
+                    Part-B-Financial Statement Analysis
+                  </td>
                   <td>NCERT</td>
                 </tr>
                 <tr>
@@ -1297,7 +1398,11 @@ export default function BookList() {
                 <tr>
                   <td>12</td>
                   <td>Commerce</td>
-                  <td>Economics <br/>Part-A-Macro Economics <br/> Part-B-Indian Economics Development</td>
+                  <td>
+                    Economics <br />
+                    Part-A-Macro Economics <br /> Part-B-Indian Economics
+                    Development
+                  </td>
                   <td>NCERT</td>
                 </tr>
                 <tr>
@@ -1305,11 +1410,11 @@ export default function BookList() {
                   <td>Computer Science</td>
                   <td>Computer Science with Python</td>
                   <td>Sumita Arora</td>
-                </tr>                                  
+                </tr>
               </tbody>
             </table>
           </div>
-        </div>           
+        </div>
       </section>
 
       <ExploreMore />
