@@ -19,6 +19,9 @@ import AcademicsLayout from "../pages/academics/AcademicsLayout";
 import Clubs from "../pages/Clubs/";
 import Achievements from "../pages/Achievements";
 import ProgramsOffered from "../pages/ProgramsOffered";
+import AcademicCalendar from "../pages/academics/AcademicCalendar";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
+import TermsConditions from "../pages/TermsConditions";
 
 
 export default function AppRoutes() {
@@ -33,6 +36,7 @@ export default function AppRoutes() {
         <Route path="syllabus" element={<Syllabus />} />
         <Route path="exam-policy" element={<ExamPolicy />} />
         <Route path="school-timing" element={<SchoolTiming />} />
+        <Route path="academic-calendar" element={<AcademicCalendar />} />
         <Route path="parent-teacher-meeting" element={<ParentTeacherMeeting />} />
         <Route path="policy-documentation" element={<PolicyDocumentation />} />
         <Route path="book-list" element={<BookList />} />
@@ -45,6 +49,8 @@ export default function AppRoutes() {
        <Route path="/clubs" element={<Clubs />} />
        <Route path="/achievements" element={<Achievements/>}/>
        <Route path="/programs-offered" element={<ProgramsOffered/>}/>
+       <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
+       <Route path="/terms-conditions" element={<TermsConditions/>}/>
     </Routes>
   );
 }

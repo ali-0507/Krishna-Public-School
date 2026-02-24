@@ -13,10 +13,10 @@ export default function PolicyDocumentation() {
         subtitle="Guidelines and policies ensuring a safe learning environment"
       />
       <br/>
-      <div className="mpd-tabs"data-aos="fade-left">
+      <div className="mpd-tabs "data-aos="fade-left">
 
        <button onClick={() => document.getElementById("bus").scrollIntoView()}>
-            BUS RULES
+            TRANSPORT RULES
        </button>
 
        <button onClick={() => document.getElementById("library").scrollIntoView()}>
@@ -32,7 +32,7 @@ export default function PolicyDocumentation() {
                                    
                                      {/*BUS RULES*/}
 
-      <h2 id="bus" data-aos="fade-up">BUS RULES</h2>
+      <h2 id="bus" data-aos="fade-up">TRANSPORT RULES</h2>
       <ol style={{textAlign:"justify",lineHeight:"2.1"}} data-aos="fade-right">
         <li>Students are expected to follow the guidelines given by the Bus staff & escort & must not misbehave with them.</li>
         <li>Subject to availability of seats, students may avail bus facility as per existing rules and fares. </li>
