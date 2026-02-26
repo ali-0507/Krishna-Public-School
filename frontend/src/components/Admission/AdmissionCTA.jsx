@@ -1,6 +1,8 @@
 import { FaPhoneAlt } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const AdmissionCTA = () => {
+  const navigate = useNavigate();
   return (
     <section className="admission-cta">
       <div className="cta-content">
@@ -9,7 +11,7 @@ const AdmissionCTA = () => {
           <p>Our admission team is here to help you.</p>
         </div>
 
-        <button className="cta-btn">
+        <button className="cta-btn" onClick={()=> navigate("/contact")}>
           <FaPhoneAlt />
           Contact Us
         </button>

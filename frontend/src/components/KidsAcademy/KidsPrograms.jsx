@@ -7,10 +7,14 @@ const programs = [
     desc:
       "Introduction to school environment through play and social interactions.",
     activities: [
-      "Sensory Play",
-      "Story Time",
-      "Basic Motor Skills",
-      "Music & Movement",
+       "Tiny Explorers",
+       "Little Talkers",
+       "Number Play",
+       "Nature & Me",
+       "Creative Hands",
+       "Active Tots",
+       "Rhythm & Rhyme",
+       "Happy Hearts",
     ],
   },
   {
@@ -20,10 +24,14 @@ const programs = [
     desc:
       "Building foundational skills through structured play-based activities.",
     activities: [
-      "Pre-Reading",
-      "Number Recognition",
-      "Art & Craft",
-      "Rhymes",
+       "Phonics Power",
+       "Number Magic",
+       "Nature & Me",
+       "Creative Hands",
+       "Active Champs",
+       "Rhythm & Rhyme",
+       "Sensory Explorers",
+       "Life Skill activities",
     ],
   },
   {
@@ -33,10 +41,14 @@ const programs = [
     desc:
       "Developing literacy and numeracy skills with interactive learning.",
     activities: [
-      "Phonics",
-      "Basic Math",
-      "Environmental Studies",
-      "Creative Expression",
+      "Phonics Power",
+      "Number Ninjas",
+      "World Explorers",
+      "Creative Minds",
+      "Rhythm Studio",
+      "Active Champs",
+      "Sensory Smart",
+      "Life Skills",
     ],
   },
   {
@@ -46,10 +58,15 @@ const programs = [
     desc:
       "Preparing for primary school with comprehensive skill development.",
     activities: [
-      "Reading Fluency",
-      "Math Concepts",
-      "Science Discovery",
-      "Writing Skills",
+      "Reading Masters",
+      "Math Wizards",
+      "Global Explorers",
+      "Brain Boosters",
+      "Imagination Studio",
+      "Rhythm Stars",
+      "Fit Leaders",
+      "Smart Life Skills",
+      "Little Techies",
     ],
   },
 ];

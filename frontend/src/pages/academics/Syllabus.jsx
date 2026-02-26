@@ -21,7 +21,7 @@ export default function Syllabus() {
         <div className="container text-center">
           <div>
             <h3 style={{color:"#0f2a55", fontWeight:"700",marginBottom:"30px"}} data-aos="fade-up">
-              Curriculum for the Academic Year 2025-26</h3>
+             High School Curriculum (Grades IX-XII) - Academic Year 2025-26</h3>
               <a
               href="https://cbseacademic.nic.in/curriculum_2026.html"
               className="cbse danger" target="_blank" rel="noopener noreferrer"

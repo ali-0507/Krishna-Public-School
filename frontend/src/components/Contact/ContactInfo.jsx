@@ -29,7 +29,8 @@ const ContactInfo = () => {
             <h5 className="info-title">Call Us</h5>
             <p className="info-text">
              0771-2572015 <br/>
-             88710-18515
+             88710-18515<br/>
+             Kids Academy - 95161 38515
             </p>
           </div>
         </div>

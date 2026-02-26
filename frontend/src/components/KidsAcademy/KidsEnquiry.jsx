@@ -21,7 +21,7 @@ const KidsEnquiry = () => {
             </li>
             <li>
               <i className="fa-solid fa-clock"></i>
-              School Hours: Mon - Sat, 9:00 AM - 12:00 PM
+              School Hours: Mon - Sat, 9:00 AM - 12:30 PM
             </li>
             <li>
               <i className="fa-solid fa-phone"></i>

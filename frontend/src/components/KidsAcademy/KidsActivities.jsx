@@ -1,7 +1,9 @@
 const activities = [
+  "Nature & Science",
   "Art & Craft",
   "Storytelling",
-  "Music & Dance",
+  "Music & Movement",
+  "Life Skills",
   "Outdoor Play",
   "Rhymes & Phonics"
 ];

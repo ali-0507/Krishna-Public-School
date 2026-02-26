@@ -29,7 +29,7 @@ const ContactFAQ = () => {
                   data-bs-parent="#faqAccordion"
                 >
                   <div className="accordion-body">
-                    <b>Pre-Primary</b> (Nursery to KG II):  <b>8:30 AM – 12:30 PM</b>, <br /><b>Primary & Secondary</b> (Class I to XII): <b>7:30 AM – 1:30 PM</b>
+                    <b>Pre-Primary</b> (Nursery to KG II):  <b>9:00 AM – 12:30 PM</b>, <br /><b>Primary & Secondary</b> (Class I to XII): <b>7:30 AM – 1:30 PM</b>
                     <br />
                     <p style={{ fontSize: "8px", color: "grey", paddingTop: "8px" }}>Note: Timings may vary slightly during extreme winter or summer months.</p>
                   </div>
