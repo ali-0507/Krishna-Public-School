@@ -1,3 +1,4 @@
+import { useLocation } from "react-router-dom";
 import AppRoutes from "./routes/AppRoutes";
 import Navbar from "./components/common/Navbar";
 import Footer from "./components/common/Footer";
@@ -6,12 +7,17 @@ import "../src/App.css";
 import "../src/styles/clubs.css";
 
 function App() {
+  const location = useLocation();
+    const isAdminRoute = location.pathname.startsWith("/admin");
+    
   return (
     <>
-      <Navbar />
+      {!isAdminRoute && <Navbar />}
+
       <AppRoutes />
-       <FloatingAdmissionButton />
-      <Footer />
+
+      {!isAdminRoute && <FloatingAdmissionButton />}
+      {!isAdminRoute && <Footer />}
     </>
   );
 }
