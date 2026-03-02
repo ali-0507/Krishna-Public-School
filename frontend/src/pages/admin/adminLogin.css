@@ -1,0 +1,89 @@
+/* Wrapper */
+.admin-login-wrapper {
+  min-height: 100vh;
+  background-color: #f4f2ee;
+  padding: 40px 15px;
+}
+
+/* Logo box */
+.logo-box {
+  width: 70px;
+  height: 70px;
+  background-color: #1f355e;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* Title */
+.admin-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #0f2a55;
+  margin-top:20px;
+}
+
+.admin-subtitle {
+  color: #6c757d;
+  font-size: 15px;
+}
+
+/* Card */
+.admin-card {
+  max-width: 480px;
+  border-radius: 14px;
+  border: 1px solid #e5e5e5;
+}
+
+/* Inputs */
+.input-group-text {
+  border-right: none;
+}
+
+.form-control {
+  border-left: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #fbbc05;
+}
+
+/* Button */
+.admin-btn {
+  background-color: #fbbc05;
+  border: none;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.admin-btn:hover {
+  background-color: #e0a800;
+}
+
+/* Note */
+.admin-note {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+/* Password toggle */
+.password-toggle {
+  cursor: pointer;
+}
+
+/* Role buttons */
+.role-buttons button {
+  min-width: 140px;
+  border-radius: 10px;
+}
+
+@media(max-width:768px){
+  .logo-box{
+    margin-top:90px !important;
+    padding:20px;
+  }
+}

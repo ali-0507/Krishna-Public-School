@@ -6,11 +6,13 @@ import KidsAcademy from "../pages/KidsAcademy";
 import Gallery from "../pages/Gallery";
 import MandatoryPublicDisclosure from "../pages/MandatoryPublicDisclosure";
 import Contact from "../pages/Contact";
-import { FaBook } from "react-icons/fa";
+import { AuthProvider } from "../context/AuthContext";
+import ProtectedRoute from "../components/common/ProtectedRoute";
+
 import CoursesOffered from "../pages/academics/CoursesOffered";
 import Syllabus from "../pages/academics/Syllabus";
 import ExamPolicy from "../pages/academics/ExamPolicy";
-import SchoolTiming from "../pages/academics/SchoolTiming"; 
+import SchoolTiming from "../pages/academics/SchoolTiming";
 import ParentTeacherMeeting from "../pages/academics/ParentTeacherMeeting";
 import PolicyDocumentation from "../pages/academics/PolicyDocumentation";
 import BookList from "../pages/academics/BookList";
@@ -22,7 +24,11 @@ import ProgramsOffered from "../pages/ProgramsOffered";
 import AcademicCalendar from "../pages/academics/AcademicCalendar";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import TermsConditions from "../pages/TermsConditions";
-
+import AdminLogin from "../pages/admin/AdminLogin";
+import AdminRegister from "../pages/admin/AdminRegister";
+import AdminLayout from "../pages/admin/AdminLayout";
+import Dashboard from "../pages/admin/Dashboard";
+import AdminGallery from "../pages/admin/AdminGallery"; 
 
 export default function AppRoutes() {
   return (
@@ -31,7 +37,7 @@ export default function AppRoutes() {
       <Route path="/about" element={<About />} />
       <Route path="/admission" element={<Admission />} />
 
-      <Route path="/academics" element={<AcademicsLayout/>}>
+      <Route path="/academics" element={<AcademicsLayout />}>
         <Route path="courses-offered" element={<CoursesOffered />} />
         <Route path="syllabus" element={<Syllabus />} />
         <Route path="exam-policy" element={<ExamPolicy />} />
@@ -46,11 +52,35 @@ export default function AppRoutes() {
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/mandatory-public-disclosure" element={<MandatoryPublicDisclosure />} />
       <Route path="/contact" element={<Contact />} />
-       <Route path="/clubs" element={<Clubs />} />
-       <Route path="/achievements" element={<Achievements/>}/>
-       <Route path="/programs-offered" element={<ProgramsOffered/>}/>
-       <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
-       <Route path="/terms-conditions" element={<TermsConditions/>}/>
+      <Route path="/clubs" element={<Clubs />} />
+      <Route path="/achievements" element={<Achievements />} />
+      <Route path="/programs-offered" element={<ProgramsOffered />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/terms-conditions" element={<TermsConditions />} />
+
+      {/*Admin route */}
+      <Route path="/admin/login" element={<AdminLogin />} />
+      <Route path="/admin" element={<AdminLogin />} />
+      <Route path="/admin/register" element={<AdminRegister />} />
+      <Route
+        path="/admin/dashboard"
+        element={
+          <ProtectedRoute allowedRoles={["director", "principal", "managing_director"]}>
+            <AdminLayout />
+          </ProtectedRoute>
+        }>
+        <Route index element={<Dashboard />} />
+      </Route>
+
+      <Route 
+            path="/admin/gallery" 
+            element={ 
+              <ProtectedRoute> 
+                <AdminGallery /> 
+              </ProtectedRoute> 
+            } 
+          /> 
+
     </Routes>
   );
 }
