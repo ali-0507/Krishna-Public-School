@@ -1,14 +1,19 @@
-import "./academics.css";
+ import "./academics.css";
  
-export default function AcademicHero({ icon, title, subtitle }) {
+export default function AcademicHero({ icon, title, subtitle, bgimage }) {
   return (
-    <section className="academics-hero">
-      <div className="container text-center">
+    <section 
+    className="academics-hero "
+    style={{
+       backgroundImage:  `url(${bgimage})`,
+    }}
+    >
+      <div className="container text-center academics-overlay">
         <div className="hero-icon" data-aos="zoom-in">
           {icon}
         </div>
 
-        <h1 className="hero-title" data-aos="fade-up">
+        <h1 className="hero-title" data-aos="fade-up" >
           {title}
         </h1>
 

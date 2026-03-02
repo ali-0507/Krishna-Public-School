@@ -2,6 +2,7 @@ import { RiBookShelfFill } from "react-icons/ri";
 import AcademicHero from "../../components/Academics/AcademicHero";
 import ExploreMore from "../../components/Academics/ExploreMore";
 import "../../styles/academics.css";
+import book from "/AcademicsBg/booklist.webp";
 
 export default function BookList() {
   return (
@@ -10,6 +11,7 @@ export default function BookList() {
         icon={<RiBookShelfFill />}
         title="Book List 2026–27"
         subtitle="Prescribed textbooks for all academic levels"
+        bgimage={book}
       />
 
       

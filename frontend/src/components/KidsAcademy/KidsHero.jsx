@@ -5,8 +5,8 @@ const KidsHero = () => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    let start = 50;
-    const end = 300;
+    let start = 10;
+    const end = 100;
     const duration = 3000; // total animation time in ms
     const incrementTime = 3;
     const step = Math.ceil(end / (duration / incrementTime));
@@ -38,9 +38,8 @@ const KidsHero = () => {
           </h1>
 
           <p data-aos="fade-right">
-            Our Kids Academy provides a warm, nurturing environment where
-            young children discover the joy of learning through play,
-            creativity, and exploration.
+            We are proud to nurture hundreds of smiling, confident, and successful students every year,
+             creating a joyful learning community where every child feels valued and inspired.
           </p>
 
           <div className="kids-hero-buttons"data-aos="fade-down">
