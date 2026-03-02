@@ -2,6 +2,7 @@ import { FaUsers, FaComments, FaCalendarCheck } from "react-icons/fa";
 import AcademicHero from "../../components/Academics/AcademicHero";
 import ExploreMore from "../../components/Academics/ExploreMore";
 import "../../styles/academics.css";
+import ptm from "/AcademicsBg/PTM.png";
 
 const ptmData = [
   {
@@ -28,6 +29,7 @@ export default function ParentTeacherMeeting() {
         icon={<FaUsers />}
         title="Parent-Teacher Meeting"
         subtitle="Strengthening communication between parents and educators"
+        bgimage={ptm}
       />
 
 

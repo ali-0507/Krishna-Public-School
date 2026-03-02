@@ -3,7 +3,7 @@ import { FaBookOpen, FaBookReader,FaChevronDown } from "react-icons/fa";
 import AcademicHero from "../../components/Academics/AcademicHero";
 import ExploreMore from "../../components/Academics/ExploreMore";
 import "../../styles/academics.css";
-
+import course from "/AcademicsBg/coursesOffered.png";
 
 const courses = [
    {
@@ -69,6 +69,7 @@ const CoursesOffered = () => {
         icon={<FaBookOpen />}
         title="Courses Offered"
         subtitle="Structured academic programs for every stage"
+        bgimage={course}
       />
 
     <div className="row g-4">

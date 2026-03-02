@@ -3,6 +3,7 @@ import AcademicHero from "../../components/Academics/AcademicHero";
 import ExploreMore from "../../components/Academics/ExploreMore";
 import "../../styles/academics.css";
 import "../../styles/disclosure.css";
+import rules from "/AcademicsBg/school-rules.png";
 
 export default function PolicyDocumentation() {
   return (
@@ -11,6 +12,7 @@ export default function PolicyDocumentation() {
         icon={<FaFolderOpen />}
         title="Rules & Regulations"
         subtitle="Guidelines and policies ensuring a safe learning environment"
+        bgimage={rules}
       />
       <br/>
       <div className="mpd-tabs "data-aos="fade-left">

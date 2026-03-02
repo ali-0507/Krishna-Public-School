@@ -1,7 +1,7 @@
 const activities = [
   "Nature & Science",
   "Art & Craft",
-  "Storytelling",
+  "Story & Phonics Time",
   "Music & Movement",
   "Life Skills",
   "Outdoor Play",

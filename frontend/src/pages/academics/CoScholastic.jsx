@@ -9,6 +9,7 @@ import {
 import AcademicHero from "../../components/Academics/AcademicHero";
 import ExploreMore from "../../components/Academics/ExploreMore";
 import "../../styles/academics.css";
+import coScho from "/AcademicsBg/coScholastic.JPG";
 
 const coData = [
   {
@@ -46,6 +47,7 @@ export default function CoScholastic() {
         icon={<FaTrophy />}
         title="Co-Scholastic Activities"
         subtitle="Encouraging creativity, leadership, sports, and holistic development"
+        bgimage={coScho}
       />
 
       <section className="academics-section ">
