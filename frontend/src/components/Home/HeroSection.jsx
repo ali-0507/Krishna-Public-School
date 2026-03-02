@@ -85,8 +85,16 @@ export default function HeroSection() {
               Programs Offered
             </button>
           </div>
+          <div 
+          className="mt-4 magazine" data-aos="fade-down"
+           style={{marginLeft:"90px"}}
+           >
+           <button className="btn-outline " onClick={() => window.open("https://drive.google.com/file/d/1V7aj5wD9YxH9HLhclSQdxGFxm6AhO_8P/view?usp=drive_link")}>
+            <FaDownload />View E-Magazine
+          </button>
           </div>
-
+          
+          </div>
         </div>
         
       </div>
