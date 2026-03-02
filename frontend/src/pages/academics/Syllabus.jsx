@@ -5,7 +5,7 @@ import "../../styles/academics.css";
 import CommonExamTables from "../../components/Syllabus/CommonExamTables";
 import ExamTables from "../../components/Syllabus/ExamTables";
 import { useState } from "react";
-
+import syllab from "/AcademicsBg/syllabus.png";
 
 export default function Syllabus() {
   const [selectedClass, setSelectedClass] = useState("I");
@@ -15,6 +15,7 @@ export default function Syllabus() {
         icon={<FaClipboardList />}
         title="Syllabus"
         subtitle="Excellence in education through comprehensive academic programs"
+        bgimage={syllab}
       />
   
     <section className="syllabus-download-section" data-aos="fade-right">

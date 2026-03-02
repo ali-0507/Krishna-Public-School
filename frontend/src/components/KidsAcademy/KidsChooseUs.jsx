@@ -1,7 +1,7 @@
 const features = [
   {
     icon: "fa-heart",
-    title: "Caring Environment",
+    title: "Safe & Caring Environment",
     desc: "Warm and nurturing atmosphere for young learners",
   },
   {
@@ -37,7 +37,11 @@ const KidsChooseUs = () => {
       <span className="badge">Why Choose Us</span>
 
       <h2>The KPS Kids Advantage</h2>
-
+        <p style={{textAlign:"justify"}}>At KPS Kids, we believe in providing complete development for every child—academically, socially, and emotionally.
+Our modern teaching methods, upgraded facilities, and activity-based learning help students grow with confidence and creativity.
+We maintain a safe, caring environment where every child receives personal attention and encouragement.
+Along with strong academics, we focus on values, communication skills, and overall personality development.
+Choosing KPS Kids means choosing a school that builds a strong foundation for lifelong success and bright futures.</p>
       <div className="why-grid-modern"data-aos="fade-up">
         {features.map((item, index) => (
           <div className="why-card-modern" key={index}>

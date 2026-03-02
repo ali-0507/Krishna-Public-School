@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { FaDownload } from "react-icons/fa";
 
 const heroImages = [
   "/Home/SCHOOL.jpeg",

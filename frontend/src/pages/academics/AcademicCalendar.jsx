@@ -2,6 +2,8 @@ import { useState } from "react";
 import { FaClipboardCheck, FaBalanceScale, FaChartLine, FaUserShield, FaFileAlt } from "react-icons/fa";
 import "../../styles/calendar.css";
 import AcademicHero from "../../components/Academics/AcademicHero";
+import cal from "/AcademicsBg/academicCalendar.jpg";
+
 export default function AcademicCalendar() {
 
     const [selectedMonth, setSelectedMonth] = useState("All");
@@ -56,6 +58,7 @@ export default function AcademicCalendar() {
                 icon={<FaFileAlt />}
                 title="Academic Calendar"
                 subtitle="2026-2027"
+                bgimage={cal}
             />
             <section className="academic-calendar-section">
                 <div className="calendar-container">

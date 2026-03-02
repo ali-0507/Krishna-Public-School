@@ -37,12 +37,18 @@ export default function Footer() {
           <div className="col-12 col-md-6 col-lg-3 mb-4 ps-lg-5 pe-lg-1">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
-              <li><Link className="text-light text-decoration-none" to="/">Home</Link></li>
-              <li><Link className="text-light text-decoration-none" to="/about">About Us</Link></li>
-              <li><Link className="text-light text-decoration-none" to="/admission">Admission</Link></li>
-              <li><Link className="text-light text-decoration-none" to="/kids-academy">Kids Academy</Link></li>
-              <li><Link className="text-light text-decoration-none" to="/gallery">Gallery</Link></li>
-              <li><Link className="text-light text-decoration-none" to="/contact">Contact</Link></li>
+              <li><Link className="text-light text-decoration-none" to="/" onClick={() => {
+                document.getElementById("home-page").scrollIntoView()}}>Home</Link></li>
+              <li><Link className="text-light text-decoration-none" to="/about" onClick={() => {
+                document.getElementById("about-us").scrollIntoView()}}>About Us</Link></li>
+              <li><Link className="text-light text-decoration-none" to="/admission" onClick={()=>{
+                document.getElementById("admission-page").scrollIntoView()}}>Admission</Link></li>
+              <li><Link className="text-light text-decoration-none" to="/kids-academy" onClick={()=>{
+                document.getElementById("kids-page").scrollIntoView()}}>Kids Academy</Link></li>
+              <li><Link className="text-light text-decoration-none" to="/gallery" onClick={()=>{
+                document.getElementById("gallery-page").scrollIntoView()}}>Gallery</Link></li>
+              <li><Link className="text-light text-decoration-none" to="/contact" onClick={()=>{
+                document.getElementById("contact-page").scrollIntoView()}}>Contact</Link></li>
             </ul>
           </div>
           
@@ -51,11 +57,16 @@ export default function Footer() {
           <div className="col-12 col-md-6 col-lg-3 mb-4 ps-lg-2">
             <h5>Important Links</h5>
             <ul className="list-unstyled">
-              <li><Link className="text-light text-decoration-none" to="/programs-offered">Our Programs</Link></li>
-              <li><Link className="text-light text-decoration-none" to="/achievements">Achievements</Link></li>
-              <li><Link className="text-light text-decoration-none" to="/clubs">Clubs</Link></li>
-              <li><Link className="text-light text-decoration-none" to="/academics/syllabus">Academic Syllabus</Link></li>
-              <li><Link className="text-light text-decoration-none" to="/academics/exam-policy">Exam Policy</Link></li>
+              <li><Link className="text-light text-decoration-none" to="/programs-offered" onClick={()=>{
+                document.getElementById("program-page").scrollIntoView()}}>Our Programs</Link></li>
+              <li><Link className="text-light text-decoration-none" to="/achievements" onClick={()=>{
+                document.getElementById("achievement-page").scrollIntoView()}}>Achievements</Link></li>
+              <li><Link className="text-light text-decoration-none" to="/clubs" onClick={()=>{
+                document.getElementById("clubs-page").scrollIntoView()}}>Clubs</Link></li>
+              <li><Link className="text-light text-decoration-none" to="/academics/syllabus" onClick={()=>{
+                document.getElementById("academics-page").scrollIntoView()}}>Academic Syllabus</Link></li>
+              <li><Link className="text-light text-decoration-none" to="/academics/exam-policy" onClick={()=>{
+                document.getElementById("policy-page").scrollIntoView()}}>Exam Policy</Link></li>
             </ul>
           </div>
 

@@ -1,4 +1,4 @@
-import { FaArrowRight, FaDownload } from "react-icons/fa";
+import { FaArrowDown, FaArrowRight, FaDownload } from "react-icons/fa";
 
 const AdmissionHero = () => {
   return (
@@ -19,12 +19,10 @@ const AdmissionHero = () => {
 
         <div className="admission-hero-buttons">
           <button className="btn-primary" onClick={() => document.getElementById("admission-form").scrollIntoView({ behavior: "smooth" })}>
-            Apply Online <FaArrowRight />
+            Apply Online <FaArrowDown />
           </button>
 
-          <button className="btn-outline">
-            <FaDownload /> Download Brochure
-          </button>
+           
         </div>
       </div>
     </section>

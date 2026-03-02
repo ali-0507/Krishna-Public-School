@@ -2,6 +2,7 @@ import { FaClock, FaSun, FaMoon } from "react-icons/fa";
 import AcademicHero from "../../components/Academics/AcademicHero";
 import ExploreMore from "../../components/Academics/ExploreMore";
 import "../../styles/academics.css";
+import time from "/AcademicsBg/schoolTiming.jpg";
 
 const timingData = [
   {
@@ -34,6 +35,7 @@ export default function SchoolTiming() {
         icon={<FaClock />}
         title="School Timing"
         subtitle="Structured daily schedule ensuring discipline and balance"
+        bgimage={time}
       />
     <section className="academics-section">
       <div className="container">

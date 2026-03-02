@@ -10,6 +10,7 @@ import ResultCalculationTable from "../../components/Academics/ExamPolicy/Result
 import ExamPolicyNotes from "../../components/Academics/ExamPolicy/ExamPolicyNotes";
 import "../../styles/academics.css";
 import "../../styles/exampolicy.css";
+import policy from "/AcademicsBg/ExamPolicy.jpg";
 
 
 
@@ -43,6 +44,7 @@ export default function ExamPolicy() {
         icon={<FaFileAlt />}
         title="Exam Policy"
         subtitle="Transparent and fair assessment system for students"
+        bgimage={policy}
       />
       <ExamPolicyOverview />
       <ExamPolicyByClass />

@@ -5,6 +5,7 @@ import Footer from "./components/common/Footer";
 import FloatingAdmissionButton from "./components/FloatingAdmissionButton";
 import "../src/App.css";
 import "../src/styles/clubs.css";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   const location = useLocation();
@@ -12,6 +13,7 @@ function App() {
     
   return (
     <>
+      <ScrollToTop/>
       {!isAdminRoute && <Navbar />}
 
       <AppRoutes />
