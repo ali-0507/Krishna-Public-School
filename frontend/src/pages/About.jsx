@@ -134,10 +134,10 @@ export default function About() {
 
         <div className="timeline">
           <div className="timeline-item reveal">
-            <div className="timeline-year">1995</div>
+            <div className="timeline-year">2018</div>
             <div className="timeline-dot"></div>
             <div className="timeline-card">
-              <h3>Foundation</h3>
+              <h3>Re-Foundation</h3>
               <p>
                 Krishna Public School was established with a vision to provide
                 quality education.
@@ -146,7 +146,7 @@ export default function About() {
           </div>
 
           <div className="timeline-item reveal">
-            <div className="timeline-year">2005</div>
+            <div className="timeline-year">2020</div>
             <div className="timeline-dot"></div>
             <div className="timeline-card">
               <h3>Expansion</h3>
@@ -155,7 +155,7 @@ export default function About() {
           </div>
 
           <div className="timeline-item reveal">
-            <div className="timeline-year">2015</div>
+            <div className="timeline-year">2023</div>
             <div className="timeline-dot"></div>
             <div className="timeline-card">
               <h3>Recognition</h3>
@@ -164,7 +164,7 @@ export default function About() {
           </div>
 
           <div className="timeline-item reveal">
-            <div className="timeline-year">2025</div>
+            <div className="timeline-year">Present</div>
             <div className="timeline-dot"></div>
             <div className="timeline-card">
               <h3>Today</h3>
