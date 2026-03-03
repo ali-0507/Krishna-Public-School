@@ -1,5 +1,5 @@
 .achievements-section {
-  background: linear-gradient(180deg, #3d5e90, #215586);
+  background: linear-gradient(180deg, #2f4970, #0a3a67);
   padding: 80px 20px 100px;
   text-align: center;
   color: #fff;
@@ -43,14 +43,14 @@
   align-items: center;
   gap: 20px;
   padding:20px;
-  width: 700px;
+  width: 900px;
   height:auto;
   box-shadow: 0 20px 40px rgba(0,0,0,0.25);
 }
 
 .ach-image img {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   border-radius: 12px;
   object-fit: cover;
 }
