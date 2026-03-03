@@ -7,31 +7,40 @@ const achievementsData = [
     title: "Academic Achievements",
     desc: "Outstanding academic performance and board results achieved by our students.",
     images: [
-      "/award.jpeg",
-      "/academic.jpeg",
+      "/Achievement/academic1.jpeg",
+      "/Achievement/academic2.jpeg",
+      "/Achievement/academic3.jpeg",
+      "/Achievement/academic4.jpeg"
     ],
   },
   {
     title: "Sports Achievements",
     desc: "State and district level victories in athletics and team sports.",
     images: [
-      "/sportClub.webp",
-      "/sportClub2.webp",
+      "/Achievement/sports1.jpeg"
     ],
   },
   {
-    title: "Cultural Achievements",
+    title: "Special Achievements",
     desc: "Award-winning performances in music, dance, drama, and arts.",
     images: [
-      "/assets/achievements/cultural1.jpg",
+      "/Achievement/special1.jpeg",
+      "/Achievement/special2.jpeg",
+      "/Achievement/special3.jpeg",
+      "/Achievement/special4.jpeg"
     ],
   },
   {
-    title: "Olympiads & Competitions",
+    title: "Olympiads",
     desc: "National and regional level success in Olympiads and quiz competitions.",
     images: [
-      "/olympiad.jpeg",
-      "/olympiad2.jpeg",
+      "/Achievement/olympiad1.jpeg",
+      "/Achievement/olympiad2.jpeg",
+      "/Achievement/olympiad3.jpeg",
+      "/Achievement/olympiad4.jpeg",
+      "/Achievement/olympiad5.jpeg",
+      "/Achievement/olympiad6.jpeg",
+      "/Achievement/olympiad7.jpeg"
        
     ],
   },
@@ -42,9 +51,9 @@ export default function Achievements() {
     <>
       {/* HERO */}
       <section className="ach-hero">
-        <span className="ach-badge">Our Pride</span>
-        <h1>Achievements & Excellence</h1>
-        <p>
+        <span className="ach-badge"data-aos="fade-up">Our Pride</span>
+        <h1 data-aos="fade-left">Achievements & Excellence</h1>
+        <p style={{marginTop:"40px"}}data-aos="fade-left">
           Celebrating the remarkable accomplishments of our students across academics,
           sports, and cultural activities.
         </p>
@@ -52,7 +61,7 @@ export default function Achievements() {
 
       {/* ACHIEVEMENT SECTIONS */}
       {achievementsData.map((item, index) => (
-        <AchievementSection key={index} data={item} />
+        <AchievementSection key={index} data={item}/>
       ))}
     </>
   );
@@ -74,7 +83,8 @@ function AchievementSection({ data }) {
       </div>
 
       <div className="achievement-slider">
-        <button className="slide-btn left" onClick={prev}>‹</button>
+        <button className="slide-btn left" onClick={prev}
+        data-aos="fade-down">‹</button>
 
         <img
           src={data.images[current]}
@@ -82,7 +92,8 @@ function AchievementSection({ data }) {
           className="achievement-image"
         />
 
-        <button className="slide-btn right" onClick={next}>›</button>
+        <button className="slide-btn right" onClick={next}
+        data-aos="fade-down">›</button>
       </div>
     </section>
   );
