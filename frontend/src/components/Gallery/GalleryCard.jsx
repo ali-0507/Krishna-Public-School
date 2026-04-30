@@ -1,29 +1,40 @@
+import { useState } from "react";
+import "yet-another-react-lightbox/styles.css";
 
 const GalleryCard = ({ item }) => {
-  const modalId = `galleryModal-${item.title.replace(/\s+/g, "")}`;
+ const modalId = `galleryModal-${item._id}`;;
+
+const [Open, setOpen] = useState(false);
+const [photoIndex, setPhotoIndex] = useState(0);
 
   return (
+
     <>
       {/* CARD */}
-      <div
-        className="gallery-card"
-        data-aos = "fade-left" data-bs-toggle="modal"
-        data-bs-target={`#${modalId}`}
-      >
-        <div
-          className="gallery-image"
-          style={{ backgroundColor: item.color }}
-        >
-          <span>{item.title}</span>
-        </div>
-      </div>
+      <div className="gallery-card"
+  data-aos="fade-left"
+  data-bs-toggle="modal"
+  data-bs-target={`#${modalId}`}
+>
+
+  <div className="gallery-image">
+    <img
+      src={item.images?.[0]?.src || "/placeholder.jpg"}
+      alt={item.title}
+    />
+  </div>
+
+  <div className="gallery-title">
+    {item.title}
+  </div>
+
+</div>
 
       {/* MODAL */}
       <div
         className="modal fade"
         id={modalId}
         tabIndex="-1"
-        aria-hidden="true"
       >
         <div className="modal-dialog modal-lg modal-dialog-centered">
           <div className="modal-content">

@@ -24,11 +24,18 @@ import ProgramsOffered from "../pages/ProgramsOffered";
 import AcademicCalendar from "../pages/academics/AcademicCalendar";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import TermsConditions from "../pages/TermsConditions";
+
 import AdminLogin from "../pages/admin/AdminLogin";
 import AdminRegister from "../pages/admin/AdminRegister";
 import AdminLayout from "../pages/admin/AdminLayout";
 import Dashboard from "../pages/admin/Dashboard";
 import AdminGallery from "../pages/admin/AdminGallery"; 
+
+import AdminAdmissions from "../pages/AdminAdmissions";
+import AdminEnquiry from "../pages/AdminEnquiry";
+import AdminContacts from "../pages/AdminContacts";
+import AdminDocuments from "../pages/admin/AdminDocuments";
+import AdminAchievement from "../pages/admin/AdminAchievement";
 
 export default function AppRoutes() {
   return (
@@ -58,28 +65,35 @@ export default function AppRoutes() {
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/terms-conditions" element={<TermsConditions />} />
 
-      {/*Admin route */}
-      <Route path="/admin/login" element={<AdminLogin />} />
-      <Route path="/admin" element={<AdminLogin />} />
-      <Route path="/admin/register" element={<AdminRegister />} />
-      <Route
-        path="/admin/dashboard"
-        element={
-          <ProtectedRoute allowedRoles={["director", "principal", "managing_director"]}>
-            <AdminLayout />
-          </ProtectedRoute>
-        }>
-        <Route index element={<Dashboard />} />
-      </Route>
 
-      <Route 
-            path="/admin/gallery" 
-            element={ 
-              <ProtectedRoute> 
-                <AdminGallery /> 
-              </ProtectedRoute> 
-            } 
-          /> 
+
+{/* ---------------- ADMIN AUTH ROUTES ---------------- */}
+<Route path="/admin/login" element={<AdminLogin />} />
+<Route path="/admin/register" element={<AdminRegister />} />
+{/* ---------------- ADMIN PROTECTED ROUTES ---------------- */}
+<Route
+  path="/admin"
+  element={
+    <ProtectedRoute allowedRoles={["director", "principal", "managing_director"]}>
+      <AdminLayout />
+    </ProtectedRoute>
+  }
+>
+
+  {/* Redirect /admin → /admin/dashboard */}
+  <Route index element={<Dashboard />} />
+
+  <Route path="dashboard" element={<Dashboard />} />
+  <Route path="gallery" element={<AdminGallery />} />
+  <Route path="admissions" element={<AdminAdmissions />} />
+  <Route path="enquiry" element={<AdminEnquiry />} />
+  <Route path="contacts" element={<AdminContacts />} />
+  <Route path="documents" element={<AdminDocuments/>}/>
+   <Route path="achievements" element={<AdminAchievement/>}/>
+   
+</Route>
+
+      
 
     </Routes>
   );

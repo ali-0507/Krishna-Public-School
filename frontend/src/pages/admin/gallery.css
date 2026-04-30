@@ -3,9 +3,10 @@
 }
 
 .gallery-top {
-  display: flex;
+ display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .gallery-top p {
@@ -19,17 +20,22 @@
   padding: 10px 18px;
   border-radius: 8px;
   font-weight: 600;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .gallery-controls {
-  margin: 20px 0;
+   display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
 }
 .gallery-controls input{
-  border-radius: 20px;
-  border:2px solid gray;
-  background:white;
-  color:black;
+   width: 320px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
 }
 .gallery-controls input:focus{
   outline:none;
@@ -44,43 +50,54 @@
 }
 
 .filter-tabs {
-  margin-top: 15px;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
 
 .filter-tabs button {
-  padding: 6px 14px;
+  padding: 7px 16px;
   border-radius: 20px;
-  border: 1px solid #ccc;
-  background: #fff;
-  color:black;
+  border: 1px solid #d6d9e0;
+  font-size: 14px;
+  transition: 0.2s;
+  background: white;
   cursor: pointer;
 }
 
-.active-tab {
+.filter-tabs button:hover {
+  background: #eef1f7;
+  color:#1f2f56 ;
+}
+.filter-tabs button, .active-tab {
   background: #1f2f56;
   color: white;
-  border: none;
+  
 }
 
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+  gap: 18px;
 }
 
 .photo-card {
   background: white;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  border: 1px solid #e6e8ef;
+  transition: 0.25s;
+}
+
+.photo-card:hover {
+   transform:translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 .photo-img {
-  position: relative;
-  height: 200px;
+ position:relative;
+ height:200px;
+ overflow:hidden;
 }
 
 .photo-img img {
@@ -106,19 +123,22 @@
 }
 
 .photo-overlay button {
-  padding: 6px 12px;
+   width: 40px;
+  height: 40px;
+  border-radius: 8px;
   border: none;
-  border-radius: 6px;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .photo-overlay button:first-child {
-  background: #1f2f56;
-  color: white;
+ background: white;
+  /* color: white; */
 }
 
 .photo-overlay button:last-child {
-  background: #d9534f;
+ background: #ff4d4f;
   color: white;
 }
 
@@ -207,4 +227,136 @@
   right: 15px;
   font-size: 20px;
   cursor: pointer;
+}
+
+
+/* search  box */
+.search-box {
+  position: relative;
+  width: 350px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px 12px 10px 38px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #b0aaaa;
+}
+
+
+
+.empty-gallery{
+  grid-column:1/-1;
+  text-align:center;
+  padding:60px;
+  color:#777;
+}
+
+.empty-gallery p{
+  font-size:18px;
+  font-weight:600;
+}
+
+.empty-gallery span{
+  font-size:14px;
+}
+
+
+
+.category-badge{
+ position:absolute;
+ top:10px;
+ left:10px;
+ background:#1f2f56;
+ color:white;
+ font-size:12px;
+ padding:4px 10px;
+ border-radius:20px;
+}
+
+.photo-overlay{
+ position:absolute;
+ inset:0;
+ background:rgba(0,0,0,0.55);
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ gap:10px;
+ opacity:0;
+ transition:0.25s;
+}
+
+.photo-img:hover .photo-overlay{
+ opacity:1;
+}
+
+
+.view-btn,
+.delete-btn{
+ width:40px;
+ height:40px;
+ border-radius:8px;
+ border:none;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ cursor:pointer;
+ font-size:16px;
+}
+
+.view-btn{
+ background:white;
+}
+
+.delete-btn{
+ background:#ff4d4f;
+ color:white;
+}
+
+
+.photo-info{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:12px 14px;
+}
+
+.photo-info h4{
+ margin:0;
+ font-size:15px;
+}
+
+.photo-info p{
+ margin:0;
+ font-size:13px;
+ color:#777;
+}
+
+.photo-info span{
+ font-size:12px;
+ color:#999;
+}
+
+
+.preview-grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(90px,1fr));
+gap:10px;
+margin-top:12px;
+}
+
+.preview-img{
+width:100%;
+height:90px;
+object-fit:cover;
+border-radius:6px;
+border:1px solid #eee;
 }

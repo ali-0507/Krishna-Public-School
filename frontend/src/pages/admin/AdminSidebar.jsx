@@ -1,59 +1,4 @@
-// import { NavLink } from "react-router-dom";
-// import {
-//   FaTachometerAlt,
-//   FaImages,
-//   FaFileAlt,
-//   FaShieldAlt,
-//   FaTrophy,
-//   FaSchool,
-//   FaUsers
-// } from "react-icons/fa";
-
-// export default function AdminSidebar() {
-//   return (
-//     <div className="admin-sidebar">
-
-//       <div className="admin-brand">
-//         <div className="brand-icon">🏫</div>
-//         <div>
-//           <h6>Krishna Public</h6>
-//           <span>ADMIN PANEL</span>
-//         </div>
-//       </div>
-
-//       <nav>
-//         <NavLink to="/admin" end>
-//           <FaTachometerAlt /> Dashboard
-//         </NavLink>
-
-//         <NavLink to="/admin/gallery">
-//           <FaImages /> Gallery
-//         </NavLink>
-
-//         <NavLink to="/admin/documents">
-//           <FaFileAlt /> Documents
-//         </NavLink>
-
-//         <NavLink to="/admin/disclosure">
-//           <FaShieldAlt /> Mandatory Disclosure
-//         </NavLink>
-
-//         <NavLink to="/admin/achievement">
-//           <FaTrophy /> Achievements
-//         </NavLink>
-
-//         <NavLink to="/admin/school-info">
-//           <FaSchool /> School Info
-//         </NavLink>
-
-//         <NavLink to="/admin/staff">
-//           <FaUsers /> Staff Management
-//         </NavLink>
-//       </nav>
-//     </div>
-//   );
-// }
-
+ 
 import { NavLink } from "react-router-dom";
 import {
   FaTachometerAlt,
@@ -64,23 +9,27 @@ import {
   FaSchool,
   FaUsers,
   FaTimes,
-  FaHome
+  FaHome,
+  FaPhone,
+  FaPhoneAlt
 } from "react-icons/fa";
+import { useContext } from "react";
+import { AuthContext } from "../../context/AuthContext";
 
 export default function AdminSidebar({ sidebarOpen, setSidebarOpen }) {
+    const { user } = useContext(AuthContext);
   return (
     <div className={`admin-sidebar ${sidebarOpen ? "open" : "closed"}`}>
 
       <div className="admin-brand">
-        <div className="brand-icon">🏫</div>
-        <div>
-          <h5 style={{marginBottom:"0px"}}>Krishna Public School Tendua</h5>
-          <span style={{color:"#1f2f56",fontSize:"20px",marginTop:"0px"}}>Admin panel</span>
+        <div className="brand-icon">
+          <img src="/SCHOOL LOGO.png" className="school-logo"></img>
+
         </div>
-        <FaTimes
-          className="close-btn"
-          onClick={() => setSidebarOpen(false)}
-        />
+        <div>
+          <h6>Krishna Public School Tendua</h6>
+          <small>Admin panel</small>
+        </div>
       </div>
 
       <nav>
@@ -90,35 +39,55 @@ export default function AdminSidebar({ sidebarOpen, setSidebarOpen }) {
           <FaTachometerAlt /> Dashboard
         </NavLink>
 
-        <NavLink to="/admin/gallery">
-          <FaImages /> Gallery
+         <NavLink to="/admin/admissions">
+          <FaSchool /> Admission Info
         </NavLink>
 
+        <NavLink to="/admin/contacts">
+          <FaPhoneAlt /> Contact Info 
+        </NavLink>
+
+
+        <NavLink to="/admin/enquiry">
+          <FaUsers /> Kids Enquiry Info
+        </NavLink>
+
+          <NavLink to="/admin/gallery">
+          <FaImages /> Gallery
+        </NavLink>
+            
         <NavLink to="/admin/documents">
           <FaFileAlt /> Documents
         </NavLink>
 
-        <NavLink to="/admin/disclosure">
-          <FaShieldAlt /> Mandatory Disclosure
-        </NavLink>
-
-        <NavLink to="/admin/achievement">
+         <NavLink to="/admin/achievements">
           <FaTrophy /> Achievements
         </NavLink>
 
-        <NavLink to="/admin/school-info">
-          <FaSchool /> School Info
-        </NavLink>
-
-        <NavLink to="/admin/staff">
-          <FaUsers /> Staff Management
-        </NavLink>
       </nav>
     
     <hr/>
-      <a href="/" className="go-back">
-        <FaHome /> Go Back To Site
-      </a>
+      <div className="sidebar-bottom">
+
+  <div className="admin-profile">
+   <div className="avatar">
+  {user?.name
+    ?.split(" ")
+    .map((n) => n[0])
+    .join("")
+    .toUpperCase()}
+</div>
+    <div>
+      <p>{user?.name}</p>
+      <span>Principal</span>
+    </div>
+  </div>
+
+  <a href="/" className="back-site">
+    ← Back to Site
+  </a>
+
+</div>
 
     </div>
   );
