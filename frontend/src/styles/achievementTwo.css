@@ -61,6 +61,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 850px; 
+   margin: 0 auto;
 }
 
 .achievement-image {
@@ -93,6 +95,8 @@
 .slide-btn.right {
   right:15%;
 }
+
+
 
 /* RESPONSIVE */
 @media (max-width: 765px) {

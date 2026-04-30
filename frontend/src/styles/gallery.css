@@ -70,40 +70,59 @@
 /* CARD */
 
  .gallery-card {
-  position: relative;
-  overflow: hidden;
+ overflow: hidden;
   border-radius: 18px;
   cursor: pointer;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
 }
 
+.gallery-card:hover {
+  transform: translateY(-5px);
+}
+
+/* IMAGE */
 .gallery-image {
   position: relative;
-  height: 240px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: #334155;
+  height: 220px;
+  overflow: hidden;
+}
+.gallery-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .gallery-image::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.35); /* black film */
+  background: rgba(0, 0, 0, 0.25);
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: 0.3s;
 }
+
 .gallery-card:hover .gallery-image::after {
   opacity: 1;
 }
+.gallery-title {
+  padding: 12px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #1e293b;
+  text-align: center;
 
-.gallery-image span {
-  position: relative;
-  z-index: 2;
-  transition: transform 0.3s ease;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;   /* max 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
+ 
+.gallery-card:hover .gallery-image::after {
+  opacity: 1;
+}
+ 
 
 .gallery-card:hover .gallery-image span {
   transform: translateY(-4px);

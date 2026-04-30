@@ -1,0 +1,105 @@
+/* ===== DOCUMENT PAGE ===== */
+.admin-docs {
+  padding: 20px;
+}
+
+.admin-docs h2 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* ===== TOP BAR ===== */
+.doc-topbar {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.doc-topbar input,
+.doc-topbar select {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.doc-topbar button {
+  background: #facc15;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* ===== FILTER BUTTONS ===== */
+.doc-filters {
+  margin-bottom: 15px;
+}
+
+.doc-filters button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  color: black;
+}
+
+.doc-filters .active {
+  background: #1e293b;
+  color: white;
+}
+
+/* ===== TABLE ===== */
+.doc-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.doc-table th,
+.doc-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.doc-table th {
+  background: #f8fafc;
+  font-weight: 600;
+}
+
+.doc-table tr {
+  border-bottom: 1px solid #eee;
+}
+
+/* ===== STATUS BADGES ===== */
+.status {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.status.published {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.status.draft {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+/* ===== ACTION ICONS ===== */
+.doc-table svg {
+  cursor: pointer;
+  margin-right: 10px;
+  color: #555;
+}
+
+.doc-table svg:hover {
+  color: black;
+}

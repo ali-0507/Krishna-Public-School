@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { FaDownload } from "react-icons/fa";
+import {getDocuments} from "../../services/api.js";
 
 const heroImages = [
   "/Home/SCHOOL.jpeg",
@@ -16,13 +17,35 @@ const heroImages = [
 export default function HeroSection() {
   const navigate = useNavigate();
   const [index, setIndex] = useState(0);
+  const [magazine, setMagazine] = useState(null);
+
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setIndex((prev) => (prev + 1) % heroImages.length);
-    }, 5000); // 5 seconds
+     const timer = setInterval(() => {
+    setIndex((prev) => (prev + 1) % heroImages.length);
+  }, 5000);
 
-    return () => clearInterval(timer);
+  // 🔥 FETCH MAGAZINE
+  const fetchMagazine = async () => {
+    try {
+      const res = await getDocuments();
+
+      console.log("Documents:", res.data); // 👈 DEBUG
+
+      const mag = res.data.find(
+        (doc) => doc.category === "magazine"
+      );
+
+      setMagazine(mag);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  fetchMagazine();
+
+  // ✅ CLEANUP (ALWAYS LAST)
+  return () => clearInterval(timer);
   }, []);
 
   return (
@@ -90,7 +113,14 @@ export default function HeroSection() {
           className="mt-4 magazine" data-aos="fade-down"
            style={{marginLeft:"90px"}}
            >
-           <button className="btn-outline " onClick={() => window.open("https://drive.google.com/file/d/1V7aj5wD9YxH9HLhclSQdxGFxm6AhO_8P/view?usp=drive_link")}>
+           <button className="btn-outline " 
+           onClick={() => {
+                if (magazine?.fileUrl) {
+                  window.open(magazine.fileUrl);
+                } else {
+                  alert("E-Magazine not available");
+                }
+              }}>
             <FaDownload />View E-Magazine
           </button>
           </div>

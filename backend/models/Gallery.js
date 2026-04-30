@@ -7,31 +7,18 @@ const gallerySchema = new mongoose.Schema({
   },
 
   // MAIN TAG
-  tag: {
+  category: {
     type: String,
     enum: ["campus", "events", "sports", "academics", "celebrations"],
     required: true,
   },
 
-  // SUB CATEGORY INSIDE TAG
-  subCategory: {
-    type: String,
-    required: true,
-  },
-
-  imageUrl: {
-    type: String,
-    required: true,
-  },
-
-  description: {
-    type: String,
-  },
-
-  uploadedBy: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "User",
-  },
+  images: [
+    {
+      src: String,
+      caption: String
+    }
+  ],
 
   createdAt: {
     type: Date,

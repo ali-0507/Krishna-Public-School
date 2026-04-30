@@ -1,17 +1,28 @@
 const express = require("express");
 const router = express.Router();
 const multer = require("multer");
-const { getAll, create, update, remove } = require("../controllers/achievementController");
+
+const {
+  getAll,
+  create,
+  addImages,
+  update,
+  remove,
+  deleteImage,
+} = require("../controllers/achievementController");
+
 const { protect } = require("../middleware/auth");
 
-const storage = multer.diskStorage({
-    destination: (req, file, cb) => cb(null, "uploads/"),
-    filename: (req, file, cb) => cb(null, `${Date.now()}-${file.originalname}`),
-});
-const upload = multer({ storage });
+const upload = multer({ storage: multer.memoryStorage() });
 
-router.get("/", getAll); // Public 
-router.post("/",protect,upload.single("image"), create);
-router.put("/:id",protect ,update);
+// Public
+router.get("/", getAll);
+
+// Admin
+router.post("/", protect, upload.array("images", 10), create);
+router.put("/:id", protect, update);
+router.put("/:id/add-images", protect, upload.array("images"), addImages);
 router.delete("/:id", protect, remove);
+router.delete("/:id/image", protect, deleteImage);
+
 module.exports = router;
