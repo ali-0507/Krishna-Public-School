@@ -116,7 +116,7 @@ export default function MandatoryDisclosure() {
         </tr>
       </thead>
 
-      <tbody>
+       <tbody>
         <tr>
           <td>1</td>
           <td>
@@ -203,7 +203,7 @@ export default function MandatoryDisclosure() {
         </tr>
       </thead>
 
-      <tbody>
+       <tbody>
         <tr>
           <td>1</td>
           <td>Fee Structure of the School</td>
@@ -412,7 +412,7 @@ export default function MandatoryDisclosure() {
 
         <tr>
           <td>7</td>
-          <td>LINK OF YOU TUBE VIDEO OF INSPECTION OF SCHOOL</td>
+          <td>LINK OF YOU TUBE VIDEO OF INSPECTION OF SCHOOL</td> 
           <td>
             https://www.youtube.com/watch?v=vUqZ8iY3rxM&t=7s
           </td>
