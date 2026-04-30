@@ -44,20 +44,21 @@ export default function Achievements() {
   return (
     <>
       <section className="ach-hero">
-        <span className="ach-badge">Our Pride</span>
-        <h1>Achievements & Excellence</h1>
-        <p>
-          Celebrating student success across academics, sports, and culture.
+        <span className="ach-badge"data-aos="fade-up">Our Pride</span>
+        <h1 data-aos="fade-left">Achievements & Excellence</h1>
+        <p style={{marginTop:"40px"}}data-aos="fade-left">
+          Celebrating the remarkable accomplishments of our students across academics,
+          sports, and cultural activities.
         </p>
       </section>
 
-      {Object.keys(grouped).map((category) => (
-        <AchievementSection
-            key={category}
-            title={formatCategory(category)}
-            data={grouped[category]}
-          />
-      ))}
+       {Object.keys(grouped).map((category, index) => (
+  <AchievementSection
+    key={index}
+    title={formatCategory(category)}
+    data={grouped[category]}
+  />
+))}
     </>
   );
 }
@@ -98,15 +99,17 @@ const prevImg = () => {
       </div>
 
       <div className="achievement-slider">
-        <button className="slide-btn left" onClick={prevImg}>‹</button>
+        <button className="slide-btn left" onClick={prev}
+        data-aos="fade-down">‹</button>
 
         <img
          src={data[current]?.images?.[imgIndex]?.url}
           alt={data[current]?.title}
           className="achievement-image"
         />
-           
-        <button className="slide-btn right" onClick={nextImg}>›</button>
+
+        <button className="slide-btn right" onClick={next}
+        data-aos="fade-down">›</button>
       </div>
     </section>
   );

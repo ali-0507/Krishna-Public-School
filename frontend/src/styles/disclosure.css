@@ -60,11 +60,13 @@ html {
   background: #0f2a44;
   color: #ffffff;
 }
+
 .inner-table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
 }
+
 .inner-table th,
 .inner-table td {
   border: 1px solid #ccc;
@@ -75,6 +77,7 @@ html {
   background-color: #f5f5f5;
   font-weight: 600;
 }
+
 /*Responsive*/
 @media (max-width: 768px) {
   .mpd-page {
