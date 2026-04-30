@@ -112,7 +112,7 @@ export default function MandatoryDisclosure() {
         <tr>
           <th>S.No.</th>
           <th>Information</th>
-          <th>Details</th>
+          <th>Document Links</th>
         </tr>
       </thead>
 
@@ -123,7 +123,7 @@ export default function MandatoryDisclosure() {
             Copies of Affiliation/Upgradation Letter and Recent Extension of
             Affiliation, if any
           </td>
-          <td><a href="/pdf/AFFILIATION_AND_UPGRADATION_LETTER.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
+          <td>https://kpshirapur.com/MD/AFFILIATION AND UPGRADATION LETTER.pdf</td>
         </tr>
 
         <tr>
@@ -131,7 +131,7 @@ export default function MandatoryDisclosure() {
           <td>
             Copies of Societies/Trust/Company Registration/Renewal Certificate
           </td>
-          <td><a href="/pdf/SOCIETY_RENEWAL.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
+          <td>https://kpshirapur.com/MD/SOCIETY RENEWAL.pdf</td>
 
         </tr>
 
@@ -140,7 +140,7 @@ export default function MandatoryDisclosure() {
           <td>
             Copy of No Objection Certificate (NOC) issued by the State Govt/UT
           </td>
-          <td><a href="/pdf/NOC.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
+          <td>https://kpshirapur.com/MD/NOC.pdf</td>
         </tr>
 
         <tr>
@@ -148,7 +148,7 @@ export default function MandatoryDisclosure() {
           <td>
             Copies of Recognition Certificate under RTE Act, 2009 and Renewal
           </td>
-          <td><a href="/pdf/RECOGNITION_CERTIFICATE.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
+          <td>https://kpshirapur.com/MD/Recognition Certificate.pdf</td>
         </tr>
 
         <tr>
@@ -156,7 +156,7 @@ export default function MandatoryDisclosure() {
           <td>
             Copy of Valid Building Safety Certificate as per National Building Code
           </td>
-          <td><a href="/pdf/Building_Safety_Certificate.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
+          <td>https://kpshirapur.com/MD/Building Safety Certificate.pdf</td>
         </tr>
 
         <tr>
@@ -164,7 +164,7 @@ export default function MandatoryDisclosure() {
           <td>
             Copy of Valid Fire Safety Certificate issued by Competent Authority
           </td>
-          <td><a href="/pdf/FIRE_SAFATY_CERTIFICATE.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
+          <td>https://kpshirapur.com/MD/FIRE SAFATY CERTIFICATE.pdf</td>
         </tr>
 
         <tr>
@@ -172,7 +172,7 @@ export default function MandatoryDisclosure() {
           <td>
             Copy of DEO Certificate submitted by the school for affiliation/upgradation
           </td>
-          <td><a href="/pdf/DEO_Certificate.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
+          <td>https://kpshirapur.com/MD/DEO Certificate.pdf</td>
         </tr>
 
         <tr>
@@ -180,7 +180,7 @@ export default function MandatoryDisclosure() {
           <td>
             Copies of Valid Water, Health and Sanitation Certificates
           </td>
-          <td><a href="/pdf/HEALTH_&_WATER_CERTIFICATE.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View Document</a></td>
+          <td>https://kpshirapur.com/MD/HEALTH & WATER CERTIFICATE.pdf</td>
         </tr>
       </tbody>
     </table>
@@ -207,32 +207,79 @@ export default function MandatoryDisclosure() {
         <tr>
           <td>1</td>
           <td>Fee Structure of the School</td>
-          <td><a href="/pdf/FEE_STRUCTURE_2026-27.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View List</a></td>
+          <td>https://kpshirapur.com/MD/FEE STRUCTURE 2024-25.pdf</td>
         </tr>
 
         <tr>
           <td>2</td>
           <td>Annual Academic Calendar</td>
-          <td><a href="/pdf/ACADEMIC_CALENDAR.pdf" target="_blank" rel="noopener noreferrer" className="doc-link">View List</a></td>
+          <td>https://kpshirapur.com/MD/ACADEMIC CALANDER 2024-25.pdf</td>
         </tr>
 
         <tr>
           <td>3</td>
           <td>List of School Management Committee (SMC)</td>
-          <td><a href="/pdf/LIST_OF_SMC.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View List</a></td>
+          <td>https://kpshirapur.com/MD/LIST OF SMC.pdf</td>
         </tr>
 
         <tr>
           <td>4</td>
           <td>List of Parents Teachers Association (PTA) Members</td>
-          <td><a href="/pdf/PARENT_TEACHER_MEMBERS_ASSOCIATION.pdf"target="_blank" rel="noopener noreferrer" className="doc-link">View List</a></td>
+          <td>https://kpshirapur.com/MD/PARENT TEACHER MEMBERS ASSOCIATION.pdf</td>
         </tr>
+
+  <tr>
+        <td>5</td>
+      <td colSpan="2">
+        <strong>
+          LAST THREE-YEAR RESULT OF BOARD EXAMINATION
+        </strong>
+
+    <div className="inner-table-wrapper">
+      <table className="inner-table">
+        <thead >
           <tr>
-          <td>5</td>
-          <td>
-            Last Three-Year Result of the Board Examination (as per applicability)
-          </td>
+            <th className="tab-headings">S.No.</th>
+            <th className="text-center tab-headings">Year</th>
+            <th className="text-center tab-headings">No. of Registered Students</th>
+            <th className="text-center tab-headings">No. of Students Passed</th>
+            <th className="text-center tab-headings">Pass Percentage</th>
+            <th className="text-center tab-headings">Remarks</th>
           </tr>
+        </thead>
+
+        <tbody>
+          <tr className="text-center">
+            <td>1</td>
+            <td>2021-22</td>
+            <td>8</td>
+            <td>8</td>
+            <td>100</td>
+            <td>-</td>
+          </tr>
+
+          <tr className="text-center">
+            <td>2</td>
+            <td>2022-23</td>
+            <td>12</td>
+            <td>12</td>
+            <td>100</td>
+            <td>-</td>
+          </tr>
+
+          <tr className="text-center">
+            <td>3</td>
+            <td>2023-24</td>
+            <td>19</td>
+            <td>19</td>
+            <td>100</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </td>
+</tr>
       </tbody>
     </table>
   </div>
@@ -367,7 +414,7 @@ export default function MandatoryDisclosure() {
           <td>7</td>
           <td>LINK OF YOU TUBE VIDEO OF INSPECTION OF SCHOOL</td>
           <td>
-            <a href="https://www.youtube.com/watch?v=vUqZ8iY3rxM&t=7s" className="doc-link">View Video</a>
+            https://www.youtube.com/watch?v=vUqZ8iY3rxM&t=7s
           </td>
         </tr>
       </tbody>
