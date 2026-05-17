@@ -49,50 +49,46 @@ export default function MandatoryDisclosure() {
       <thead>
         <tr>
           <th>S.No.</th>
-          <th>Information</th>
-          <th>Details</th>
+          <th>INFORMATION</th>
+          <th>DETAILS</th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
           <td>1</td>
-          <td>Name of the School</td>
+          <td>NAME OF THE SCHOOL</td>
           <td>KRISHNA PUBLIC SCHOOL TENDUA ,RAIPUR (CG)</td>
         </tr>
         <tr>
           <td>2</td>
-          <td>Affiliation Number</td>
+          <td>AFFILIATION NUMBER</td>
           <td>3330397</td>
         </tr>
         <tr>
           <td>3</td>
-          <td>School Code</td>
+          <td>SCHOOL CODE</td>
           <td>15954</td>
         </tr>
         <tr>
           <td>4</td>
-          <td>Complete Address with Pin Code</td>
+          <td>COMPLETE ADDRESS WITH PIN CODE</td>
           <td>KRISHNA PUBLIC SCHOOL TENDUA, ON NANDANVAN ROAD, NEAR BANGLAMUKHI MANDIR, <br/>(VILG:TENDUA) RAIPUR CHATTISGARH ,RAIPUR , 492099</td>
         </tr>
         <tr>
           <td>5</td>
-          <td>Principal Name</td>
-          <td>MRS. DEEPIKA AGRAWAL</td>
+          <td>PRINCIPAL NAME & QUALIFICATION</td>
+          <td>MRS. DEEPIKA AGRAWAL  (M.SC. BOTANY, B.ED)</td>
         </tr>
-        <tr>
-          <td>6</td>
-          <td>Principal Qualification</td>
-          <td>M.SC. BOTANY, B.ED</td>
-        </tr>
+         
         <tr>
           <td>7</td>
-          <td>School Email ID</td>
+          <td>SCHOOL EMAIL ID</td>
           <td>kpshirapur18@gmail.com</td>
         </tr>
         <tr>
           <td>8</td>
-          <td>Contact Details</td>
+          <td>CONTACT DETAILS</td>
           <td>0771-2572015, 8871018515</td>
         </tr>
       </tbody>
@@ -111,8 +107,8 @@ export default function MandatoryDisclosure() {
       <thead>
         <tr>
           <th>S.No.</th>
-          <th>Information</th>
-          <th>Document Links</th>
+          <th>DOCUMENTS / INFORMATION</th>
+          <th>DOCUMENTS LINKS</th>
         </tr>
       </thead>
 
@@ -120,67 +116,75 @@ export default function MandatoryDisclosure() {
         <tr>
           <td>1</td>
           <td>
-            Copies of Affiliation/Upgradation Letter and Recent Extension of
-            Affiliation, if any
+            COPIES OF AFFILIATION/UPGRADATION LETTER ANDRECENT
+             EXTENSION OF AFFILIATION, IF ANY
           </td>
-          <td>https://kpshirapur.com/MD/AFFILIATION AND UPGRADATION LETTER.pdf</td>
+          <td>https://kpstendua.com/MD/AFFILIATION AND UPGRADATION LETTER.pdf</td>
         </tr>
 
         <tr>
           <td>2</td>
           <td>
-            Copies of Societies/Trust/Company Registration/Renewal Certificate
+            COPIES OF SOCIETIES/TRUST/COMPANYREGISTRATION/RENEWAL
+CERTIFICATE, AS APPLICABLE
           </td>
-          <td>https://kpshirapur.com/MD/SOCIETY RENEWAL.pdf</td>
+          <td>https://kpstendua.com/MD/SOCIETY-RENEWAL.pdf</td>
 
         </tr>
 
         <tr>
           <td>3</td>
           <td>
-            Copy of No Objection Certificate (NOC) issued by the State Govt/UT
+            COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED,
+IFAPPLICABLE, BY THE STATE GOVT./UT
           </td>
-          <td>https://kpshirapur.com/MD/NOC.pdf</td>
+          <td>https://kpstendua.com/MD/NOC.pdf</td>
         </tr>
 
         <tr>
           <td>4</td>
           <td>
-            Copies of Recognition Certificate under RTE Act, 2009 and Renewal
+            COPIES OF RECOGNITION CERTIFICATE UNDER RTE
+ACT,2009, AND IT’S RENEWAL IF APPLICABLE
           </td>
-          <td>https://kpshirapur.com/MD/Recognition Certificate.pdf</td>
+          <td>https://kpstendua.com/MD/Recognition-Certificate.pdf</td>
         </tr>
 
         <tr>
           <td>5</td>
           <td>
-            Copy of Valid Building Safety Certificate as per National Building Code
+            COPY OF VALID BUILDING SAFETY CERTIFICATE AS
+PER THE NATIONAL BUILDING CODE
           </td>
-          <td>https://kpshirapur.com/MD/Building Safety Certificate.pdf</td>
+          <td>https://kpstendua.com/MD/Building-Safety-Certificate.pdf</td>
         </tr>
 
         <tr>
           <td>6</td>
           <td>
-            Copy of Valid Fire Safety Certificate issued by Competent Authority
+           COPY OF VALID FIRE SAFETY CERTIFICATE ISSUED BY
+THECOMPETENT AUTHORITY
           </td>
-          <td>https://kpshirapur.com/MD/FIRE SAFATY CERTIFICATE.pdf</td>
+          <td>https://kpstendua.com/MD/FIRE-SAFETY-CERTIFICATE.pdf</td>
         </tr>
 
         <tr>
           <td>7</td>
           <td>
-            Copy of DEO Certificate submitted by the school for affiliation/upgradation
+            COPY OF THE DEO CERTIFICATE SUBMITTED BY THESCHOOL FOR AFFILIATION/UPGRADATION/EXTENSION OF AFFILIATIONOR SELF
+CERTIFICATION BY SCHOOL
+
           </td>
-          <td>https://kpshirapur.com/MD/DEO Certificate.pdf</td>
+          <td>https://kpstendua.com/MD/DEO-Certificate.pdf</td>
         </tr>
 
         <tr>
           <td>8</td>
           <td>
-            Copies of Valid Water, Health and Sanitation Certificates
+            COPIES OF VALID DRINKING WATER, HEALTH AND SANITATION 
+CERTIFICATES AND WATER TESTING REPORT
           </td>
-          <td>https://kpshirapur.com/MD/HEALTH & WATER CERTIFICATE.pdf</td>
+          <td>https://kpstendua.com/MD/HEALTH-WATER-CERTIFICATE.pdf</td>
         </tr>
       </tbody>
     </table>
@@ -198,53 +202,54 @@ export default function MandatoryDisclosure() {
       <thead>
         <tr>
           <th>S.No.</th>
-          <th>Information</th>
-          <th>Details</th>
+          <th>DOCUMENTS / INFORMATION</th>
+          <th>UPLOAD DOCUMENTS</th>
         </tr>
       </thead>
 
        <tbody>
         <tr>
           <td>1</td>
-          <td>Fee Structure of the School</td>
-          <td>https://kpshirapur.com/MD/FEE STRUCTURE 2024-25.pdf</td>
+          <td>FEE STRUCTURE OF THE SCHOOL</td>
+          <td>https://kpstendua.com/MD/FEE-STRUCTURE 2024-25.pdf</td>
         </tr>
 
         <tr>
           <td>2</td>
-          <td>Annual Academic Calendar</td>
+          <td>ANNUAL ACADEMIC CALENDAR</td>
           <td>https://kpshirapur.com/MD/ACADEMIC CALANDER 2024-25.pdf</td>
         </tr>
 
         <tr>
           <td>3</td>
-          <td>List of School Management Committee (SMC)</td>
-          <td>https://kpshirapur.com/MD/LIST OF SMC.pdf</td>
+          <td>LIST OF SCHOOL MANAGEMENT COMMITTEE (SMC)</td>
+          <td>https://kpstendua.com/MD/LIST-OF-SMC.pdf</td>
         </tr>
 
         <tr>
           <td>4</td>
-          <td>List of Parents Teachers Association (PTA) Members</td>
-          <td>https://kpshirapur.com/MD/PARENT TEACHER MEMBERS ASSOCIATION.pdf</td>
+          <td>LIST OF PARENT TEACHER ASSOCIATION (PTA) MEMBERS</td>
+          <td>https://kpstendua.com/MD/PARENT-TEACHER-MEMBERS-ASSOCIATION.pdf</td>
         </tr>
 
   <tr>
         <td>5</td>
       <td colSpan="2">
         <strong>
-          LAST THREE-YEAR RESULT OF BOARD EXAMINATION
+         LAST THREE-YEAR RESULT OF THE BOARD EXAMINATION  
+(AS PER APPLICABLILITY)
         </strong>
 
     <div className="inner-table-wrapper">
       <table className="inner-table">
         <thead >
           <tr>
-            <th className="tab-headings">S.No.</th>
-            <th className="text-center tab-headings">Year</th>
-            <th className="text-center tab-headings">No. of Registered Students</th>
-            <th className="text-center tab-headings">No. of Students Passed</th>
-            <th className="text-center tab-headings">Pass Percentage</th>
-            <th className="text-center tab-headings">Remarks</th>
+            <th className="tab-headings">S.NO.</th>
+            <th className="text-center tab-headings">YEAR</th>
+            <th className="text-center tab-headings">NO. OF REGISTERED STUDENTS</th>
+            <th className="text-center tab-headings">NO. OF STUDENTS PASSED</th>
+            <th className="text-center tab-headings">PASS PERCENTAGE</th>
+            <th className="text-center tab-headings">REMARKS</th>
           </tr>
         </thead>
 
@@ -290,66 +295,77 @@ export default function MandatoryDisclosure() {
 {/* STAFF (TEACHING) */}
 <div id="staff" className="mpd-section">
 
-  <h3 className="mpd-section-title">D: STAFF (TEACHING)</h3>
+  <h3 className="mpd-section-title">D: STAFF (TEACHING):</h3>
 
   <div className="mpd-table-wrapper">
     <table className="mpd-table">
       <thead>
         <tr>
           <th>S.No.</th>
-          <th>Information</th>
-          <th>Details</th>
+          <th>INFORMATION</th>
+          <th>DETAILS</th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
           <td>1</td>
-          <td>Principal</td>
+          <td>PRINCIPAL</td>
           <td>MRS. DEEPIKA AGRAWAL</td>
         </tr>
+         <tr>
+          <td>2</td>
+          <td>VICE PRINCIPAL</td>
+          <td>MRS. MONIKA VYAS</td>
+        </tr>
+
+       <tr>
+        <td>3</td>
+        <td>HEADMISTRESS/HEADMASTER</td>
+        <td></td>
+       </tr>
 
         <tr>
-          <td>2</td>
-          <td>Total No. of Teachers</td>
-          <td>24</td>
+          <td>4</td>
+          <td>Total NO. OF TEACHERS</td>
+          <td>24 <br></br>https://kpstendua.com/MD/STAFF.pdf</td>
         </tr>
 
 
         <tr>
           <td>3</td>
           <td>PGT</td>
-          <td>8</td>
+          <td>8 <br></br>https://kpstendua.com/MD/PGT.pdf</td>
         </tr>
 
         <tr>
           <td>4</td>
           <td>TGT</td>
-          <td>8</td>
+          <td>8 <br></br>https://kpstendua.com/MD/TGT.pdf</td>
         </tr>
 
         <tr>
           <td>5</td>
           <td>PRT</td>
-          <td>8</td>
+          <td>8 <br></br>https://kpstendua.com/MD/PRT.pdf</td>
         </tr>
 
         <tr>
           <td>6</td>
-          <td>Teachers Section Ratio</td>
+          <td>TEACHER SECTION RATIO</td>
           <td>1 : 1.5</td>
         </tr>
 
         <tr>
           <td>7</td>
-          <td>Details of Special Educator</td>
-          <td>MRS. RITU GUPTA- (B. Ed. SPECIAL EDUCATION)</td>
+          <td>DETAIL OF SPECIAL EDUCATOR</td>
+          <td>MRS. RITU GUPTA - (B.Ed. SPECIAL EDUCATION)</td>
         </tr>
 
         <tr>
           <td>8</td>
-          <td>Details of Counsellor and Wellness Teacher</td>
-          <td>JATIN LOHANA- B.B.A.</td>
+          <td>DETAIL OF COUNSELLOR AND WELLNESS TEACHER</td>
+          <td>JATIN LOHANA - B.B.A.</td>
         </tr>
       </tbody>
     </table>
@@ -361,15 +377,15 @@ export default function MandatoryDisclosure() {
 {/* SCHOOL INFRASTRUCTURE */}
 <div id="infrastructure" className="mpd-section">
 
-  <h3 className="mpd-section-title">E: SCHOOL INFRASTRUCTURE</h3>
+  <h3 className="mpd-section-title">E: SCHOOL INFRASTRUCTURE:</h3>
 
   <div className="mpd-table-wrapper">
     <table className="mpd-table">
       <thead>
         <tr>
           <th>S.No.</th>
-          <th>Information</th>
-          <th>Details</th>
+          <th>INFORMATION</th>
+          <th>DETAILS</th>
         </tr>
       </thead>
 
@@ -394,24 +410,36 @@ export default function MandatoryDisclosure() {
 
         <tr>
           <td>4</td>
+          <td>NO. AND SIZE OF LIBRARY (IN SQR MTR)</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>5</td>
           <td>INTERNET FACILITY</td>
           <td>YES</td>
         </tr>
 
         <tr>
-          <td>5</td>
-          <td>NO. OF GIRLS TOILET</td>
-          <td>15</td>
-        </tr>
-
-        <tr>
           <td>6</td>
-          <td>NO. OF BOYS TOILET</td>
+          <td>NO. OF GIRLS TOILETS</td>
           <td>15</td>
         </tr>
 
         <tr>
           <td>7</td>
+          <td>NO. OF BOYS TOILETS</td>
+          <td>15</td>
+        </tr>
+
+         <tr>
+          <td>8</td>
+          <td>NO. OF CWSN TOILETS</td>
+          <td>15</td>
+        </tr>
+
+        <tr>
+          <td>9</td>
           <td>LINK OF YOU TUBE VIDEO OF INSPECTION OF SCHOOL</td> 
           <td>
             https://www.youtube.com/watch?v=vUqZ8iY3rxM&t=7s
