@@ -211,13 +211,13 @@ CERTIFICATES AND WATER TESTING REPORT
         <tr>
           <td>1</td>
           <td>FEE STRUCTURE OF THE SCHOOL</td>
-          <td>https://kpstendua.com/MD/FEE-STRUCTURE 2024-25.pdf</td>
+          <td>https://kpstendua.com/MD/FEE-STRUCTURE 2026-27.pdf</td>
         </tr>
 
         <tr>
           <td>2</td>
           <td>ANNUAL ACADEMIC CALENDAR</td>
-          <td>https://kpshirapur.com/MD/ACADEMIC CALANDER 2024-25.pdf</td>
+          <td>https://kpshirapur.com/MD/ACADEMIC CALANDER 2026-27.pdf</td>
         </tr>
 
         <tr>
@@ -405,13 +405,13 @@ CERTIFICATES AND WATER TESTING REPORT
         <tr>
           <td>3</td>
           <td>NUMBER AND SIZE OF LABORATORIES INCLUDING COMPUTER LAB</td>
-          <td>5 LABORATORIES, 55 SQUARE METRE</td>
+          <td>6 LABORATORIES, 55 SQUARE METRE</td>
         </tr>
 
         <tr>
           <td>4</td>
           <td>NO. AND SIZE OF LIBRARY (IN SQR MTR)</td>
-          <td></td>
+          <td>1 LIBRARY, 111 SQUARE METRE</td>
         </tr>
 
         <tr>
@@ -435,7 +435,7 @@ CERTIFICATES AND WATER TESTING REPORT
          <tr>
           <td>8</td>
           <td>NO. OF CWSN TOILETS</td>
-          <td>15</td>
+          <td>4</td>
         </tr>
 
         <tr>
