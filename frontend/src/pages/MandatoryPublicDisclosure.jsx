@@ -119,7 +119,7 @@ export default function MandatoryDisclosure() {
             COPIES OF AFFILIATION/UPGRADATION LETTER ANDRECENT
              EXTENSION OF AFFILIATION, IF ANY
           </td>
-          <td>https://kpstendua.com/MD/AFFILIATION AND UPGRADATION LETTER.pdf</td>
+          <td><a href="https://kpstendua.com/MD/AFFILIATION AND UPGRADATION LETTER.pdf" target="blank">https://kpstendua.com/MD/AFFILIATION AND UPGRADATION LETTER.pdf</a></td>
         </tr>
 
         <tr>
@@ -128,7 +128,7 @@ export default function MandatoryDisclosure() {
             COPIES OF SOCIETIES/TRUST/COMPANYREGISTRATION/RENEWAL
 CERTIFICATE, AS APPLICABLE
           </td>
-          <td>https://kpstendua.com/MD/SOCIETY-RENEWAL.pdf</td>
+          <td><a href="https://kpstendua.com/MD/SOCIETY-RENEWAL.pdf" target="blank">https://kpstendua.com/MD/SOCIETY-RENEWAL.pdf</a></td>
 
         </tr>
 
@@ -138,7 +138,7 @@ CERTIFICATE, AS APPLICABLE
             COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED,
 IFAPPLICABLE, BY THE STATE GOVT./UT
           </td>
-          <td>https://kpstendua.com/MD/NOC.pdf</td>
+          <td><a href="https://kpstendua.com/MD/NOC.pdf" target="blank">https://kpstendua.com/MD/NOC.pdf</a></td>
         </tr>
 
         <tr>
@@ -147,7 +147,7 @@ IFAPPLICABLE, BY THE STATE GOVT./UT
             COPIES OF RECOGNITION CERTIFICATE UNDER RTE
 ACT,2009, AND IT’S RENEWAL IF APPLICABLE
           </td>
-          <td>https://kpstendua.com/MD/Recognition-Certificate.pdf</td>
+          <td><a href="https://kpstendua.com/MD/Recognition-Certificate.pdf" target="blank">https://kpstendua.com/MD/Recognition-Certificate.pdf</a></td>
         </tr>
 
         <tr>
@@ -156,7 +156,7 @@ ACT,2009, AND IT’S RENEWAL IF APPLICABLE
             COPY OF VALID BUILDING SAFETY CERTIFICATE AS
 PER THE NATIONAL BUILDING CODE
           </td>
-          <td>https://kpstendua.com/MD/Building-Safety-Certificate.pdf</td>
+          <td><a href="https://kpstendua.com/MD/Building-Safety-Certificate.pdf" target="blank">https://kpstendua.com/MD/Building-Safety-Certificate.pdf</a></td>
         </tr>
 
         <tr>
@@ -165,7 +165,7 @@ PER THE NATIONAL BUILDING CODE
            COPY OF VALID FIRE SAFETY CERTIFICATE ISSUED BY
 THECOMPETENT AUTHORITY
           </td>
-          <td>https://kpstendua.com/MD/FIRE-SAFETY-CERTIFICATE.pdf</td>
+          <td><a href="https://kpstendua.com/MD/FIRE-SAFETY-CERTIFICATE.pdf" target="blank">https://kpstendua.com/MD/FIRE-SAFETY-CERTIFICATE.pdf</a></td>
         </tr>
 
         <tr>
@@ -175,7 +175,7 @@ THECOMPETENT AUTHORITY
 CERTIFICATION BY SCHOOL
 
           </td>
-          <td>https://kpstendua.com/MD/DEO-Certificate.pdf</td>
+          <td><a href="https://kpstendua.com/MD/DEO-Certificate.pdf" target="blank">https://kpstendua.com/MD/DEO-Certificate.pdf</a></td>
         </tr>
 
         <tr>
@@ -184,7 +184,7 @@ CERTIFICATION BY SCHOOL
             COPIES OF VALID DRINKING WATER, HEALTH AND SANITATION 
 CERTIFICATES AND WATER TESTING REPORT
           </td>
-          <td>https://kpstendua.com/MD/HEALTH-WATER-CERTIFICATE.pdf</td>
+          <td><a href="https://kpstendua.com/MD/HEALTH-WATER-CERTIFICATE.pdf" target="blank">https://kpstendua.com/MD/HEALTH-WATER-CERTIFICATE.pdf</a></td>
         </tr>
       </tbody>
     </table>
@@ -211,25 +211,25 @@ CERTIFICATES AND WATER TESTING REPORT
         <tr>
           <td>1</td>
           <td>FEE STRUCTURE OF THE SCHOOL</td>
-          <td>https://kpstendua.com/MD/FEE-STRUCTURE 2026-27.pdf</td>
+          <td><a href="https://kpstendua.com/MD/FEE-STRUCTURE 2026-27.pdf" target="blank">https://kpstendua.com/MD/FEE-STRUCTURE 2026-27.pdf</a></td>
         </tr>
 
         <tr>
           <td>2</td>
           <td>ANNUAL ACADEMIC CALENDAR</td>
-          <td>https://kpshirapur.com/MD/ACADEMIC CALANDER 2026-27.pdf</td>
+          <td><a href="https://kpstendua.com/MD/ACADEMIC-CALENDER 2026-27.pdf" target="blank">https://kpstendua.com/MD/ACADEMIC-CALENDER 2026-27.pdf</a></td>
         </tr>
 
         <tr>
           <td>3</td>
           <td>LIST OF SCHOOL MANAGEMENT COMMITTEE (SMC)</td>
-          <td>https://kpstendua.com/MD/LIST-OF-SMC.pdf</td>
+          <td><a href="https://kpstendua.com/MD/LIST-OF-SMC.pdf" target="blank">https://kpstendua.com/MD/LIST-OF-SMC.pdf</a></td>
         </tr>
 
         <tr>
           <td>4</td>
           <td>LIST OF PARENT TEACHER ASSOCIATION (PTA) MEMBERS</td>
-          <td>https://kpstendua.com/MD/PARENT-TEACHER-MEMBERS-ASSOCIATION.pdf</td>
+          <td><a href="https://kpstendua.com/MD/PARENT-TEACHER-MEMBERS-ASSOCIATION.pdf" target="blank">https://kpstendua.com/MD/PARENT-TEACHER-MEMBERS-ASSOCIATION.pdf</a></td>
         </tr>
 
   <tr>
@@ -328,26 +328,26 @@ CERTIFICATES AND WATER TESTING REPORT
         <tr>
           <td>4</td>
           <td>Total NO. OF TEACHERS</td>
-          <td>24 <br></br>https://kpstendua.com/MD/STAFF.pdf</td>
+          <td>24 <br></br><a href="https://kpstendua.com/MD/STAFF.pdf" target="blank">https://kpstendua.com/MD/STAFF.pdf</a></td>
         </tr>
 
 
         <tr>
           <td>3</td>
           <td>PGT</td>
-          <td>8 <br></br>https://kpstendua.com/MD/PGT.pdf</td>
+          <td>8 <br></br><a href="https://kpstendua.com/MD/PGT.pdf" target="blank">https://kpstendua.com/MD/PGT.pdf</a></td>
         </tr>
 
         <tr>
           <td>4</td>
           <td>TGT</td>
-          <td>8 <br></br>https://kpstendua.com/MD/TGT.pdf</td>
+          <td>8 <br></br><a href="https://kpstendua.com/MD/TGT.pdf" target="blank">https://kpstendua.com/MD/TGT.pdf</a></td>
         </tr>
 
         <tr>
           <td>5</td>
           <td>PRT</td>
-          <td>8 <br></br>https://kpstendua.com/MD/PRT.pdf</td>
+          <td>8 <br></br><a href="https://kpstendua.com/MD/PRT.pdf" target="blank">https://kpstendua.com/MD/PRT.pdf</a></td>
         </tr>
 
         <tr>
@@ -359,13 +359,13 @@ CERTIFICATES AND WATER TESTING REPORT
         <tr>
           <td>7</td>
           <td>DETAIL OF SPECIAL EDUCATOR</td>
-          <td>MRS. RITU GUPTA - (B.Ed. SPECIAL EDUCATION)</td>
+          <td>MRS. RITU GUPTA - (B.A., B.Ed., SPECIAL EDUCATION)</td>
         </tr>
 
         <tr>
           <td>8</td>
           <td>DETAIL OF COUNSELLOR AND WELLNESS TEACHER</td>
-          <td>JATIN LOHANA - B.B.A.</td>
+          <td>MR. JATIN LOHANA - B.B.A., DIPLOMA IN CAREER COUNSELING PSYCHOLOGY</td>
         </tr>
       </tbody>
     </table>
@@ -399,13 +399,13 @@ CERTIFICATES AND WATER TESTING REPORT
         <tr>
           <td>2</td>
           <td>NUMBER AND SIZE OF THE CLASS ROOM (IN SQUARE METRE)</td>
-          <td>14 ROOMS, 48 SQUARE METRE</td>
+          <td>14 ROOMS, 48 SQUARE METRE [EACH]</td>
         </tr>
 
         <tr>
           <td>3</td>
           <td>NUMBER AND SIZE OF LABORATORIES INCLUDING COMPUTER LAB</td>
-          <td>6 LABORATORIES, 55 SQUARE METRE</td>
+          <td>6 LABORATORIES, 55 SQUARE METRE [EACH]</td>
         </tr>
 
         <tr>
@@ -442,7 +442,7 @@ CERTIFICATES AND WATER TESTING REPORT
           <td>9</td>
           <td>LINK OF YOU TUBE VIDEO OF INSPECTION OF SCHOOL</td> 
           <td>
-            https://www.youtube.com/watch?v=vUqZ8iY3rxM&t=7s
+            <a href="https://www.youtube.com/watch?v=vUqZ8iY3rxM&t=7s" target="blank">https://www.youtube.com/watch?v=vUqZ8iY3rxM&t=7s</a>
           </td>
         </tr>
       </tbody>

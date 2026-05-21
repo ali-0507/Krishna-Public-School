@@ -233,7 +233,7 @@ export default function About() {
             data-aos-delay="700"
           >
             <div className="leader-icon">
-              <img src="./images/principal.jpg" />
+              <img src="./images/KPSPrincipal.jpeg" />
             </div>
             <h3>Mrs. Deepika Agarwal</h3>
             <span className="leader-role">Principal, KPS Tendua</span>
