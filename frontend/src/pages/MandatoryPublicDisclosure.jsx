@@ -217,7 +217,7 @@ CERTIFICATES AND WATER TESTING REPORT
         <tr>
           <td>2</td>
           <td>ANNUAL ACADEMIC CALENDAR</td>
-          <td><a href="https://kpstendua.com/MD/ACADEMIC-CALENDER 2026-27.pdf" target="blank">https://kpstendua.com/MD/ACADEMIC-CALENDAR 2026-27.pdf</a></td>
+          <td><a href="https://kpstendua.com/MD/ACADEMIC-CALENDAR 2026-27.pdf" target="blank">https://kpstendua.com/MD/ACADEMIC-CALENDAR 2026-27.pdf</a></td>
         </tr>
 
         <tr>
