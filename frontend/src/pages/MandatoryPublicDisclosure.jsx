@@ -239,6 +239,9 @@ CERTIFICATES AND WATER TESTING REPORT
          LAST THREE-YEAR RESULT OF THE BOARD EXAMINATION  
 (AS PER APPLICABLILITY)
         </strong>
+        <br/>
+        <br/>
+       <strong style={{color:"Red"}}><strong>|</strong></strong> <b style={{color:"#52738d"}}>RESULT CLASS: X</b>
 
     <div className="inner-table-wrapper">
       <table className="inner-table">
@@ -256,30 +259,59 @@ CERTIFICATES AND WATER TESTING REPORT
         <tbody>
           <tr className="text-center">
             <td>1</td>
-            <td>2021-22</td>
-            <td>8</td>
-            <td>8</td>
-            <td>100</td>
+            <td>2022-23</td>
+            <td>12</td>
+            <td>12</td>
+            <td>100 %</td>
             <td>-</td>
           </tr>
 
           <tr className="text-center">
             <td>2</td>
-            <td>2022-23</td>
-            <td>12</td>
-            <td>12</td>
-            <td>100</td>
+            <td>2023-24</td>
+            <td>19</td>
+            <td>19</td>
+            <td>100 %</td>
             <td>-</td>
           </tr>
 
           <tr className="text-center">
             <td>3</td>
-            <td>2023-24</td>
-            <td>19</td>
-            <td>19</td>
-            <td>100</td>
+            <td>2024-25</td>
+            <td>37</td>
+            <td>36</td>
+            <td>99 %</td>
             <td>-</td>
           </tr>
+        </tbody>
+      </table>
+    </div>
+    <br/>
+    <strong style={{color:"Red"}}><strong>|</strong></strong> <b style={{color:"#52738d"}}>RESULT CLASS: XII</b>
+    <div className="inner-table-wrapper">
+      <table className="inner-table">
+        <thead >
+          <tr>
+            <th className="tab-headings">S.NO.</th>
+            <th className="text-center tab-headings">YEAR</th>
+            <th className="text-center tab-headings">NO. OF REGISTERED STUDENTS</th>
+            <th className="text-center tab-headings">NO. OF STUDENTS PASSED</th>
+            <th className="text-center tab-headings">PASS PERCENTAGE</th>
+            <th className="text-center tab-headings">REMARKS</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr className="text-center">
+            <td>1</td>
+            <td>2024-25</td>
+            <td>12</td>
+            <td>10</td>
+            <td>98 %</td>
+            <td>-</td>
+          </tr>
+
+
         </tbody>
       </table>
     </div>
@@ -287,6 +319,8 @@ CERTIFICATES AND WATER TESTING REPORT
 </tr>
       </tbody>
     </table>
+    
+    
   </div>
 </div>
 
