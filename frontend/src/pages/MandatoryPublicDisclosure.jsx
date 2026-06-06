@@ -184,7 +184,7 @@ CERTIFICATION BY SCHOOL
             COPIES OF VALID DRINKING WATER, HEALTH AND SANITATION 
 CERTIFICATES AND WATER TESTING REPORT
           </td>
-          <td><a href="https://kpstendua.com/MD/HEALTH-WATER-CERTIFICATE.pdf" target="blank">https://kpstendua.com/MD/HEALTH-WATER-CERTIFICATE.pdf</a></td>
+          <td><a href="https://kpstendua.com/MD/WATER-HEALTH AND SANITATION.pdf" target="blank">https://kpstendua.com/MD/HEALTH-WATER-CERTIFICATE.pdf</a></td>
         </tr>
       </tbody>
     </table>
