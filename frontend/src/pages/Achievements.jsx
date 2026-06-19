@@ -99,7 +99,7 @@ const prevImg = () => {
       </div>
 
       <div className="achievement-slider">
-        <button className="slide-btn left" onClick={prev}
+        <button className="slide-btn left" onClick={prevImg}
         data-aos="fade-down">‹</button>
 
         <img
@@ -108,7 +108,7 @@ const prevImg = () => {
           className="achievement-image"
         />
 
-        <button className="slide-btn right" onClick={next}
+        <button className="slide-btn right" onClick={nextImg}
         data-aos="fade-down">›</button>
       </div>
     </section>
