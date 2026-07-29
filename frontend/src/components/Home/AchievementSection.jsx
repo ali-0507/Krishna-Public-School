@@ -14,7 +14,13 @@ const achievements = [
         title: "Academic Excellence",
         subtitle: "Outstanding CBSE board results",
         tag: "",
-        image:"/Home/BoardAchievers.jpeg"
+        image:"/Home/10_Topper_25-26.jpeg"
+    },
+    {
+        title: "Academic Excellence",
+        subtitle: "Outstanding CBSE board results",
+        tag: "",
+        image:"/Home/12_Toppers_25-26.jpeg"
     },
      {
         title: "Inter-School AI Startup Ideas",
